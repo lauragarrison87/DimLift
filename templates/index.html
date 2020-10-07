@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Improved Dual Analysis Approach</title>
+
+    <!------------------------------------libraries-------------------------------------------------------------------->
+
+
+
+    <!------------------------------------general------------------------------------------------------------------------>
+    <script src="descriptive_statistics_keys.js" type="text/javascript"></script>
+    <script src="general_ids.js" type="text/javascript"></script>
+
+    <script src="text_width_helper.js" type="text/javascript"></script>
+
+    <!------------------------------------model------------------------------------------------------------------------>
+    <script src="model/model_predefined_data_types.js" type="text/javascript"></script>
+    <script src="model/model_general_parameters.js" type="text/javascript"></script>
+    <script src="model/model_load_from_csv.js" type="text/javascript"></script>
+    <script src="model/model_get_initial_datatypes.js" type="text/javascript"></script>
+    <script src="model/model_get_descriptive_statistical_measures.js" type="text/javascript"></script>
+    <script src="model/model_format_datatypes.js" type="text/javascript"></script>
+    <script src="model/model_automatic_data_cleansing.js" type="text/javascript"></script>
+    <script src="model/model_compute_deviations.js" type="text/javascript"></script>
+    <script src="model/model_kernelDensityEstimator.js" type="text/javascript"></script>
+    <script src="model/model_wilcox_indexes.js" type="text/javascript"></script>
+    <script src="model/model_run_famd_on_user_selection.js" type="text/javascript"></script>
+
+    <!------------------------------------view------------------------------------------------------------------------->
+    <script src="view/view_general.js" type="text/javascript"></script>
+
+    <script src="view/view_dimensions_plots.js" type="text/javascript"></script>
+    <script src="view/view_items_plot.js" type="text/javascript"></script>
+    <script src="view/view_items_plot_new.js" type="text/javascript"></script>
+    <script src="view/view_likelihood_of_correlations_plot.js" type="text/javascript"></script>
+    <script src="view/view_run_famd_button.js" type="text/javascript"></script>
+    <script src="view/view_applied_filters.js" type="text/javascript"></script>
+    <script src="view/view_carousel_functionalities.js" type="text/javascript"></script>
+    <script src="view/view_autocomplete_form.js" type="text/javascript"></script>
+
+    <script src="view/view_donut_chart_context.js" type="text/javascript"></script>
+
+    <script src="view/pcp_plot_functionalities/pcp_plot_variables.js" type="text/javascript"></script>
+    <script src="view/pcp_plot_functionalities/pcp_add_dimension.js" type="text/javascript"></script>
+    <script src="view/pcp_plot_functionalities/pcp_bottom_buttons_functionalities.js" type="text/javascript"></script>
+
+    <script src="view/view_tooltip.js" type="text/javascript"></script>
+
+    <!------------------------------------controller------------------------------------------------------------------->
+    <script src="controller/controller.js" type="text/javascript"></script>
+
+    <script src="language_support/language_support.js" type="text/javascript"></script>
+
+    <!------------------------------------style------------------------------------------------------------------------>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="view/items_plot_new.css">
+    <link rel="stylesheet" href="style_carousel.css">
+    <link rel="stylesheet" href="style_autocomplete_form.css">
+
+</head>
+<body>
+
+<div id="view" class="view_class">
+    <div id="dimensions" class="dimensions_class"></div>
+    <div id="items" class="items_class"></div>
+    <div id="likelihood_of_correlation" class="likelihood_of_correlation_class"></div>
+</div>
+
+<!--------------------------This is needed to use the parcoords library since this is just working with d3 v3------------------------>
+<script src="libraries/d3js/d3.v3.min.js" type="text/javascript"></script>
+<script>
+    const d3version3 = d3;
+    window.d3 = null;
+</script>
+
+
+<script src="libraries/parcoords/d3.parcoords.js" type="text/javascript"></script>
+<link rel="stylesheet" href="libraries/parcoords/d3.parcoords.css">
+<script src="libraries/d3js/d3.v5.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="libraries/jquery-ui/jquery-ui.css">
+<script src="libraries/jquery/jquery-1.12.4.js" type="text/javascript"></script>
+<script src="libraries/jquery-ui/jquery-ui.js" type="text/javascript"></script>
+
+<script src="libraries/d3_radarChart/radarChart.js" type="text/javascript"></script>
+
+<script src="libraries/select-pure/bundle.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="libraries/select-pure/select_pure.css">
+
+<script src="view/view_general_parameters.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="libraries/font-awesome/font-awesome.min.css">
+
+
+<script src="libraries/tail.select/tail.select.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="libraries/tail.select/tail.select-light.min.css">
+
+
+<script src="libraries/tooltip_tippy/popper.min.v6.js" type="text/javascript"></script>
+<script src="libraries/tooltip_tippy/tippy_v6.js" type="text/javascript"></script>
+
+<script src="libraries/multijs/multi.js" type="text/javascript"></script>
+<link rel="stylesheet" href="libraries/multijs/multi.css">
+
+
+<!--<link rel="stylesheet" href="libraries/tooltip_tippy/tippy.css" />-->
+
+
+<script>
+
+
+        $(function () {
+            initialize();
+        });
+
+</script>
+
+</body>
+</html>

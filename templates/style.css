@@ -1,0 +1,311 @@
+:root{
+    --element-background-color: white;
+    --main-background-color: #edf8fb;
+    --dimensions-background-color: #9ebcda;
+    --items-background-color: #8c96c6;
+    --main-font-color: #444168;
+    --main-margin: 10px;
+    --main-font-weight: 300;
+    --padding: 5px;
+    --heading_height: 22px;
+    --dimension_button_width_height : 35px;
+    --toggle_button_width : 30px;
+    --close_btn_width_height : 30px;
+    --applied_data_cleansing_columns_divs_height : 30px;
+    --likelihood_of_correlation_height: 200px;
+    --items_filter_legend_height:30px;
+    --upper_dimensions_view_height:300px;
+    --dimension_unalikeability_height: 0px;
+}
+
+body {
+    background-color: var(--main-background-color);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: var(--main-font-weight);
+    /*overflow-y: hidden;*/
+}
+
+.view_class{
+    fill: var(--main-font-color);
+    position: relative;
+    width: calc(100% - 2* var(--main-margin));
+    /*height: 100vh;*/
+    /*height: calc(100vh - 2* var(--main-margin));*/
+    margin: var(--main-margin) var(--main-margin) var(--main-margin) var(--main-margin);
+    background-color: var(--main-background-color);
+}
+
+.class_heading{
+    width: 100%;
+    height: var(--heading_height);
+}
+
+.class_content {
+    width: 100%;
+    height: calc(100% - var(--heading_height) - var(--main-margin));
+    background-color: var(--element-background-color);
+    overflow: hidden;
+    margin-top: var(--main-margin);
+}
+
+.dimensions_class{
+    width: 100%;
+    height: var(--upper_dimensions_view_height);
+    background-color: var(--dimensions-background-color);
+    margin-bottom: var(--main-margin);
+    padding: var(--padding);
+}
+
+.items_plot_new_class{
+    width: 100%;
+    height: var(--upper_dimensions_view_height);
+    background-color: var(--element-background-color);
+    margin-bottom: var(--main-margin);
+    padding: var(--padding);
+}
+
+
+.each_item_plot_view_class {
+    width: calc(100%/3 - 1*var(--main-margin));
+    height: calc(100% - 2* var(--padding) - var(--heading_height));
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin: var(--padding);
+    float: left;
+    position: relative;
+}
+
+
+.each_dimension_view_class{
+    width: calc(100% - var(--main-margin));
+    /*width: calc(100%/3 - 1*var(--main-margin));*/
+    height: calc(100% - 2* var(--padding) - var(--heading_height) - var(--dimension_unalikeability_height));
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin: var(--padding);
+    float: left;
+    position: relative;
+}
+
+.unalikeability_view_class{
+    width: calc(100% - var(--main-margin));
+    height: var(--dimension_unalikeability_height);
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin: var(--padding);
+    float: left;
+    position: relative;
+}
+
+.each_item_plot_view_class{
+    height: calc(100% - 2* var(--padding) - var(--heading_height));
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin: var(--padding);
+    float: left;
+    position: relative;
+}
+
+.items_class{
+    width: 100%;
+    height: calc(100vh - var(--likelihood_of_correlation_height) - var(--upper_dimensions_view_height) - 4*var(--main-margin));  /*450px*/
+    background-color: var(--items-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+}
+
+.items_filter_class {
+    position: absolute;
+    width: 330px;
+    height: var(--items_filter_legend_height);
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+    right: 0;
+    top: 0;
+}
+
+.items_legend_class {
+    width: 100%;
+    height: var(--items_filter_legend_height);
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+}
+
+.items_parallel_coordinates_class {
+    width: 100%;
+    height: calc(100% - 2* var(--items_filter_legend_height) - 3* var(--main-margin) - 0px);
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+    margin-top: var(--main-margin);
+}
+
+.likelihood_of_correlation_class{
+    width: 100%;
+    height: var(--likelihood_of_correlation_height);
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+
+}
+
+.likelihood_of_correlation_divs_class {
+    width: 200px;
+    height: calc(var(--likelihood_of_correlation_height) - 2* var(--heading_height) - var(--main-margin) - var(--padding));
+    position: relative;
+    float: left;
+    left: 0;
+    margin: var(--main-margin);
+}
+
+.radarChartDiv {
+    width: 100%;
+    height: calc(100% - var(--heading_height) - 2* var(--padding));
+    padding: var(--padding);
+}
+
+
+
+.correlation_class{
+    width: 100%;
+    height: 400px;
+    background-color: var(--element-background-color);
+    padding: var(--padding);
+    margin-bottom: var(--main-margin);
+}
+
+.dimension_button {
+    position: absolute;
+    width: var(--dimension_button_width_height);
+    height: var(--dimension_button_width_height);
+    right: 0;
+    top: 0;
+    /*right: calc(2*(var(--append_filter_button_width_height) + var(--padding)));*/
+}
+
+.applied_data_cleansing_pop_up_view {
+    height: calc(100%);
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-color: var(--element-background-color);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: var(--padding);
+}
+
+.parcoords_div_background_on_brush {
+    width: 100%;
+    height: calc(100% + 5px);
+    background-color: var(--element-background-color);
+    opacity: 1;
+    order:2;
+    position: absolute;
+}
+
+.parcoords_div_emphasize_class {
+    width: 30px;
+    height: 100%;
+    opacity: 1;
+    order:100;
+    position: absolute;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    height: var(--close_btn_width_height);
+    width: var(--close_btn_width_height);
+    right: 0;
+    font-size: 36px;
+}
+
+.applied_data_cleansing_columns_divs {
+    width: calc(100% - var(--main-margin));
+    height: var(--applied_data_cleansing_columns_divs_height);
+    left: 0;
+    margin-bottom: var(--padding);
+}
+
+.gridline {
+    stroke: #D3D3D3;
+    stroke-width: 1;
+}
+
+.deviation_lines{
+    stroke: #D3D3D3;
+    stroke-width: 1;
+}
+
+.applied_data_cleansing_columns_line_divs {
+    width: calc(100% / 3 - 2 * var(--padding));
+    height: 100%;
+    float: left;
+    padding: var(--padding);
+}
+
+.toggle_button_class {
+    position: absolute;
+    top: var(--padding);
+    right: var(--padding);
+    display: inline-block;
+    width: 60px;
+    height: var(--toggle_button_width);
+}
+
+.toggle_button_class input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: calc(var(--toggle_button_width) - 8px);
+    width: calc(var(--toggle_button_width) - 8px);
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--dimensions-background-color);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--dimensions-background-color);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: var(--toggle_button_width);
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
