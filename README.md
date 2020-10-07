@@ -19,4 +19,4 @@ Now, the project is running.
 ## Modification
 - new data table: 
     - add csv to */resources*
-    - in **app_MDA.py** line 23 specify path to your csv file
+    - in **app.py** line 30 specify path to your csv file
