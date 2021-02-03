@@ -1,5 +1,5 @@
 # DimLift
-This Javascript / Python project is the authors' implementation of the article **[DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling](https://github.com/lauragarrison87/DimLift/paper/garrison-2021-dimlift.pdf)**.
+This Javascript / Python project is the authors' implementation of the article **[DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling](https://github.com/lauragarrison87/DimLift/blob/master/paper/garrison-2021-dimlift.pdf)**.
 
 ## Authors
 ***Laura Garrison<sup>1</sup>, Juliane Müller<sup>2</sup>, Stefanie Schreiber<sup>2,3</sup>, Stefan Bruckner<sup>1</sup>, Helwig Hauser<sup>1</sup>, Steffen Oeltze-Jafra<sup>2,3</sup>***
@@ -10,8 +10,12 @@ This Javascript / Python project is the authors' implementation of the article *
 
 accepted for TVCG 2021
 
+![DimLift](/paper/garrison_dimlift.jpg)
+
 ## What is DimLift?
 The identification of interesting patterns and relationships is essential to exploratory data analysis. This becomes increasingly difficult in high dimensional datasets. While dimensionality reduction techniques can be utilized to reduce the analysis space, these may unintentionally bury key dimensions within a larger grouping and obfuscate meaningful patterns. With this work we introduce _DimLift_, a novel visual analysis method for creating and interacting with _dimensional bundles_. Generated through an iterative dimensionality reduction or user-driven approach,dimensional bundles are expressive groups of dimensions that contribute similarly to the variance of a dataset. Interactive exploration and reconstruction methods via a layered parallel coordinates plot allow users to lift interesting and subtle relationships to the surface, even in complex scenarios of missing and mixed data types.
+
+
 
 ## Getting started with DimLift
 - Download repository from github
