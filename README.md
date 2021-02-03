@@ -7,7 +7,7 @@ The identification of interesting patterns and relationships is essential to exp
 - Open project in development environment, e.g., IntelliJ Idea
 - Install package dependencies listed in **requirements.txt**. Depending on your IDE, this may be managed/prompted for you. 
 - Run **app.py** (right click and choose 'run')
-- Navigate to */templates/index.html* and select run
+- Navigate to */templates/index.html* and open in web browser, i.e., Chrome
 
 
 ## Analyze your own data
