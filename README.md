@@ -1,5 +1,5 @@
 # DimLift
-This Javascript / Python project is the authors implementation of the article **[DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling](https://github.com/lauragarrison87/DimLift/paper/garrison-2021-dimlift.pdf)**.
+This Javascript / Python project is the authors' implementation of the article **[DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling](https://github.com/lauragarrison87/DimLift/paper/garrison-2021-dimlift.pdf)**.
 
 ## Authors
 ***Laura Garrison<sup>1</sup>, Juliane Müller<sup>2</sup>, Stefanie Schreiber<sup>2,3</sup>, Stefan Bruckner<sup>1</sup>, Helwig Hauser<sup>1</sup>, Steffen Oeltze-Jafra<sup>2,3</sup>***
