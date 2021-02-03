@@ -1,3 +1,6 @@
+#remove.packages("FactoMineR")
+#install.packages('FactoMineR', dependencies = TRUE)
+#install.packages("Rcpp", repos="https://rcppcore.github.io/drat")
 library(FactoMineR)
 library(factoextra)
 library(jsonlite)
