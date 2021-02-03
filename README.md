@@ -30,5 +30,5 @@ The identification of interesting patterns and relationships is essential to exp
 Adding your own data for analysis is a bit of a manual process at the moment, but is relatively straightforward:
 - save your data in `csv` format
 - add `csv` file to */resources*
-- in **app.py** line 30 specify the path to your csv file, e.g. `resources/FDA_nutrients.csv`
+- in **app.py** line 30 specify the path to your csv file, e.g. `Soils.csv`
 
