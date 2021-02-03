@@ -1,22 +1,18 @@
 # DimLift
 
-This project is based on an integrated dual analysis approach for high-dimensional quantitative and qualitative data. 
-The original idea is based on the dual analysis approach developed by Turkay et al. [1]. By treating both, dimensions and items, 
-as first order objects, users can obtain an overview about the data and identify possible correlations by investigating changes 
-among descriptive statistics after subset selection.  
+The identification of interesting patterns and relationships is essential to exploratory data analysis. This becomes increasingly difficult in high dimensional datasets. While dimensionality reduction techniques can be utilized to reduce the analysis space, these may unintentionally bury key dimensions within a larger grouping and obfuscate meaningful patterns. With this work we introduce _DimLift_, a novel visual analysis method for creating and interacting with _dimensional bundles_. Generated through an iterative dimensionality reduction or user-driven approach,dimensional bundles are expressive groups of dimensions that contribute similarly to the variance of a dataset. Interactive exploration and reconstruction methods via a layered parallel coordinates plot allow users to lift interesting and subtle relationships to the surface, even in complex scenarios of missing and mixed data types.
 
-[1] &nbsp; C. Turkay, P. Filzmoser, and H. Hauser, “Brushing Dimensions - A Dual Visual Analysis Model for High-Dimensional Data, ”IEEE Transactionson Visualization and Computer Graphics, vol. 17, no. 12, pp. 2591–2599,2011.
-
-## How to run it
-- download repository from github
-- open project in development environment, such as IntelliJ idea
-- right click on **app.py** and run it
-- navigate to */templates/index.html* and select run
-
-Now, the project is running.
+## Getting started with DimLift
+- Download repository from github
+- Open project in development environment, e.g., IntelliJ Idea
+- Install package dependencies 
+- Run **app.py** (right click and choose 'run')
+- Navigate to */templates/index.html* and select run
 
 
-## Modification
-- new data table: 
-    - add csv to */resources*
-    - in **app.py** line 30 specify path to your csv file
+## Analyze your own data
+Adding your own data for analysis is a bit of a manual process at the moment, but is relatively straightforward:
+- save your data in `csv` format
+- add `csv` file to */resources*
+- in **app.py** line 30 specify the path to your csv file, e.g. `resources/FDA_nutrients.csv`
+
