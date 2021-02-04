@@ -27,7 +27,7 @@ app = Flask(__name__)
 
 # merged_all = get_data_from_server.get_dataframe_from_server()
 
-merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "Soils.csv",
+merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "biolflor_matched.csv",
                          keep_default_na=False,
                          na_values=[""])
 merged_all = merged_all.loc[:, ~merged_all.columns.duplicated()]  # remove duplicate rows

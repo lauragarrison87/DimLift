@@ -18,17 +18,25 @@ The identification of interesting patterns and relationships is essential to exp
 
 
 ## Getting started with DimLift
-- Download repository from github
-- Open project in development environment, e.g., IntelliJ Idea
-- Install package dependencies listed in **requirements.txt**. Depending on your IDE, this may be managed/prompted for you. 
-- Run **app.py** (right click and choose 'run')
-- Navigate to */templates/index.html* and open in web browser, i.e., Chrome
-- Depending on the size screen you are working with, you may want to zoom out on your browser (_ctl -_ or _cmd -_)
+1. Download repository from github
+2. Open project in development environment, e.g., IntelliJ Idea
+3. Install package dependencies listed in **requirements.txt**. Depending on your IDE, this may be managed/prompted for you. 
+4. Run **app.py** (right click and choose 'run')
+5. Navigate to */templates/index.html* and open in web browser, i.e., Chrome. _Depending on the size screen you are working with, you may want to zoom out on your browser (_ **ctl -** _or_ **cmd -** _)_
+
+## Sample Exploration
+To understand how DimLift works, we will explore the dataset `biolflor_matched.csv`. This is already set up in **app.py**. NB: Depending on the processing power of your machine, loading in the dataset may take a little while. We demonstrate this short exploration [here](https://youtu.be/NRe9lbH4wKU) if you prefer to follow along with video.
+1. Once data are loaded into the main application, you will see a set of dimensional bundles in the parallel coordinates plot.
+2. Change the sorting method to **round in grouping** to better understand which dimensions are extracted and bundled first - this order of extraction tells us which dimensions are contributing MOST strongly to the overall variance of the dataset in a stepwise fashion
+3. **Investigate** the third bundle from the left, the **Mycoflor** bundle. Use the navigation icons below the axis to (1) swap the axes to visualize the variance in principal component 1 (PC1) and principal component 2 (PC2), respectively. Click the middle icon to drill down to a plot of PC1 vs PC2 to observe possible grouping patterns. Finally, (3) expand the bundle to observe contributing dimensions
+4. **Modify** the bundle by right-clicking on the large, rightmost rectangle glyph above the bundle axis, and click **modify group**
+5. In the new panel above the parallel coordinates plot, use the search bar at the top left to locate: (1) pH and (2) light. Clicking on these dimensions in the left panel adds them automatically to the bundle. Once you have added both, click the button **run dimensionality reduction** at the bottom right of this panel. 
+5. Your bundle is recreated with these additional dimensions in the parallel coordinates plot. Expand this bundle, and select only scores at or below -0.6 in PC1 by clicking and dragging along the dimension bundle axis. We can see that with this filter applied, only OM (obligate micorrhizae) plants with mid-high pH, low moisture, and higher light values remain. 
 
 
 ## Analyze your own data
 Adding your own data for analysis is a bit of a manual process at the moment, but is relatively straightforward:
 - save your data in `csv` format
 - add `csv` file to */resources*
-- in **app.py** line 30 specify the path to your csv file, e.g. `Soils.csv`
+- in **app.py** line 30 specify the path to your csv file, e.g. `biolflor_matched.csv`
 
