@@ -1,49 +1,1708 @@
-id_ID,id_Group,id_Contour,id_Depth,id_Gp,id_Block,id_pH,id_N,id_Dens,id_P,id_Ca,id_Mg,id_K,id_Na,id_Conduc
-1,1,Top,0-10,T0,1,5.4,0.188,0.92,215,16.35,7.65,0.72,1.14,1.09
-2,1,Top,0-10,T0,2,5.65,0.165,1.04,208,12.25,5.15,0.71,0.94,1.35
-3,1,Top,0-10,T0,3,5.14,0.26,0.95,300,13.02,5.68,0.68,0.6,1.41
-4,1,Top,0-10,T0,4,5.14,0.16899999999999998,1.1,248,11.92,7.88,1.09,1.01,1.64
-5,2,Top,10-30,T1,1,5.14,0.16399999999999998,1.12,174,14.17,8.12,0.7,2.17,1.85
-6,2,Top,10-30,T1,2,5.1,0.094,1.22,129,8.55,6.92,0.81,2.67,3.18
-7,2,Top,10-30,T1,3,4.7,0.1,1.52,117,8.74,8.16,0.39,3.32,4.16
-8,2,Top,10-30,T1,4,4.46,0.11199999999999999,1.47,170,9.49,9.16,0.7,3.76,5.14
-9,3,Top,30-60,T3,1,4.37,0.11199999999999999,1.07,121,8.85,10.35,0.74,5.74,5.73
-10,3,Top,30-60,T3,2,4.39,0.057999999999999996,1.54,115,4.73,6.91,0.77,5.85,6.45
-11,3,Top,30-60,T3,3,4.17,0.078,1.26,112,6.29,7.95,0.26,5.3,8.37
-12,3,Top,30-60,T3,4,3.89,0.07,1.42,117,6.61,9.76,0.41,8.3,9.21
-13,4,Top,60-90,T6,1,3.88,0.077,1.25,127,6.41,10.96,0.56,9.67,10.64
-14,4,Top,60-90,T6,2,4.07,0.046,1.54,91,3.82,6.61,0.5,7.67,10.07
-15,4,Top,60-90,T6,3,3.88,0.055,1.53,91,4.98,8.0,0.23,8.78,11.26
-16,4,Top,60-90,T6,4,3.74,0.053,1.4,79,5.86,10.14,0.41,11.04,12.15
-17,5,Slope,0-10,S0,1,5.11,0.247,0.94,261,13.25,7.55,0.61,1.86,2.61
-18,5,Slope,0-10,S0,2,5.46,0.298,0.96,300,12.3,7.5,0.68,2.0,1.98
-19,5,Slope,0-10,S0,3,5.61,0.145,1.1,242,9.66,6.76,0.63,1.01,0.76
-20,5,Slope,0-10,S0,4,5.85,0.18600000000000003,1.2,229,13.78,7.12,0.62,3.09,2.85
-21,6,Slope,10-30,S1,1,4.57,0.102,1.37,156,8.58,9.92,0.63,3.67,3.24
-22,6,Slope,10-30,S1,2,5.11,0.09699999999999999,1.3,139,8.58,8.69,0.42,4.7,4.63
-23,6,Slope,10-30,S1,3,4.78,0.122,1.3,214,8.22,7.75,0.32,3.07,3.67
-24,6,Slope,10-30,S1,4,6.67,0.083,1.42,132,12.68,9.56,0.55,8.3,8.1
-25,7,Slope,30-60,S3,1,3.96,0.059000000000000004,1.53,98,4.8,10.0,0.36,6.52,7.72
-26,7,Slope,30-60,S3,2,4.0,0.05,1.5,115,5.06,8.91,0.28,7.91,9.78
-27,7,Slope,30-60,S3,3,4.12,0.086,1.55,148,6.16,7.58,0.16,6.39,9.07
-28,7,Slope,30-60,S3,4,4.99,0.048,1.46,97,7.49,9.38,0.4,9.7,9.13
-29,8,Slope,60-90,S6,1,3.8,0.049,1.48,108,3.82,8.8,0.24,9.57,11.57
-30,8,Slope,60-90,S6,2,3.96,0.036000000000000004,1.28,103,4.78,7.29,0.24,9.67,11.42
-31,8,Slope,60-90,S6,3,3.93,0.048,1.42,109,4.93,7.47,0.14,9.65,13.32
-32,8,Slope,60-90,S6,4,4.02,0.039,1.51,100,5.66,8.84,0.37,10.54,11.57
-33,9,Depression,0-10,D0,1,5.24,0.19399999999999998,1.0,445,12.27,6.27,0.72,1.02,0.75
-34,9,Depression,0-10,D0,2,5.2,0.256,0.78,380,11.39,7.55,0.78,1.63,2.2
-35,9,Depression,0-10,D0,3,5.3,0.136,1.0,259,9.96,8.08,0.45,1.97,2.27
-36,9,Depression,0-10,D0,4,5.67,0.127,1.13,248,9.12,7.04,0.55,1.43,0.67
-37,10,Depression,10-30,D1,1,4.46,0.087,1.24,276,7.24,9.4,0.43,4.17,5.08
-38,10,Depression,10-30,D1,2,4.91,0.092,1.47,158,7.37,10.57,0.59,5.07,6.37
-39,10,Depression,10-30,D1,3,4.79,0.047,1.46,121,6.99,9.91,0.3,5.15,6.82
-40,10,Depression,10-30,D1,4,5.36,0.095,1.26,195,8.59,8.66,0.48,4.17,3.65
-41,11,Depression,30-60,D3,1,3.94,0.054000000000000006,1.6,148,4.85,9.62,0.18,7.2,10.14
-42,11,Depression,30-60,D3,2,4.52,0.051,1.53,115,6.34,9.78,0.34,8.52,9.74
-43,11,Depression,30-60,D3,3,4.35,0.032,1.55,82,5.99,9.73,0.22,7.02,8.6
-44,11,Depression,30-60,D3,4,4.64,0.065,1.46,152,4.43,10.54,0.22,7.61,9.09
-45,12,Depression,60-90,D6,1,3.82,0.038,1.4,105,4.65,9.85,0.18,10.15,12.26
-46,12,Depression,60-90,D6,2,4.24,0.035,1.47,100,4.56,8.95,0.33,10.51,11.29
-47,12,Depression,60-90,D6,3,4.22,0.03,1.56,97,5.29,8.37,0.14,8.27,9.51
-48,12,Depression,60-90,D6,4,4.41,0.057999999999999996,1.58,130,4.58,9.46,0.14,9.28,12.69
+id_ID,id_ell_light_uk,id_ell_moist_uk,id_ell_pH_uk,id_ell_N,id_li_form_B,id_ros,id_reprod_B,id_strategy,id_self_st,id_Breeding_sys,id_flw_muell,id_poll_vect_B,id_MycoFlor
+Abies alba,-3.0,6.0,5.0,6.0,M,r,s,c,SI,X,W,wi,OM
+Abutilon theophrasti,8.0,5.0,7.0,7.0,T,r,s,cr,SC,AO,Po,se,OM
+Acer campestre,-5.0,5.0,7.0,6.0,M,r,ssv,c,not defined,AF,A,in,FM
+Acer negundo,-5.0,6.0,7.0,7.0,M,r,sv,c,not defined,X,A,wi,OM
+Acer platanoides,-4.0,5.0,7.0,6.0,M,r,s,c,SI,X,A,in,FM
+Acer pseudoplatanus,-4.0,5.0,6.0,6.0,M,r,s,c,not defined,AF,A,in,FM
+Aceras anthropophorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,B,se,OM
+Achillea clavennae,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,B`,in,OM
+Achillea millefolium,7.0,4.0,6.0,4.0,H,h,sv,c,SI,X,B`,in,FM
+Achillea nobilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,B`,in,OM
+Achillea ptarmica,7.0,7.0,4.0,2.0,H,r,sv,cs,SI,X,not defined,in,FM
+Achillea salicifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,SI,X,B`,in,NM
+Achillea setacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,B`,in,OM
+Acinos alpinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,SC,AFXF,H,se,OM
+Aconitum napellus,5.0,7.0,7.0,6.0,H,r,s,c,not defined,not defined,Hh,se,FM
+Acorus calamus,8.0,10.0,7.0,7.0,G,g,v,cs,not defined,not defined,A,not defined,FM
+Acroptilon repens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,vvs,c,SI,X,B`,in,OM
+Actaea spicata,3.0,5.0,6.0,6.0,H,r,sv,cs,SC,AFXF,Po,se,FM
+Adenophora liliifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cs,not defined,not defined,B,se,OM
+Adonis aestivalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,not defined,not defined,Po,se,OM
+Adonis vernalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,SI,X,Po,se,OM
+Adoxa moschatellina,3.0,5.0,6.0,5.0,G,r,vvs,csr,I+,X,A,se,FM
+Aegopodium podagraria,5.0,5.0,6.0,7.0,H,h,vvs,c,SC,XF,A,in,FM
+Aesculus hippocastanum,4.0,5.0,6.0,7.0,M,r,s,c,SC,XF,B,in,OM
+Aethusa cynapium,6.0,4.0,7.0,6.0,H,h,s,cr,SC,AF,A,se,OM
+Agrimonia eupatoria,7.0,4.0,7.0,4.0,H,h,s,c,SC,AF,Po,se,OM
+Agrostemma githago,7.0,4.0,6.0,5.0,H,h,s,cr,SC,AFXF,Ft,se,FM
+Agrostis alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,W,wi,OM
+Agrostis canina,7.0,7.0,3.0,2.0,H,h,sv,csr,I+,X,W,wi,FM
+Agrostis capillaris,6.0,4.0,4.0,4.0,H,h,sv,csr,I+,X,W,wi,FM
+Agrostis gigantea,7.0,6.0,6.0,6.0,G,h,sv,c,I+,X,W,wi,OM
+Agrostis scabra,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SI,X,W,wi,OM
+Agrostis stolonifera,7.0,6.0,6.0,5.0,H,h,sv,csr,I+,X,W,wi,FM
+Agrostis vinealis,7.0,2.0,2.0,1.0,H,h,sv,csr,SI,X,W,wi,OM
+Ailanthus altissima,-8.0,5.0,7.0,7.0,M,r,sv,c,not defined,X,A,in,FM
+Aira caryophyllea,8.0,2.0,4.0,1.0,H,h,s,sr,SC,AO,W,se,FM
+Aira praecox,8.0,2.0,2.0,1.0,H,h,s,sr,not defined,not defined,W,wi,FM
+Ajuga genevensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,csr,SC,XF,Hh,se,OM
+Ajuga pyramidalis,7.0,5.0,1.0,1.0,H,h,ssv,csr,SC,AFXF,Hh,se,OM
+Ajuga reptans,5.0,6.0,5.0,5.0,H,h,sv,csr,SC,AFXF,Hh,se,OM
+Alchemilla alpina,7.0,5.0,4.0,3.0,S,h,sv,csr,not defined,not defined,AD,not defined,OM
+Alchemilla connivens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla crinita,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla filicaulis,8.0,6.0,6.0,3.0,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla glabra,6.0,5.0,6.0,4.0,H,h,sv,csr,not defined,not defined,AD,not defined,OM
+Alchemilla glaucescens,7.0,5.0,4.0,3.0,H,h,sv,csr,not defined,not defined,AD,not defined,OM
+Alchemilla glomerulans,7.0,5.0,5.0,4.0,H,h,sv,csr,not defined,not defined,AD,not defined,OM
+Alchemilla micans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla monticola,6.0,4.0,6.0,4.0,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla obtusa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla propinqua,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla straminea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla subcrenata,7.0,4.0,5.0,5.0,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla subglobosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla vulgaris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AD,not defined,FM
+Alchemilla xanthochlora,6.0,5.0,6.0,4.0,H,h,sv,csr,not defined,not defined,AD,not defined,OM
+Alisma lanceolatum,7.0,10.0,7.0,5.0,A,g,sv,csr,SC,AFXF,AB,wi,FM
+Alisma plantago-aquatica,7.0,10.0,7.0,7.0,A,g,sv,csr,SC,AFXF,AB,wi,FM
+Alliaria petiolata,5.0,5.0,7.0,8.0,C,h,s,cr,SC,AF,AB,se,NM
+Allium ampeloprasum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,s,csr,not defined,not defined,B,in,OM
+Allium cepa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,s,csr,SC,X,B,se,OM
+Allium fistulosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,s,csr,not defined,not defined,B,ge,OM
+Allium oleraceum,6.0,3.0,7.0,4.0,G,g,vvs,csr,not defined,not defined,B,in,FM
+Allium sativum,8.0,5.0,7.0,6.0,G,h,v,csr,not defined,not defined,B,in,OM
+Allium schoenoprasum,7.0,6.0,5.0,1.0,G,g,sv,csr,SC,X,B,se,OM
+Allium scorodoprasum,6.0,6.0,7.0,7.0,G,h,vvs,csr,not defined,not defined,B,in,OM
+Allium sphaerocephalon,8.0,3.0,8.0,2.0,G,r,s,csr,not defined,not defined,B,se,OM
+Allium strictum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,not defined,not defined,B,in,OM
+Allium ursinum,2.0,6.0,7.0,7.0,G,r,ssv,csr,SC,AF,B,se,OM
+Allium victorialis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,not defined,not defined,B,ge,OM
+Allium vineale,5.0,4.0,7.0,6.0,G,r,vvs,c,not defined,not defined,B,in,OM
+Alnus glutinosa,-5.0,8.0,6.0,6.0,M,r,ssv,c,I+,X,W,wi,FM
+Alnus incana,-6.0,7.0,6.0,6.0,M,r,sv,c,SI,X,W,wi,OM
+Alopecurus aequalis,8.0,9.0,4.0,7.0,H,h,sv,sr,SC,AF,W,wi,NM
+Alopecurus arundinaceus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,XF,W,wi,OM
+Alopecurus geniculatus,8.0,7.0,6.0,6.0,H,h,sv,csr,SC,XF,W,wi,OM
+Alopecurus myosuroides,6.0,5.0,7.0,6.0,H,h,s,r,I+,X,W,wi,OM
+Alopecurus pratensis,6.0,5.0,6.0,7.0,H,r,sv,c,SI,X,W,wi,OM
+Althaea officinalis,6.0,7.0,8.0,4.0,H,h,s,cs,SC,AFXF,B,se,OM
+Alyssum alyssoides,9.0,3.0,8.0,1.0,H,r,s,sr,SC,XF,AB,se,NM
+Alyssum montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,s,csr,not defined,not defined,AB,se,NM
+Amaranthus blitum,8.0,4.0,7.0,8.0,T,r,s,cr,SC,AF,W,wi,OM
+Amaranthus caudatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AF,W,wi,FM
+Amaranthus emarginatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AF,W,wi,OM
+Amaranthus graecizans,9.0,3.0,7.0,8.0,T,r,s,cr,SC,AF,W,wi,NM
+Amaranthus hypochondriacus,8.0,4.0,7.0,7.0,T,r,s,cr,SC,AF,W,wi,OM
+Amaranthus powellii,8.0,4.0,7.0,6.0,T,r,s,cr,SC,AF,W,wi,NM
+Amaranthus retroflexus,8.0,4.0,7.0,7.0,T,r,s,cr,SC,AF,W,wi,FM
+Ambrosia artemisiifolia,9.0,4.0,7.0,6.0,T,r,s,cr,SC,AFXF,W,wi,OM
+Ambrosia trifida,8.0,5.0,7.0,7.0,T,r,s,cr,C+,AFXF,W,wi,OM
+Amelanchier ovalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,ssv,c,SC,XF,A,se,OM
+Amelanchier spicata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,SC,XF,A,se,OM
+Ammophila arenaria,9.0,4.0,6.0,3.0,G,h,vvs,cs,I+,X,W,wi,FM
+Amorpha fruticosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,not defined,not defined,H,se,FM
+Anacamptis pyramidalis,7.0,3.0,8.0,2.0,G,h,s,csr,SC,X,F,in,OM
+Anagallis arvensis,6.0,4.0,6.0,5.0,T,r,s,r,SC,AF,Po,se,OM
+Anagallis tenella,8.0,8.0,5.0,3.0,H,r,sv,csr,not defined,not defined,Po,in,OM
+Anaphalis margaritacea,6.0,5.0,5.0,5.0,H,r,sv,not defined,not defined,X,B`,in,FM
+Anchusa officinalis,8.0,3.0,7.0,5.0,H,h,s,cs,SC,X,H,se,OM
+Andromeda polifolia,9.0,9.0,1.0,1.0,S,r,vvs,cs,SC,AFXF,B,se,OM
+Androsace obtusifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,g,s,csr,SC,AFXF,B,se,OM
+Androsace septentrionalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,sr,SC,AFXF,B,se,FM
+Anemone narcissiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,not defined,not defined,Po,se,OM
+Anemone nemorosa,4.0,5.0,5.0,4.0,G,r,vvs,csr,I+,XF,Po,se,FM
+Anemone ranunculoides,3.0,6.0,7.0,7.0,G,r,sv,csr,not defined,not defined,Po,se,OM
+Anemone sylvestris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,Po,se,OM
+Anethum graveolens,8.0,5.0,7.0,7.0,T,h,s,cr,SC,AFXF,A,se,OM
+Angelica archangelica,7.0,9.0,6.0,7.0,H,h,s,cs,SC,XF,A,in,OM
+Angelica sylvestris,6.0,8.0,6.0,4.0,H,h,s,c,SC,XF,A,in,OM
+Antennaria dioica,8.0,4.0,3.0,2.0,C,h,sv,csr,not defined,X,B`,in,OM
+Anthemis arvensis,7.0,4.0,5.0,6.0,H,h,s,cr,SI,X,B`,in,OM
+Anthemis cotula,7.0,4.0,6.0,5.0,H,h,s,cr,I+,X,B`,in,OM
+Anthemis tinctoria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cs,not defined,not defined,B`,in,OM
+Anthericum ramosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,A,in,FM
+Anthoxanthum odoratum,7.0,5.0,4.0,3.0,H,h,sv,csr,C+,X,W,wi,FM
+Anthriscus cerefolium,6.0,5.0,7.0,8.0,H,h,s,cr,SC,AFXF,A,in,OM
+Anthriscus sylvestris,6.0,5.0,7.0,7.0,H,h,ssv,c,SC,XF,A,ge,FM
+Anthyllis vulneraria,8.0,3.0,7.0,2.0,H,h,s,csr,SC,X,H,se,FM
+Antirrhinum majus,7.0,3.0,7.0,5.0,C,r,s,cs,SC,XF,Hh,se,OM
+Apera spica-venti,6.0,4.0,4.0,5.0,H,h,s,cr,SC,X,W,wi,FM
+Aphanes arvensis,6.0,4.0,4.0,4.0,H,h,s,r,SC,AF,A,se,OM
+Apium graveolens,8.0,8.0,7.0,7.0,H,h,s,cs,SC,AF,A,se,OM
+Apium nodiflorum,7.0,10.0,7.0,7.0,H,h,sv,cs,SC,XF,A,in,NM
+Aquilegia vulgaris,6.0,4.0,6.0,4.0,H,h,s,c,not defined,AF,H,se,FM
+Arabidopsis thaliana,6.0,3.0,4.0,2.0,H,h,s,r,SC,AO,AB,se,FM
+Arabis alpina,7.0,5.0,7.0,3.0,C,h,s,csr,SC,AFXF,AB,se,NM
+Arabis caerulea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AF,AB,se,NM
+Arabis glabra,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AO,AB,se,NM
+Arabis hirsuta,7.0,4.0,7.0,3.0,H,h,s,csr,SC,AF,AB,se,NM
+Arctium lappa,8.0,5.0,7.0,8.0,H,h,s,c,SC,AF,B`,se,FM
+Arctium minus,5.0,4.0,7.0,5.0,H,h,s,c,SC,AF,B`,se,OM
+Arctium nemorosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,AF,B`,se,OM
+Arctostaphylos uva-ursi,6.0,3.0,2.0,2.0,S,r,sv,cs,SC,AO,Hh,se,OM
+Arenaria serpyllifolia,8.0,3.0,6.0,4.0,H,r,s,r,SC,AO,AB,se,NM
+Armeria arenaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,g,s,csr,I+,X,B`,se,OM
+Armeria maritima,8.0,7.0,5.0,5.0,C,g,ssv,csr,I+,X,B`,se,FM
+Armoracia rusticana,8.0,5.0,7.0,7.0,G,h,v,c,SI,X,AB,se,FM
+Arnica montana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,I+,X,B`,se,OM
+Arrhenatherum elatius,7.0,5.0,7.0,7.0,H,h,ssv,c,I+,X,W,wi,FM
+Artemisia absinthium,7.0,4.0,7.0,7.0,S,r,sv,cs,not defined,not defined,Wb,wi,FM
+Artemisia annua,9.0,4.0,7.0,6.0,T,h,s,cr,not defined,not defined,Wb,wi,OM
+Artemisia campestris,8.0,2.0,5.0,2.0,C,h,s,cs,not defined,not defined,Wb,wi,OM
+Artemisia dracunculus,8.0,3.0,6.0,6.0,H,r,sv,c,not defined,not defined,Wb,wi,OM
+Artemisia maritima,9.0,7.0,8.0,6.0,C,r,ssv,cs,not defined,not defined,Wb,wi,FM
+Artemisia pontica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,Wb,wi,OM
+Artemisia rupestris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,sv,cs,not defined,not defined,Wb,wi,OM
+Artemisia scoparia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,not defined,not defined,Wb,wi,OM
+Artemisia umbelliformis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,Wb,wi,OM
+Artemisia vulgaris,7.0,4.0,6.0,7.0,H,h,s,c,not defined,not defined,Wb,wi,FM
+Arum maculatum,3.0,5.0,7.0,7.0,G,g,sv,csr,not defined,XF,Dke,in,OM
+Asarum europaeum,3.0,5.0,7.0,6.0,H,r,sv,cs,SC,AO,Dke,se,FM
+Asclepias syriaca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,c,SI,X,Dkl,in,OM
+Asparagus officinalis,6.0,3.0,6.0,4.0,G,r,sv,cs,not defined,X,B,wi,OM
+Asperugo procumbens,7.0,4.0,8.0,8.0,T,h,s,cr,SC,AO,B,se,OM
+Asperula cynanchica,7.0,3.0,8.0,2.0,H,r,s,csr,SC,AF,B,se,OM
+Asplenium adiantum-nigrum,6.0,4.0,2.0,3.0,H,g,s,csr,SC,AO,not defined,not defined,FM
+Asplenium billotii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,not defined,not defined,not defined,not defined,NM
+Asplenium ruta-muraria,7.0,3.0,7.0,2.0,H,g,s,csr,SC,I,not defined,not defined,FM
+Asplenium septentrionale,8.0,2.0,2.0,2.0,H,g,s,csr,SC,I,not defined,not defined,FM
+Asplenium trichomanes,5.0,3.0,6.0,2.0,H,g,s,csr,SC,I,not defined,not defined,FM
+Asplenium viride,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,not defined,XF,not defined,not defined,FM
+Aster alpinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,ge,FM
+Aster amellus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,B`,se,OM
+Aster bellidiastrum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,not defined,not defined,B`,ge,OM
+Aster laevis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SI,X,B`,ge,OM
+Aster lanceolatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,not defined,not defined,B`,ge,OM
+Aster novae-angliae,7.0,5.0,7.0,6.0,H,h,sv,c,SI,X,B`,ge,OM
+Aster novi-belgii,7.0,6.0,7.0,6.0,H,h,sv,c,SI,X,B`,ge,OM
+Aster tripolium,9.0,8.0,7.0,6.0,H,h,sv,cs,not defined,not defined,B`,se,OM
+Astragalus alpinus,9.0,4.0,6.0,2.0,H,r,s,csr,SC,not defined,Hh,in,NM
+Astragalus cicer,7.0,4.0,8.0,2.0,H,r,sv,c,SC,not defined,H,se,OM
+Astragalus danicus,8.0,3.0,8.0,2.0,H,r,sv,csr,not defined,not defined,H,in,OM
+Astragalus frigidus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,cs,not defined,not defined,H,se,NM
+Astragalus glycyphyllos,6.0,4.0,7.0,3.0,H,r,s,c,not defined,not defined,Hh,in,NM
+Astragalus onobrychis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,not defined,not defined,H,in,OM
+Astragalus penduliflorus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,not defined,not defined,H,in,OM
+Astrantia major,5.0,6.0,7.0,5.0,H,h,sv,cs,SC,AFXF,B`,ge,FM
+Athyrium distentifolium,5.0,6.0,5.0,6.0,H,g,s,cs,not defined,not defined,not defined,not defined,FM
+Athyrium filix-femina,3.0,6.0,5.0,6.0,H,g,sv,cs,I+,X,not defined,not defined,FM
+Atriplex glabriuscula,9.0,6.0,7.0,8.0,T,r,s,cs,SC,AFXF,Wb,wi,NM
+Atriplex hortensis,7.0,5.0,7.0,8.0,T,r,s,cr,SC,AFXF,Wb,wi,NM
+Atriplex littoralis,9.0,6.0,7.0,6.0,T,r,s,s,SC,AFXF,Wb,wi,FM
+Atriplex patula,6.0,5.0,7.0,7.0,T,r,s,cr,SC,XF,Wb,wi,OM
+Atriplex prostrata,8.0,6.0,7.0,7.0,T,r,s,s,SC,AF,Wb,wi,NM
+Atriplex rosea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,Wb,wi,NM
+Atriplex sagittata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,Wb,wi,FM
+Avena fatua,6.0,4.0,7.0,7.0,T,h,s,cr,SC,AF,W,wi,OM
+Avena nuda,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,AO,W,se,OM
+Avena sativa,8.0,5.0,6.0,7.0,T,h,s,cr,SC,AO,W,wi,FM
+Avena sterilis,7.0,5.0,7.0,7.0,T,h,s,not defined,SC,AO,W,wi,OM
+Azolla filiculoides,6.0,11.0,6.0,8.0,A,r,sv,not defined,not defined,X,not defined,not defined,NM
+Baldellia ranunculoides,8.0,10.0,6.0,2.0,A,g,sv,not defined,SC,X,AB,se,OM
+Ballota nigra,7.0,4.0,7.0,6.0,C,r,s,c,SC,AFXF,H,se,FM
+Barbarea vulgaris,7.0,6.0,6.0,6.0,H,h,ssv,cr,SC,XF,AB,se,NM
+Bartsia alpina,8.0,8.0,7.0,2.0,G,r,sv,csr,SC,AFXF,Hh,wi,FM
+Bassia scoparia,8.0,4.0,6.0,6.0,T,r,s,cr,SC,XF,W,wi,NM
+Beckmannia syzigachne,7.0,9.0,7.0,3.0,T,h,s,cr,not defined,not defined,W,wi,OM
+Bellis perennis,8.0,5.0,5.0,4.0,H,g,sv,csr,SC,AO,B`,se,FM
+Berberis thunbergii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,X,ABDe,se,OM
+Berberis vulgaris,7.0,4.0,8.0,3.0,N,r,s,c,SC,X,ABDe,se,OM
+Berteroa incana,9.0,3.0,6.0,4.0,H,h,s,csr,SI,X,AB,se,NM
+Berula erecta,7.0,10.0,7.0,6.0,A,r,sv,cs,SC,AFXF,A,se,FM
+Beta vulgaris,9.0,5.0,7.0,8.0,H,h,s,cs,SI,X,Wb,wi,OM
+Betonica officinalis,6.0,4.0,5.0,3.0,H,r,sv,c,SC,AF,H,se,OM
+Betula humilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,cs,SI,X,W,wi,OM
+Betula nana,7.0,8.0,1.0,1.0,N,r,vvs,cs,I+,X,W,wi,OM
+Betula pendula,-7.0,5.0,4.0,3.0,M,r,s,c,SI,X,W,wi,OM
+Betula pubescens,-7.0,7.0,3.0,3.0,M,r,s,cs,SI,X,W,wi,OM
+Bidens frondosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AO,B`,se,OM
+Bidens tripartita,8.0,8.0,7.0,7.0,T,r,s,cr,SC,AF,B`,se,FM
+Biscutella laevigata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,csr,SI,X,AB,in,FM
+Bistorta officinalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,B`,ge,FM
+Bistorta vivipara,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,vvs,csr,not defined,not defined,B,se,FM
+Blackstonia perfoliata,8.0,5.0,8.0,2.0,T,r,s,sr,SC,AO,B,se,FM
+Blechnum spicant,3.0,6.0,2.0,3.0,H,g,s,cs,not defined,X,not defined,not defined,FM
+Blysmus rufus,8.0,8.0,7.0,4.0,G,h,sv,csr,SC,AFXF,W,wi,OM
+Bolboschoenus maritimus,8.0,10.0,8.0,7.0,G,h,sv,cs,SI,X,W,wi,OM
+Borago officinalis,8.0,4.0,7.0,6.0,H,h,s,cr,I+,X,H,se,FM
+Bothriochloa ischaemum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,W,wi,OM
+Botrychium lunaria,8.0,4.0,5.0,2.0,G,r,s,s,not defined,not defined,not defined,not defined,OM
+Botrychium multifidum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,s,csr,not defined,not defined,not defined,not defined,OM
+Botrychium simplex,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,s,csr,not defined,not defined,not defined,not defined,OM
+Botrychium virginianum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,s,csr,not defined,not defined,not defined,not defined,OM
+Brachypodium pinnatum,6.0,3.0,7.0,3.0,H,h,sv,cs,not defined,not defined,W,wi,FM
+Brachypodium rupestre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Brachypodium sylvaticum,3.0,5.0,6.0,5.0,H,r,sv,cs,SC,X,W,wi,OM
+Brassica juncea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,not defined,AB,se,NM
+Brassica napus,7.0,4.0,7.0,7.0,T,h,s,cr,C+,AFXF,AB,se,FM
+Brassica nigra,8.0,5.0,7.0,6.0,T,h,s,cr,I+,X,AB,se,NM
+Brassica oleracea,8.0,4.0,7.0,8.0,C,h,s,cr,I+,X,AB,in,FM
+Brassica rapa,7.0,5.0,7.0,6.0,T,h,s,cr,I+,X,AB,se,NM
+Briza media,8.0,5.0,5.0,2.0,H,h,sv,csr,I+,X,W,wi,FM
+Bromus arvensis,6.0,4.0,8.0,4.0,H,h,s,cr,SC,AO,W,se,OM
+Bromus benekenii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Bromus carinatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cr,SC,AF,W,wi,OM
+Bromus catharticus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cr,SC,AO,W,se,OM
+Bromus erectus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,W,wi,OM
+Bromus hordeaceus,7.0,4.0,6.0,3.0,H,h,s,cr,SC,AO,W,wi,FM
+Bromus inermis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,I+,X,W,wi,OM
+Bromus japonicus,8.0,4.0,8.0,3.0,H,h,s,r,SC,AO,W,se,OM
+Bromus madritensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AF,W,se,OM
+Bromus racemosus,6.0,6.0,5.0,5.0,T,h,s,cr,SC,AFXF,W,wi,OM
+Bromus secalinus,6.0,4.0,5.0,4.0,H,h,s,cr,SC,AO,W,wi,OM
+Bromus squarrosus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AO,W,se,OM
+Bromus sterilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AO,W,se,FM
+Bromus tectorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,AO,W,wi,FM
+Bryonia dioica,7.0,5.0,7.0,6.0,H,r,s,c,SC,X,B,in,OM
+Buddleja davidii,7.0,4.0,7.0,4.0,N,r,s,c,not defined,not defined,F,in,FM
+Buglossoides arvensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AF,B,se,NM
+Bunias orientalis,7.0,5.0,7.0,5.0,H,h,sv,c,SC,AFXF,AB,se,FM
+Bupleurum falcatum,6.0,3.0,8.0,3.0,H,h,s,csr,SC,XF,A,in,OM
+Bupleurum longifolium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SC,XF,A,in,OM
+Butomus umbellatus,6.0,10.0,7.0,7.0,A,g,vvs,cs,SC,AFXF,AB,in,NM
+Buxus sempervirens,4.0,4.0,8.0,4.0,N,r,s,cs,not defined,not defined,A,wi,OM
+Cakile maritima,9.0,6.0,7.0,7.0,T,r,s,s,SI,X,B,se,FM
+Calamagrostis arundinacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SI,X,W,wi,OM
+Calamagrostis canescens,6.0,9.0,5.0,5.0,H,h,sv,cs,SI,X,W,wi,FM
+Calamagrostis epigejos,7.0,5.0,6.0,6.0,G,h,sv,c,SI,X,W,wi,FM
+Calamagrostis stricta,8.0,9.0,4.0,2.0,H,h,sv,cs,SI,X,W,wi,OM
+Calamagrostis varia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,W,wi,OM
+Calamagrostis villosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SI,X,W,wi,OM
+Calamintha nepeta,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,SC,XF,H,in,OM
+Calendula officinalis,8.0,5.0,7.0,7.0,H,h,s,cr,SI,X,B`,in,FM
+Calla palustris,6.0,10.0,6.0,4.0,G,h,sv,cs,not defined,not defined,D,se,NM
+Callistephus chinensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,SC,AF,B`,ge,OM
+Callitriche cophocarpa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Callitriche hamulata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,SC,AF,W,wi,FM
+Callitriche palustris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,SC,AO,W,wi,NM
+Callitriche stagnalis,6.0,10.0,4.0,4.0,A,r,sv,not defined,SC,AF,W,wi,NM
+Calluna vulgaris,7.0,5.0,1.0,1.0,N,r,ssv,cs,I+,XF,BHb,wi,OM
+Caltha palustris,6.0,9.0,5.0,4.0,H,h,sv,csr,SI,X,AB,in,FM
+Calystegia sepium,7.0,6.0,7.0,7.0,G,r,sv,c,SC,AFXF,Fn,se,OM
+Calystegia soldanella,9.0,4.0,7.0,4.0,H,r,sv,cs,SI,X,B,in,NM
+Camelina microcarpa,7.0,4.0,8.0,4.0,T,h,s,sr,SC,AFXF,AB,se,FM
+Campanula alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SI,X,Hb,se,OM
+Campanula cervicaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,I+,X,Hb,se,OM
+Campanula glomerata,7.0,4.0,7.0,3.0,H,h,sv,csr,SI,X,Hb,se,OM
+Campanula latifolia,4.0,5.0,7.0,6.0,H,h,sv,cs,SI,X,Hb,in,OM
+Campanula patula,7.0,5.0,6.0,5.0,H,h,s,csr,SI,X,Hb,se,OM
+Campanula persicifolia,5.0,4.0,7.0,3.0,H,h,sv,csr,C+,X,Hb,in,FM
+Campanula rapunculoides,6.0,4.0,7.0,4.0,H,h,sv,csr,I+,X,Hb,in,OM
+Campanula rotundifolia,7.0,4.0,4.0,2.0,H,h,s,csr,I+,X,Hb,in,OM
+Campanula scheuchzeri,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,C+,X,Hb,in,OM
+Campanula sibirica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SI,X,Hb,in,OM
+Campanula thyrsoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SI,X,Hb,in,OM
+Campanula trachelium,4.0,5.0,7.0,6.0,H,h,sv,cs,SI,X,Hb,in,FM
+Cannabis sativa,7.0,6.0,6.0,7.0,T,r,s,cr,not defined,X,W,wi,OM
+Capsella bursa-pastoris,7.0,5.0,6.0,6.0,H,h,s,r,SC,AO,AB,se,FM
+Caragana arborescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,C+,X,H,in,OM
+Cardamine amara,5.0,9.0,6.0,4.0,H,r,sv,csr,I+,XF,AB,se,NM
+Cardamine flexuosa,5.0,7.0,4.0,5.0,H,h,s,csr,SC,AO,AB,se,FM
+Cardamine hirsuta,6.0,5.0,5.0,6.0,H,h,sv,csr,SC,AF,AB,se,FM
+Cardamine impatiens,4.0,5.0,7.0,7.0,H,h,sv,csr,not defined,not defined,AB,in,NM
+Cardamine pratensis,4.0,6.0,5.0,4.0,H,h,vvs,csr,SI,X,B,se,NM
+Cardamine trifolia,3.0,6.0,7.0,7.0,G,r,sv,csr,not defined,not defined,AB,se,NM
+Cardaminopsis arenosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SI,X,AB,in,OM
+Cardaria draba,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,not defined,AB,se,NM
+Carduus acanthoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AFXF,B`,se,OM
+Carduus nutans,7.0,4.0,8.0,5.0,H,h,s,cr,SC,AFXF,B`,se,OM
+Carex acuta,7.0,9.0,6.0,4.0,G,h,sv,cs,SI,X,W,wi,NM
+Carex acutiformis,6.0,9.0,7.0,5.0,G,g,sv,cs,SC,XF,W,wi,NM
+Carex alba,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,SC,XF,W,wi,NM
+Carex aquatilis,8.0,10.0,4.0,3.0,G,h,sv,cs,SI,X,W,wi,NM
+Carex arenaria,8.0,3.0,5.0,2.0,G,h,vvs,cs,SC,AFXF,W,wi,FM
+Carex atherodes,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,cs,SC,AFXF,W,wi,FM
+Carex atrata,7.0,5.0,4.0,2.0,H,g,sv,cs,SC,XF,W,wi,NM
+Carex bigelowii,7.0,5.0,1.0,2.0,G,h,sv,csr,SC,XF,W,wi,NM
+Carex brizoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,AFXF,W,wi,NM
+Carex brunnescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,FM
+Carex buxbaumii,7.0,8.0,7.0,2.0,G,h,sv,cs,SC,X,W,wi,FM
+Carex canescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,SC,XF,W,wi,NM
+Carex capillaris,8.0,6.0,7.0,2.0,H,h,sv,cs,SC,AFXF,W,wi,NM
+Carex capitata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AO,W,wi,NM
+Carex caryophyllea,7.0,4.0,6.0,2.0,G,g,sv,csr,SC,XF,W,wi,NM
+Carex cespitosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,W,wi,NM
+Carex chordorrhiza,9.0,9.0,3.0,2.0,G,h,sv,s,SC,XF,W,wi,NM
+Carex davalliana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,X,W,wi,OM
+Carex diandra,8.0,9.0,5.0,3.0,G,h,sv,csr,SC,XF,W,wi,NM
+Carex digitata,3.0,5.0,6.0,4.0,H,g,ssv,csr,SC,AFXF,W,wi,NM
+Carex dioica,8.0,9.0,5.0,2.0,G,g,sv,cs,SC,X,W,wi,NM
+Carex distans,8.0,6.0,7.0,5.0,H,h,sv,cs,SC,XF,W,wi,NM
+Carex disticha,7.0,8.0,6.0,4.0,G,r,sv,csr,SC,XF,W,wi,FM
+Carex divulsa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,cs,SC,XF,W,wi,OM
+Carex echinata,7.0,8.0,3.0,2.0,H,g,sv,csr,SC,XF,W,wi,NM
+Carex elongata,4.0,8.0,6.0,6.0,H,g,sv,cs,SC,XF,W,wi,NM
+Carex ericetorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,SC,AF,W,wi,NM
+Carex firma,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,SC,AFXF,W,wi,NM
+Carex flacca,7.0,5.0,6.0,2.0,G,h,vvs,csr,SC,AFXF,W,wi,FM
+Carex flava,7.0,9.0,7.0,2.0,H,h,sv,csr,SC,AF,W,wi,FM
+Carex fuliginosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,W,wi,NM
+Carex halleriana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,SC,AFXF,W,wi,NM
+Carex heleonastes,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,s,SC,AFXF,W,wi,NM
+Carex hirta,7.0,6.0,6.0,5.0,G,h,sv,c,SC,XF,W,wi,FM
+Carex hostiana,8.0,9.0,6.0,2.0,H,h,sv,cs,SC,AFXF,W,wi,NM
+Carex humilis,7.0,2.0,8.0,2.0,H,g,ssv,csr,SC,AFXF,W,wi,NM
+Carex lasiocarpa,8.0,10.0,4.0,2.0,A,h,sv,cs,SC,XF,W,wi,FM
+Carex lepidocarpa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AF,W,wi,NM
+Carex limosa,8.0,10.0,2.0,1.0,H,h,sv,s,SC,XF,W,wi,NM
+Carex loliacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,not defined,SC,AFXF,W,wi,NM
+Carex melanostachya,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,cs,SC,AFXF,W,wi,NM
+Carex montana,5.0,4.0,4.0,1.0,H,h,ssv,csr,SC,XF,W,wi,NM
+Carex muricata,5.0,4.0,6.0,4.0,H,g,ssv,c,SC,XF,W,wi,FM
+Carex nigra,7.0,8.0,3.0,2.0,G,h,sv,s,SI,X,W,wi,FM
+Carex obtusata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,W,wi,NM
+Carex otrubae,6.0,8.0,7.0,6.0,H,h,sv,cs,SC,AFXF,W,wi,NM
+Carex ovalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,W,wi,OM
+Carex pallescens,6.0,6.0,4.0,3.0,H,h,sv,csr,SC,AFXF,W,wi,FM
+Carex panicea,8.0,8.0,4.0,2.0,G,h,sv,csr,SC,AFXF,W,wi,FM
+Carex paniculata,6.0,9.0,6.0,4.0,H,h,sv,cs,SC,XF,W,wi,NM
+Carex pendula,5.0,8.0,6.0,6.0,H,h,sv,cs,SC,XF,W,wi,NM
+Carex pilosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,NM
+Carex pilulifera,5.0,5.0,3.0,2.0,H,h,sv,csr,SC,XF,W,wi,NM
+Carex praecox,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,XF,W,wi,NM
+Carex pseudocyperus,7.0,9.0,6.0,5.0,A,h,sv,cs,SC,XF,W,wi,NM
+Carex pulicaris,8.0,7.0,4.0,2.0,H,h,sv,csr,SC,XF,W,wi,NM
+Carex remota,3.0,8.0,6.0,6.0,H,h,sv,cs,SC,XF,W,wi,FM
+Carex riparia,6.0,9.0,7.0,4.0,A,g,sv,cs,SC,XF,W,wi,NM
+Carex rostrata,8.0,10.0,3.0,2.0,H,h,sv,cs,SC,XF,W,wi,NM
+Carex rupestris,8.0,4.0,6.0,2.0,H,h,sv,csr,SC,AFXF,W,wi,NM
+Carex sempervirens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,FM
+Carex spicata,7.0,4.0,6.0,4.0,H,g,ssv,cs,SC,AFXF,W,wi,NM
+Carex supina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,AFXF,W,wi,NM
+Carex sylvatica,2.0,5.0,6.0,5.0,H,h,sv,csr,SC,XF,W,wi,NM
+Carex tomentosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,AFXF,W,wi,NM
+Carex umbrosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,XF,W,wi,NM
+Carex vaginata,7.0,6.0,4.0,2.0,G,h,sv,s,SC,XF,W,wi,NM
+Carex vesicaria,7.0,10.0,5.0,4.0,A,h,sv,cs,SC,XF,W,wi,FM
+Carex vulpina,7.0,8.0,6.0,5.0,H,h,sv,csr,SC,XF,W,wi,NM
+Carex vulpinoidea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,OM
+Carlina vulgaris,7.0,4.0,7.0,2.0,H,h,s,csr,not defined,not defined,B`,se,OM
+Carpinus betulus,-4.0,5.0,5.0,5.0,M,r,ssv,c,not defined,not defined,W,wi,OM
+Carthamus tinctorius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,AF,B`,se,OM
+Carum carvi,8.0,5.0,6.0,6.0,H,h,s,c,SC,XF,A,in,OM
+Castanea sativa,-5.0,5.0,4.0,4.0,M,r,s,c,SC,X,W,wi,OM
+Catabrosa aquatica,6.0,9.0,7.0,7.0,H,h,sv,cs,not defined,not defined,W,wi,NM
+Catapodium rigidum,8.0,2.0,7.0,1.0,H,h,s,r,SC,AF,W,wi,OM
+Celosia argentea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AFXF,W,wi,NM
+Centaurea cyanus,7.0,5.0,4.0,5.0,H,h,s,cr,not defined,not defined,B`,in,OM
+Centaurea diffusa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,SC,XF,B`,in,OM
+Centaurea jacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SI,X,B`,in,OM
+Centaurea nigra,7.0,5.0,3.0,4.0,H,h,ssv,c,I+,X,B`,in,OM
+Centaurea phrygia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,c,not defined,not defined,B`,in,FM
+Centaurea pseudophrygia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,c,not defined,not defined,B`,in,OM
+Centaurea scabiosa,7.0,3.0,8.0,3.0,H,h,ssv,c,SI,X,B`,in,OM
+Centaurea solstitialis,8.0,3.0,7.0,6.0,H,h,s,cr,I+,X,B`,in,OM
+Centaurea stoebe,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,XF,B`,in,OM
+Centaurium erythraea,8.0,5.0,6.0,3.0,H,h,s,sr,SC,AF,B,se,OM
+Centaurium littorale,8.0,7.0,8.0,3.0,H,h,s,s,SC,AFXF,B,se,OM
+Centaurium pulchellum,8.0,7.0,8.0,3.0,T,r,s,sr,SC,AF,B,se,OM
+Centranthus ruber,7.0,3.0,8.0,5.0,H,r,s,cs,SC,XF,F,in,NM
+Cephalanthera damasonium,3.0,4.0,7.0,4.0,G,r,sv,csr,SC,AF,Hb,se,OM
+Cephalanthera longifolia,5.0,4.0,6.0,4.0,G,r,sv,csr,SC,AFXF,Hb,in,OM
+Cephalanthera rubra,4.0,3.0,8.0,4.0,G,r,sv,csr,SC,AFXF,Hb,se,OM
+Cerastium alpinum,9.0,5.0,6.0,2.0,C,r,sv,csr,SC,AFXF,AB,se,NM
+Cerastium arvense,8.0,4.0,5.0,3.0,C,r,sv,cr,SC,X,AB,se,FM
+Cerastium cerastoides,8.0,8.0,5.0,4.0,C,r,sv,s,SC,AFXF,AB,se,NM
+Cerastium fontanum,6.0,5.0,5.0,4.0,C,r,sv,csr,SC,AO,AB,se,FM
+Cerastium glomeratum,7.0,5.0,5.0,5.0,H,h,s,r,SC,AO,AB,se,FM
+Cerastium glutinosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,SC,AO,AB,se,FM
+Cerastium holosteoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cr,SC,AFXF,AB,se,NM
+Cerastium semidecandrum,8.0,3.0,6.0,3.0,H,h,s,r,SC,AO,AB,se,NM
+Cerastium uniflorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,s,SC,XF,AB,se,FM
+Ceratocephala testiculata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,g,s,r,SC,AO,AB,se,OM
+Ceratophyllum demersum,6.0,12.0,7.0,7.0,A,r,vvs,not defined,SC,AFXF,Hy,wa,NM
+Cerinthe glabra,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,not defined,not defined,H,se,OM
+Ceterach officinarum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,s,not defined,not defined,not defined,not defined,NM
+Chaenomeles speciosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,ssv,c,SI,X,AB,in,OM
+Chaerophyllum aureum,6.0,5.0,7.0,8.0,H,h,sv,c,SC,XF,A,in,OM
+Chaerophyllum bulbosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,c,SC,XF,A,in,OM
+Chamaesyce prostrata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,A,in,OM
+Chamaesyce serpens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,A,in,OM
+Chelidonium majus,6.0,5.0,7.0,7.0,H,h,s,cr,SC,X,Po,se,NM
+Chenopodium album,7.0,4.0,6.0,7.0,T,r,s,cr,SC,AFXF,Wb,wi,FM
+Chenopodium ambrosioides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,s,cr,SC,AFXF,Wb,wi,FM
+Chenopodium bonus-henricus,8.0,5.0,7.0,8.0,H,h,s,cr,SC,XF,Wb,wi,NM
+Chenopodium botrys,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,Wb,wi,OM
+Chenopodium foliosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,Wb,wi,NM
+Chenopodium glaucum,8.0,6.0,7.0,9.0,T,r,s,sr,SC,AFXF,Wb,wi,NM
+Chenopodium hybridum,7.0,4.0,7.0,7.0,T,r,s,cr,SC,XF,Wb,wi,NM
+Chenopodium murale,8.0,4.0,6.0,7.0,T,r,s,cr,SC,X,Wb,wi,NM
+Chenopodium pratericola,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,XF,Wb,wi,NM
+Chenopodium rubrum,7.0,6.0,7.0,8.0,T,r,s,cr,SC,AFXF,Wb,wi,NM
+Chimaphila umbellata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,csr,SC,AFXF,B,se,OM
+Chondrilla juncea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,not defined,not defined,B`,not defined,OM
+Chrysosplenium alternifolium,3.0,8.0,6.0,5.0,H,h,sv,csr,SC,AFXF,A,se,FM
+Chrysosplenium oppositifolium,5.0,9.0,5.0,5.0,H,r,sv,csr,SC,AFXF,A,se,NM
+Cicendia filiformis,9.0,8.0,3.0,2.0,T,r,s,sr,not defined,not defined,B,se,OM
+Cicerbita alpina,5.0,6.0,6.0,6.0,H,h,sv,c,not defined,not defined,B`,in,FM
+Cichorium endivia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,C+,AFXF,B`,se,OM
+Cichorium intybus,8.0,4.0,7.0,5.0,H,h,s,c,SC,X,B`,in,FM
+Cicuta virosa,6.0,10.0,5.0,5.0,H,h,sv,cs,SC,AFXF,A,in,FM
+Circaea alpina,4.0,7.0,5.0,5.0,G,r,sv,csr,not defined,not defined,Ds,se,OM
+Circaea lutetiana,4.0,6.0,7.0,6.0,G,r,sv,cs,SC,AFXF,Ds,se,OM
+Cirsium acaule,9.0,4.0,8.0,3.0,H,h,sv,csr,SC,AFXF,B`,se,OM
+Cirsium arvense,8.0,5.0,6.0,6.0,G,r,sv,c,SC,X,B`,in,OM
+Cirsium canum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,B`,in,OM
+Cirsium eriophorum,8.0,4.0,8.0,5.0,H,h,s,c,SC,AFXF,B`,in,OM
+Cirsium helenioides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SC,AFXF,B`,se,OM
+Cirsium oleraceum,6.0,7.0,7.0,5.0,H,h,sv,c,SC,AFXF,B`,in,FM
+Cirsium palustre,7.0,8.0,4.0,3.0,H,h,s,c,SC,AFXF,B`,in,FM
+Cirsium tuberosum,7.0,6.0,8.0,3.0,H,h,sv,c,SC,AFXF,B`,in,OM
+Cirsium vulgare,7.0,5.0,6.0,6.0,H,h,s,cr,SC,AFXF,B`,in,FM
+Cladium mariscus,8.0,10.0,8.0,3.0,A,h,vvs,cs,SC,AFXF,W,wi,FM
+Claytonia perfoliata,6.0,5.0,5.0,5.0,T,g,s,r,SC,AO,A,se,NM
+Claytonia sibirica,5.0,7.0,6.0,6.0,T,g,s,r,I+,X,AB,in,OM
+Clematis recta,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,not defined,not defined,Po,se,OM
+Clematis vitalba,6.0,4.0,7.0,5.0,N,r,s,c,not defined,AF,PoDe,se,OM
+Clinopodium vulgare,6.0,4.0,7.0,3.0,H,r,sv,cs,SC,XF,H,in,FM
+Cochlearia anglica,8.0,8.0,7.0,6.0,H,h,s,r,not defined,not defined,AB,se,FM
+Cochlearia danica,9.0,6.0,7.0,5.0,T,h,s,sr,SC,AFXF,AB,se,OM
+Cochlearia officinalis,8.0,6.0,7.0,5.0,H,h,s,sr,not defined,not defined,AB,se,FM
+Coeloglossum viride,7.0,4.0,4.0,2.0,G,h,s,csr,SC,AFXF,B,in,OM
+Coincya monensis,9.0,4.0,6.0,3.0,H,h,s,cr,not defined,not defined,AB,in,NM
+Colchicum autumnale,6.0,6.0,6.0,4.0,G,g,sv,csr,SI,X,B,se,OM
+Conium maculatum,8.0,5.0,7.0,8.0,H,h,s,cr,SC,XF,A,in,OM
+Conopodium majus,6.0,5.0,5.0,5.0,G,h,s,c,SC,XF,A,in,OM
+Consolida ajacis,8.0,4.0,7.0,6.0,T,h,s,r,SC,XF,Hh,se,OM
+Consolida regalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,X,Hh,in,OM
+Convallaria majalis,4.0,4.0,5.0,4.0,G,r,sv,cs,SC,X,PoAB,wi,FM
+Convolvulus arvensis,7.0,4.0,7.0,6.0,G,r,vvs,cr,I+,X,B,se,OM
+Conyza bonariensis,8.0,4.0,7.0,6.0,T,h,s,cr,SC,AF,B`,se,NM
+Conyza canadensis,7.0,4.0,6.0,5.0,H,h,s,cr,SC,AF,B`,se,OM
+Corallorrhiza trifida,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AF,B,se,OM
+Coriandrum sativum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,A,se,OM
+Cornus alba,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,sv,c,SI,X,A,in,OM
+Cornus mas,6.0,4.0,8.0,4.0,M,r,s,c,not defined,not defined,A,ge,OM
+Cornus sanguinea,6.0,5.0,7.0,5.0,N,r,sv,c,not defined,not defined,A,ge,FM
+Cornus sericea,6.0,6.0,7.0,5.0,N,r,sv,c,SI,X,A,in,OM
+Cornus suecica,6.0,6.0,1.0,2.0,H,r,sv,cs,not defined,not defined,A,se,OM
+Coronopus didymus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,g,s,r,SC,AO,AB,se,OM
+Cortusa matthioli,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,c,SI,X,AB,in,OM
+Corydalis solida,3.0,5.0,7.0,7.0,G,r,s,csr,SI,X,H,in,FM
+Corylus avellana,4.0,5.0,6.0,5.0,N,r,ssv,c,SI,X,W,wi,OM
+Corynephorus canescens,8.0,1.0,3.0,1.0,H,h,s,cs,SC,AFXF,W,wi,FM
+Cosmos bipinnatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SI,X,B`,in,NM
+Cotinus coggygria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,X,A,in,OM
+Cotoneaster integerrimus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,SC,AF,B,se,OM
+Cotoneaster tomentosus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,SC,not defined,B,in,OM
+Crassula aquatica,8.0,7.0,4.0,2.0,T,r,sv,sr,SC,AO,AB,se,NM
+Crataegus laevigata,5.0,5.0,7.0,5.0,M,r,s,c,I+,XF,ABDe,se,OM
+Crataegus monogyna,6.0,4.0,7.0,4.0,M,r,s,c,I+,XF,ABDe,se,OM
+Crepis aurea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,not defined,not defined,B`,ge,OM
+Crepis biennis,7.0,5.0,6.0,5.0,H,h,s,cr,not defined,not defined,B`,ge,OM
+Crepis capillaris,7.0,4.0,6.0,4.0,H,h,s,csr,SI,X,B`,ge,OM
+Crepis foetida,9.0,4.0,6.0,3.0,H,h,s,cr,SI,X,B`,se,OM
+Crepis mollis,7.0,5.0,5.0,5.0,H,h,s,csr,not defined,not defined,B`,se,OM
+Crepis paludosa,5.0,7.0,6.0,4.0,H,h,s,c,SI,X,B`,ge,FM
+Crepis praemorsa,6.0,3.0,8.0,3.0,H,g,sv,csr,not defined,not defined,B`,se,OM
+Crepis setosa,9.0,4.0,7.0,3.0,T,h,s,r,not defined,not defined,B`,se,OM
+Crepis tectorum,8.0,4.0,6.0,5.0,H,h,s,csr,SC,AFXF,B`,se,FM
+Crocus albiflorus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,SC,AFXF,F,se,OM
+Crocus vernus,7.0,5.0,5.0,4.0,G,g,sv,csr,I+,X,F,in,OM
+Cruciata laevipes,6.0,5.0,6.0,5.0,C,r,sv,csr,not defined,not defined,A,se,FM
+Cryptogramma crispa,7.0,5.0,2.0,2.0,H,g,s,cs,not defined,X,not defined,not defined,FM
+Cyclamen purpurascens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,s,csr,SI,X,Po,se,OM
+Cydonia oblonga,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,sv,c,C+,X,AB,se,OM
+Cymbalaria muralis,6.0,4.0,7.0,5.0,H,r,sv,csr,SC,AFXF,H,in,OM
+Cynodon dactylon,8.0,3.0,6.0,5.0,G,h,vvs,cs,SC,AO,W,se,OM
+Cynoglossum officinale,8.0,4.0,7.0,6.0,H,h,s,cs,SC,XF,B,se,OM
+Cynosurus cristatus,7.0,5.0,6.0,4.0,H,h,s,csr,SI,X,W,wi,OM
+Cynosurus echinatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,not defined,not defined,W,wi,FM
+Cyperus esculentus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,vvs,c,SI,X,W,wi,NM
+Cyperus flavescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,SC,XF,W,wi,OM
+Cyperus fuscus,9.0,7.0,5.0,4.0,T,h,s,sr,SC,AF,W,se,NM
+Cypripedium calceolus,5.0,4.0,8.0,4.0,G,r,vvs,c,SI,X,Dkl,in,FM
+Cystopteris fragilis,5.0,6.0,6.0,4.0,H,g,s,cs,not defined,not defined,not defined,not defined,FM
+Cystopteris montana,5.0,7.0,9.0,2.0,H,r,s,cs,not defined,not defined,not defined,not defined,NM
+Cytisus nigricans,6.0,4.0,6.0,2.0,N,r,s,c,not defined,not defined,H,in,OM
+Cytisus scoparius,7.0,4.0,3.0,4.0,N,r,s,c,SI,X,H,se,OM
+Dactylis glomerata,7.0,5.0,6.0,6.0,H,h,ssv,c,I+,X,W,wi,FM
+Dactylis polygama,5.0,5.0,6.0,5.0,H,h,s,cs,SI,X,W,wi,FM
+Dactylorhiza fuchsii,6.0,6.0,5.0,3.0,G,h,s,csr,SC,XF,B,in,OM
+Dactylorhiza incarnata,8.0,8.0,6.0,2.0,G,h,s,csr,SC,XF,B,in,OM
+Dactylorhiza maculata,7.0,7.0,3.0,2.0,G,h,s,csr,SC,XF,BHh,in,OM
+Dactylorhiza majalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,B,in,OM
+Dactylorhiza praetermissa,8.0,8.0,7.0,3.0,G,h,s,csr,SC,XF,B,in,OM
+Dactylorhiza sambucina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,BH,in,OM
+Danthonia alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,OM
+Danthonia decumbens,7.0,5.0,3.0,2.0,H,h,sv,cs,SC,AF,W,wi,OM
+Daphne laureola,4.0,5.0,7.0,5.0,N,r,s,c,SC,XF,F,in,OM
+Daphne mezereum,4.0,5.0,7.0,5.0,N,r,s,c,SC,X,B,se,FM
+Daphne striata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,cs,not defined,not defined,F,se,OM
+Datura stramonium,8.0,4.0,7.0,8.0,T,r,s,cr,SC,AF,Fn,se,OM
+Daucus carota,8.0,4.0,6.0,3.0,H,h,s,cr,SC,XF,A,se,FM
+Delphinium elatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SI,X,Hh,in,OM
+Dentaria bulbifera,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,vvs,csr,SI,X,B,in,NM
+Deschampsia cespitosa,6.0,6.0,5.0,3.0,H,h,s,c,I+,X,W,wi,FM
+Deschampsia flexuosa,6.0,5.0,2.0,3.0,H,h,sv,cs,I+,X,W,wi,OM
+Descurainia sophia,8.0,4.0,7.0,6.0,T,h,s,cr,SC,AO,AB,se,NM
+Dianthus barbatus,7.0,5.0,6.0,5.0,C,h,s,not defined,SC,XF,F,in,NM
+Dianthus carthusianorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,Ft,in,FM
+Dianthus caryophyllus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,not defined,SI,X,F,in,NM
+Dianthus deltoides,8.0,3.0,3.0,2.0,H,r,s,csr,SC,XF,F,in,NM
+Dianthus gratianopolitanus,9.0,2.0,6.0,1.0,C,h,sv,csr,SC,XF,F,in,NM
+Dianthus plumarius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,SC,XF,F,in,NM
+Dictamnus albus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,H,in,OM
+Digitalis grandiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,c,SI,X,Hh,in,OM
+Digitalis lanata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,SI,X,Hh,in,OM
+Digitalis lutea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SI,X,Hh,in,OM
+Digitalis purpurea,6.0,5.0,3.0,5.0,H,h,s,cr,SI,X,Hh,in,FM
+Digitaria ischaemum,7.0,4.0,2.0,3.0,T,h,s,r,not defined,not defined,W,wi,OM
+Digitaria sanguinalis,7.0,3.0,5.0,5.0,T,h,s,r,SC,AF,W,wi,OM
+Diphasiastrum alpinum,7.0,5.0,2.0,2.0,C,r,sv,csr,not defined,not defined,not defined,not defined,FM
+Diphasiastrum complanatum,5.0,4.0,1.0,2.0,C,r,sv,csr,not defined,not defined,not defined,not defined,NM
+Diplotaxis muralis,8.0,4.0,7.0,5.0,T,h,s,csr,SC,AF,AB,se,FM
+Dipsacus fullonum,8.0,6.0,7.0,7.0,H,h,s,cr,SC,XF,B`,se,FM
+Dorycnium hirsutum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,not defined,not defined,H,in,NM
+Draba fladnizensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,s,SC,AF,AB,se,NM
+Draba nemorosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,SC,not defined,AB,se,NM
+Draba siliquosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,s,SC,not defined,AB,se,NM
+Dracocephalum ruyschiana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,csr,SC,XF,Hh,in,OM
+Drosera intermedia,8.0,9.0,2.0,1.0,H,h,sv,s,SC,AO,AB,se,FM
+Drosera longifolia,8.0,9.0,3.0,2.0,H,h,sv,s,SC,AO,AB,wi,NM
+Drosera rotundifolia,8.0,9.0,1.0,1.0,H,h,sv,s,SC,AO,AB,se,FM
+Dryas octopetala,8.0,4.0,7.0,2.0,S,r,sv,s,I+,X,B,in,OM
+Dryopteris carthusiana,5.0,6.0,4.0,3.0,H,g,sv,cs,not defined,not defined,not defined,not defined,FM
+Dryopteris cristata,4.0,9.0,4.0,4.0,H,g,sv,cs,not defined,not defined,not defined,not defined,OM
+Dryopteris dilatata,4.0,6.0,4.0,5.0,H,g,sv,cs,not defined,not defined,not defined,not defined,OM
+Dryopteris expansa,4.0,6.0,2.0,2.0,H,g,sv,cs,SC,AFXF,not defined,not defined,OM
+Dryopteris filix-mas,3.0,5.0,5.0,6.0,H,g,sv,cs,SC,I,not defined,not defined,FM
+Duchesnea indica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,vvs,csr,not defined,not defined,AB,se,OM
+Echinochloa crus-galli,6.0,5.0,7.0,8.0,T,h,s,cr,SC,AF,W,wi,FM
+Echinocystis lobata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,XF,B,in,OM
+Echinops sphaerocephalus,8.0,4.0,7.0,7.0,H,h,s,c,SC,XF,B`,in,OM
+Echium vulgare,8.0,4.0,6.0,4.0,H,h,s,cr,SC,XF,H,in,OM
+Elaeagnus angustifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,sv,c,SC,AFXF,AB,in,FM
+Elaeagnus commutata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,SC,AFXF,AB,se,OM
+Elatine hexandra,7.0,10.0,3.0,2.0,T,r,sv,sr,SC,AO,A,se,OM
+Eleocharis multicaulis,8.0,9.0,4.0,1.0,H,r,sv,cs,SC,XF,W,wi,NM
+Eleocharis ovata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,W,wi,OM
+Eleocharis palustris,8.0,10.0,6.0,4.0,G,r,vvs,cs,SC,AFXF,W,wi,FM
+Eleocharis quinqueflora,8.0,9.0,7.0,2.0,H,r,sv,csr,SC,XF,W,wi,FM
+Eleocharis uniglumis,7.0,10.0,7.0,4.0,H,r,vvs,csr,SC,AFXF,W,wi,NM
+Eleusine indica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,c,SC,AFXF,W,wi,OM
+Elodea canadensis,7.0,12.0,7.0,6.0,A,r,v,not defined,not defined,X,Hy,wa,NM
+Elsholtzia ciliata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AFXF,BD,se,OM
+Elyna myosuroides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,W,wi,FM
+Elytrigia repens,7.0,5.0,6.0,7.0,G,h,vvs,c,I+,X,W,wi,OM
+Empetrum hermaphroditum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,csr,not defined,not defined,Wb,wi,OM
+Empetrum nigrum,7.0,6.0,2.0,1.0,S,r,vvs,csr,not defined,X,Wb,wi,OM
+Epilobium alsinifolium,8.0,9.0,5.0,4.0,H,r,sv,cs,SC,AF,B,se,FM
+Epilobium anagallidifolium,8.0,7.0,4.0,3.0,H,r,sv,s,SC,AO,B,se,OM
+Epilobium angustifolium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,c,SC,XF,B,se,FM
+Epilobium brachycarpum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,not defined,SC,AO,B,se,FM
+Epilobium ciliatum,7.0,5.0,5.0,6.0,H,h,sv,c,SC,AF,B,se,OM
+Epilobium hirsutum,7.0,8.0,7.0,7.0,H,r,sv,c,SC,XF,B,se,FM
+Epilobium lanceolatum,7.0,4.0,3.0,3.0,H,r,sv,cs,SC,AF,B,se,OM
+Epilobium montanum,4.0,5.0,6.0,6.0,H,r,sv,cs,SC,AO,B,se,FM
+Epilobium obscurum,6.0,8.0,4.0,4.0,H,r,sv,cs,SC,AO,B,se,OM
+Epilobium palustre,7.0,8.0,3.0,2.0,G,r,sv,csr,SC,AF,B,se,OM
+Epilobium parviflorum,7.0,9.0,7.0,5.0,H,r,sv,cs,SC,AF,B,se,OM
+Epilobium roseum,6.0,8.0,7.0,7.0,H,h,sv,cs,SC,AF,B,se,OM
+Epilobium tetragonum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AO,B,se,OM
+Epipactis atrorubens,6.0,3.0,8.0,1.0,G,r,sv,csr,SI,X,AB,in,FM
+Epipactis distans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,not defined,AB,not defined,OM
+Epipactis helleborine,3.0,5.0,5.0,4.0,G,r,sv,csr,SC,AFXF,Hw,se,OM
+Epipactis leptochila,3.0,3.0,7.0,3.0,G,r,sv,csr,SC,AO,AB,se,OM
+Epipactis microphylla,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AO,AB,se,OM
+Epipactis palustris,7.0,8.0,7.0,2.0,G,r,sv,csr,SC,XF,BHb,se,FM
+Epipactis purpurata,2.0,5.0,8.0,4.0,G,r,sv,csr,SC,AFXF,AB,se,OM
+Epipogium aphyllum,2.0,5.0,6.0,4.0,G,r,vvs,not defined,SC,AFXF,Hh,in,FM
+Equisetum arvense,6.0,6.0,5.0,3.0,G,r,sv,cr,SC,XF,not defined,not defined,FM
+Equisetum fluviatile,8.0,10.0,4.0,4.0,A,r,sv,cs,not defined,X,not defined,not defined,NM
+Equisetum hyemale,5.0,7.0,6.0,6.0,S,r,sv,cs,not defined,X,not defined,not defined,FM
+Equisetum palustre,6.0,8.0,5.0,3.0,G,r,sv,csr,not defined,X,not defined,not defined,NM
+Equisetum pratense,5.0,6.0,5.0,2.0,H,r,sv,csr,not defined,X,not defined,not defined,NM
+Equisetum ramosissimum,8.0,4.0,7.0,1.0,H,r,sv,cs,not defined,X,not defined,not defined,FM
+Equisetum sylvaticum,3.0,7.0,4.0,4.0,G,r,sv,cs,not defined,X,not defined,not defined,FM
+Equisetum telmateia,5.0,8.0,7.0,5.0,G,r,sv,cs,not defined,X,not defined,not defined,OM
+Equisetum variegatum,8.0,8.0,8.0,2.0,S,r,sv,cs,not defined,X,not defined,not defined,FM
+Eragrostis curvula,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,SC,AFXF,W,wi,OM
+Eragrostis minor,8.0,3.0,7.0,4.0,T,h,s,r,not defined,not defined,W,wi,OM
+Eragrostis pilosa,8.0,3.0,7.0,6.0,T,h,s,r,SC,not defined,W,wi,OM
+Eragrostis tef,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,not defined,not defined,W,wi,OM
+Erica carnea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,cs,SC,AFXF,Ft,in,OM
+Erica cinerea,7.0,5.0,2.0,2.0,S,r,sv,cs,SC,AO,H,se,OM
+Erica tetralix,8.0,8.0,1.0,1.0,S,r,sv,cs,SC,AF,Hb,se,OM
+Erigeron acris,8.0,4.0,7.0,2.0,H,h,s,r,SC,X,B`,se,FM
+Erigeron alpinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,B`,se,FM
+Erigeron annuus,7.0,5.0,6.0,6.0,H,h,s,cr,not defined,not defined,B`,in,OM
+Erigeron glabratus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AF,B`,se,OM
+Erigeron uniflorus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AF,B`,se,OM
+Eriophorum angustifolium,8.0,9.0,4.0,1.0,G,h,vvs,cs,SC,AFXF,W,wi,FM
+Eriophorum latifolium,8.0,9.0,7.0,2.0,H,h,sv,cs,SC,XF,W,wi,NM
+Eriophorum scheuchzeri,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,XF,W,wi,NM
+Eriophorum vaginatum,7.0,8.0,2.0,1.0,H,h,sv,cs,SC,AF,W,wi,FM
+Eriophyllum lanatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,not defined,not defined,ssv,c,SI,X,B`,in,OM
+Erodium cicutarium,8.0,4.0,6.0,4.0,H,h,s,r,SC,AFXF,B,se,FM
+Erophila verna,8.0,3.0,5.0,2.0,H,g,s,sr,SC,AO,AB,se,NM
+Eruca sativa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SI,X,AB,se,NM
+Eryngium campestre,9.0,3.0,7.0,3.0,H,h,s,cs,SC,XF,B`,in,OM
+Eryngium maritimum,9.0,4.0,6.0,4.0,H,h,s,cs,SC,XF,B`,in,FM
+Eryngium planum,7.0,6.0,7.0,4.0,H,h,s,csr,SC,AFXF,B`,in,OM
+Erysimum cheiranthoides,7.0,5.0,7.0,7.0,H,h,s,cr,SC,not defined,AB,se,NM
+Erysimum marschallianum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,AB,se,NM
+Eschscholzia californica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,I+,X,Po,in,FM
+Euonymus europaea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,not defined,not defined,A,in,OM
+Eupatorium cannabinum,7.0,7.0,6.0,7.0,H,r,sv,c,SI,X,B`F,ge,OM
+Euphorbia amygdaloides,4.0,5.0,6.0,5.0,C,h,sv,cs,SC,XF,A,in,OM
+Euphorbia cyparissias,8.0,3.0,6.0,3.0,G,r,sv,csr,SC,X,A,se,OM
+Euphorbia dulcis,4.0,5.0,7.0,5.0,G,r,sv,csr,SC,XF,A,in,OM
+Euphorbia esula,8.0,4.0,7.0,4.0,G,r,sv,csr,SC,AFXF,A,se,OM
+Euphorbia helioscopia,6.0,5.0,6.0,6.0,H,r,s,r,SC,XF,A,se,FM
+Euphorbia peplus,6.0,4.0,7.0,6.0,T,r,s,r,SC,AF,A,se,FM
+Euphorbia stricta,5.0,6.0,6.0,5.0,H,r,s,r,SC,XF,A,in,OM
+Euphorbia virgata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,c,SC,XF,A,in,OM
+Euphrasia frigida,7.0,5.0,3.0,2.0,T,r,s,r,SC,AF,BH,se,OM
+Euphrasia hirtella,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AF,BH,se,NM
+Euphrasia minima,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AF,BH,se,NM
+Euphrasia nemorosa,7.0,5.0,4.0,1.0,T,r,s,r,SC,AF,BH,se,NM
+Euphrasia officinalis,7.0,5.0,4.0,3.0,T,r,s,r,SC,AF,BH,se,NM
+Euphrasia stricta,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AF,BH,se,FM
+Fagopyrum esculentum,7.0,5.0,7.0,6.0,T,r,s,cr,C+,X,AB,se,NM
+Fagopyrum tataricum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AO,AB,wi,OM
+Fagus sylvatica,-3.0,5.0,5.0,5.0,M,r,s,c,SI,X,W,wi,OM
+Fallopia convolvulus,7.0,4.0,6.0,5.0,T,r,s,cr,SC,AO,B,se,NM
+Fallopia japonica,6.0,7.0,5.0,6.0,G,r,vvs,c,SI,X,B,in,FM
+Fallopia sachalinensis,6.0,5.0,6.0,7.0,G,r,v,c,not defined,X,B,in,NM
+Festuca altissima,3.0,5.0,4.0,5.0,H,r,s,cs,SC,AFXF,W,wi,FM
+Festuca arundinacea,7.0,6.0,7.0,6.0,H,h,s,c,I+,X,W,wi,OM
+Festuca brevipila,8.0,3.0,4.0,2.0,H,h,s,cs,I+,X,W,wi,OM
+Festuca gigantea,4.0,6.0,6.0,6.0,H,h,s,cs,SC,AFXF,W,wi,FM
+Festuca heterophylla,4.0,4.0,5.0,4.0,H,h,s,c,I+,X,W,wi,OM
+Festuca ovina,7.0,4.0,3.0,1.0,H,h,s,csr,SI,X,W,wi,FM
+Festuca pallens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SI,X,W,wi,OM
+Festuca pratensis,7.0,5.0,6.0,6.0,H,h,s,c,I+,X,W,wi,OM
+Festuca quadriflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,W,wi,OM
+Festuca rubra,7.0,5.0,5.0,5.0,H,h,sv,c,I+,X,W,wi,FM
+Festuca rupicola,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SI,X,W,wi,OM
+Festuca valesiaca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,csr,SI,X,W,wi,OM
+Filago arvensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,SC,AF,B`,wi,OM
+Filipendula ulmaria,6.0,8.0,6.0,5.0,H,h,sv,c,SC,AFXF,Po,se,FM
+Filipendula vulgaris,7.0,3.0,8.0,2.0,H,h,sv,csr,SI,X,Po,wi,OM
+Foeniculum vulgare,7.0,4.0,8.0,5.0,H,h,s,c,SC,X,A,ge,OM
+Forsythia suspensa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,v,c,SI,X,B,in,OM
+Fragaria moschata,6.0,5.0,6.0,6.0,H,h,sv,csr,not defined,X,AB,in,OM
+Fragaria vesca,6.0,5.0,6.0,4.0,H,h,sv,csr,SC,XF,AB,se,FM
+Fragaria viridis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,AB,in,OM
+Frangula alnus,6.0,7.0,4.0,4.0,N,r,s,c,SI,X,AD,in,FM
+Fraxinus excelsior,-4.0,6.0,7.0,6.0,M,r,s,c,not defined,XF,W,wi,OM
+Fraxinus ornus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,C+,XF,B,in,OM
+Fraxinus pennsylvanica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,ssv,c,not defined,X,W,wi,FM
+Fumana procumbens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,csr,SC,AO,Po,se,OM
+Fumaria officinalis,6.0,5.0,6.0,6.0,T,h,s,r,SC,AF,H,se,FM
+Fumaria vaillantii,7.0,3.0,8.0,5.0,T,r,s,r,SC,AF,H,se,FM
+Gagea bohemica,9.0,2.0,4.0,2.0,G,r,vvs,csr,not defined,not defined,AB,pk,OM
+Gagea lutea,4.0,6.0,7.0,7.0,G,r,sv,csr,not defined,not defined,AB,se,FM
+Galanthus nivalis,5.0,6.0,7.0,7.0,G,r,sv,csr,SC,AFXF,BHb,in,OM
+Galeobdolon argentatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,SC,AFXF,H,se,OM
+Galeobdolon luteum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,SC,AFXF,H,se,OM
+Galeobdolon montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,SC,XF,H,se,OM
+Galeopsis bifida,7.0,5.0,6.0,6.0,T,r,s,cr,SC,AF,H,se,OM
+Galeopsis segetum,7.0,4.0,3.0,3.0,T,r,s,cr,SC,XF,Hh,se,NM
+Galeopsis speciosa,7.0,5.0,6.0,7.0,T,r,s,cr,SC,XF,Hh,se,OM
+Galeopsis tetrahit,6.0,5.0,5.0,6.0,T,r,s,cr,SC,AF,Hh,se,NM
+Galinsoga ciliata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,B`,se,OM
+Galinsoga parviflora,7.0,4.0,5.0,7.0,T,r,s,cr,SC,AFXF,B`,se,OM
+Galium album,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,not defined,AFXF,A,se,OM
+Galium aparine,6.0,5.0,6.0,8.0,H,r,s,cr,SC,AF,A,se,FM
+Galium boreale,6.0,5.0,7.0,2.0,G,r,sv,csr,not defined,not defined,A,se,OM
+Galium lucidum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,c,not defined,not defined,A,se,OM
+Galium mollugo,7.0,4.0,6.0,4.0,H,r,s,c,not defined,AFXF,A,se,FM
+Galium odoratum,2.0,5.0,6.0,5.0,C,r,sv,s,not defined,not defined,A,se,FM
+Galium palustre,6.0,9.0,5.0,4.0,H,r,sv,cs,SC,AFXF,A,se,FM
+Galium saxatile,6.0,5.0,2.0,3.0,C,r,sv,cs,SI,X,A,in,FM
+Galium schultesii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,s,cs,not defined,not defined,A,se,OM
+Galium spurium,7.0,5.0,7.0,5.0,T,r,s,cr,SC,AF,A,se,OM
+Galium sterneri,9.0,4.0,7.0,1.0,H,r,sv,csr,SI,X,A,in,FM
+Galium uliginosum,6.0,8.0,4.0,2.0,H,r,sv,csr,SC,AF,A,se,NM
+Galium verum,7.0,4.0,5.0,2.0,H,r,sv,cs,not defined,not defined,A,wi,OM
+Gaudinia fragilis,8.0,5.0,6.0,6.0,T,h,s,r,not defined,not defined,W,wi,OM
+Genista tinctoria,7.0,4.0,6.0,1.0,S,r,s,cs,SI,X,H,in,OM
+Gentiana acaulis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,Hh,se,OM
+Gentiana asclepiadea,6.0,6.0,5.0,2.0,H,r,sv,c,SC,AFXF,Hh,se,OM
+Gentiana clusii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,Hh,se,OM
+Gentiana cruciata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,XF,Hh,se,OM
+Gentiana lutea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,X,A,se,OM
+Gentiana nivalis,9.0,5.0,7.0,3.0,T,h,s,r,SC,AFXF,Ft,se,FM
+Gentiana pneumonanthe,7.0,7.0,4.0,1.0,H,r,s,csr,SC,XF,Hh,se,FM
+Gentiana punctata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,AFXF,Hh,in,OM
+Gentiana verna,8.0,4.0,7.0,1.0,H,h,sv,csr,SC,AFXF,Ft,in,OM
+Gentianella amarella,8.0,4.0,7.0,2.0,H,h,s,csr,SC,AO,HhF,se,OM
+Gentianella campestris,8.0,5.0,4.0,2.0,H,h,s,csr,SC,AFXF,HhF,se,OM
+Gentianella germanica,7.0,4.0,7.0,3.0,H,h,s,csr,SC,AFXF,HhF,se,OM
+Geranium dissectum,6.0,4.0,7.0,5.0,H,h,s,cr,SC,AF,H,se,OM
+Geranium lucidum,4.0,4.0,7.0,6.0,H,h,s,csr,SC,AFXF,B,se,FM
+Geranium molle,7.0,4.0,5.0,4.0,H,h,s,r,SC,AF,B,se,FM
+Geranium nodosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,not defined,B,in,OM
+Geranium pratense,7.0,5.0,7.0,7.0,H,h,sv,c,SC,X,B,in,OM
+Geranium purpureum,6.0,3.0,6.0,3.0,H,h,s,csr,SC,AO,B,se,OM
+Geranium pusillum,7.0,4.0,6.0,7.0,H,h,s,c,SC,AF,B,se,OM
+Geranium pyrenaicum,7.0,4.0,7.0,6.0,H,h,s,csr,SC,AFXF,B,se,OM
+Geranium robertianum,5.0,6.0,6.0,6.0,H,h,s,csr,SC,AF,B,se,FM
+Geranium rotundifolium,7.0,4.0,7.0,6.0,T,h,s,r,SC,AF,B,se,OM
+Geranium sanguineum,7.0,3.0,7.0,3.0,H,h,sv,csr,SC,XF,B,se,FM
+Geranium sibiricum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,AF,B,se,OM
+Geranium sylvaticum,6.0,5.0,6.0,5.0,H,h,sv,c,SC,X,B,in,OM
+Geum montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AB,se,OM
+Geum reptans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AB,in,OM
+Geum rivale,6.0,7.0,6.0,4.0,H,h,sv,csr,not defined,not defined,AB,se,FM
+Geum urbanum,4.0,5.0,6.0,7.0,H,h,ssv,csr,SC,AF,AB,se,OM
+Gladiolus palustris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,X,Hh,se,OM
+Glaux maritima,6.0,7.0,7.0,5.0,H,r,sv,s,SC,AF,B,se,OM
+Glechoma hederacea,5.0,6.0,6.0,7.0,G,r,sv,csr,C+,XF,Hh,in,FM
+Glyceria fluitans,6.0,10.0,5.0,6.0,A,r,sv,cs,I+,X,W,wi,FM
+Glyceria maxima,7.0,10.0,7.0,8.0,A,r,vvs,cs,not defined,not defined,W,wi,FM
+Glyceria striata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Gnaphalium norvegicum,7.0,5.0,4.0,4.0,H,h,sv,csr,SC,AF,B`,se,OM
+Gnaphalium supinum,7.0,7.0,3.0,3.0,H,h,sv,csr,SC,AF,B`,se,OM
+Gnaphalium sylvaticum,7.0,5.0,4.0,3.0,H,h,sv,csr,SC,AF,B`,se,OM
+Gnaphalium uliginosum,7.0,6.0,4.0,4.0,T,h,s,r,SC,AF,B`,se,OM
+Goodyera repens,3.0,4.0,3.0,2.0,H,h,sv,csr,SC,XF,BHh,in,OM
+Gratiola officinalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,not defined,not defined,H,in,OM
+Guizotia abyssinica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SI,X,B`,in,OM
+Gymnadenia conopsea,7.0,6.0,7.0,3.0,G,h,s,csr,SC,AFXF,Fn,in,OM
+Gymnadenia odoratissima,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,AFXF,F,in,OM
+Gymnocarpium dryopteris,2.0,5.0,4.0,4.0,G,r,sv,cs,not defined,X,not defined,not defined,FM
+Gypsophila fastigiata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,s,s,SC,XF,B,in,NM
+Gypsophila repens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,csr,SC,AFXF,B,se,FM
+Halimione portulacoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,SC,AFXF,Wb,wi,FM
+Hammarbya paludosa,9.0,9.0,2.0,1.0,G,g,vvs,cs,SC,AFXF,AB,in,OM
+Hedera helix,-4.0,5.0,6.0,6.0,N,r,sv,cs,SC,AFXF,A,in,OM
+Helianthemum alpestre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,csr,not defined,not defined,Po,wi,OM
+Helianthemum apenninum,8.0,1.0,8.0,1.0,S,r,s,cs,not defined,not defined,Po,wi,OM
+Helianthemum canum,8.0,2.0,9.0,1.0,S,r,ssv,cs,I+,X,Po,wi,OM
+Helianthemum nummularium,7.0,4.0,7.0,2.0,S,r,ssv,cs,not defined,not defined,Po,wi,OM
+Helianthus annuus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,X,B`,in,OM
+Helianthus tuberosus,8.0,6.0,7.0,8.0,G,r,vvs,c,SI,X,B`,in,OM
+Helichrysum arenarium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,ge,OM
+Helictotrichon pratense,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,not defined,not defined,W,wi,OM
+Helictotrichon pubescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,C+,AFXF,W,wi,OM
+Helictotrichon versicolor,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Helleborus foetidus,5.0,4.0,8.0,3.0,C,h,s,cs,C+,XF,BHb,se,OM
+Helleborus niger,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,cs,not defined,not defined,B,se,OM
+Hemerocallis lilioasphodelus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,v,c,SI,X,Ft,in,OM
+Hepatica nobilis,4.0,4.0,7.0,5.0,H,g,sv,csr,not defined,not defined,Po,se,OM
+Heracleum mantegazzianum,7.0,6.0,6.0,8.0,H,h,s,c,SC,XF,A,ge,OM
+Heracleum sphondylium,7.0,5.0,6.0,7.0,H,h,ssv,c,SC,XF,A,ge,FM
+Herminium monorchis,7.0,5.0,8.0,2.0,G,h,sv,csr,SC,AFXF,Kl,se,OM
+Hesperis matronalis,6.0,6.0,7.0,7.0,H,h,s,cs,SI,X,B,se,FM
+Hieracium alpinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,se,OM
+Hieracium aurantiacum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,se,OM
+Hieracium bifidum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,se,OM
+Hieracium caespitosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,se,OM
+Hieracium echioides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,not defined,not defined,B`,se,OM
+Hieracium hoppeanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,not defined,not defined,not defined,B`,se,OM
+Hieracium lachenalii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,B`,se,OM
+Hieracium lactucella,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,not defined,not defined,B`,se,OM
+Hieracium laevigatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,B`,se,FM
+Hieracium murorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,se,FM
+Hieracium pilosella,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,SI,X,B`,se,OM
+Hieracium umbellatum,6.0,4.0,4.0,2.0,H,r,sv,cs,not defined,not defined,B`,se,OM
+Hieracium villosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,not defined,not defined,not defined,B`,se,OM
+Hieracium vulgatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,not defined,not defined,not defined,B`,se,FM
+Hierochloe australis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,not defined,not defined,W,wi,OM
+Hierochloe odorata,6.0,6.0,4.0,2.0,G,h,sv,cs,not defined,not defined,W,wi,OM
+Himantoglossum hircinum,7.0,3.0,9.0,2.0,G,h,s,csr,SC,X,BHb,in,OM
+Hippocrepis comosa,7.0,3.0,7.0,2.0,H,h,s,csr,SI,X,H,in,OM
+Hippocrepis emerus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,ssv,cs,SI,X,Hh,in,OM
+Hippophae rhamnoides,8.0,5.0,7.0,5.0,N,r,sv,c,SC,X,W,wi,FM
+Hirschfeldia incana,8.0,3.0,7.0,5.0,T,h,s,cr,SI,X,AB,in,FM
+Holcus lanatus,7.0,6.0,6.0,5.0,H,h,sv,c,I+,X,W,wi,FM
+Holcus mollis,5.0,5.0,2.0,3.0,G,h,vvs,csr,I+,X,W,wi,OM
+Holosteum umbellatum,8.0,3.0,7.0,2.0,H,h,s,sr,SC,AF,AB,se,NM
+Homogyne alpina,5.0,6.0,3.0,2.0,H,h,sv,csr,not defined,not defined,B`F,ge,OM
+Honckenya peploides,9.0,5.0,7.0,6.0,H,r,sv,s,SC,AF,AB,wi,NM
+Hordelymus europaeus,3.0,4.0,7.0,6.0,H,h,sv,cs,not defined,not defined,W,wi,OM
+Hordeum jubatum,9.0,5.0,7.0,6.0,H,h,ssv,sr,SC,AO,W,se,OM
+Hordeum murinum,8.0,4.0,7.0,5.0,H,h,s,r,SC,AO,W,se,OM
+Hordeum vulgare,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AF,W,wi,FM
+Hottonia palustris,6.0,11.0,5.0,4.0,A,h,sv,not defined,I+,X,B,in,FM
+Humulus lupulus,6.0,7.0,6.0,8.0,H,r,sv,c,not defined,X,W,wi,FM
+Huperzia selago,4.0,6.0,2.0,2.0,C,r,sv,csr,not defined,not defined,not defined,not defined,FM
+Hyacinthoides non-scripta,5.0,5.0,5.0,6.0,G,g,vvs,csr,I+,X,H,in,OM
+Hydrilla verticillata,6.0,12.0,9.0,3.0,A,r,vvs,not defined,SC,AFXF,Hy,wa,NM
+Hydrocotyle vulgaris,6.0,8.0,3.0,2.0,H,r,sv,s,SC,AO,A,se,FM
+Hymenophyllum tunbrigense,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,vvs,not defined,not defined,not defined,not defined,not defined,OM
+Hypericum elegans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,SC,AFXF,Po,se,OM
+Hypericum hirsutum,6.0,5.0,6.0,5.0,H,r,s,c,SC,AFXF,Po,se,NM
+Hypericum humifusum,7.0,6.0,3.0,3.0,H,r,s,csr,SC,AF,Po,se,NM
+Hypericum maculatum,6.0,6.0,3.0,2.0,H,r,sv,csr,SC,AFXF,Po,se,OM
+Hypericum montanum,5.0,4.0,7.0,2.0,H,r,sv,csr,SC,AFXF,Po,se,NM
+Hypericum perforatum,7.0,4.0,6.0,4.0,H,r,sv,c,SC,AFXF,Po,se,OM
+Hypericum pulchrum,4.0,5.0,3.0,2.0,H,r,s,c,SC,AFXF,Po,se,OM
+Hypericum tetrapterum,7.0,8.0,6.0,4.0,H,r,sv,csr,SC,AFXF,Po,se,FM
+Hypochaeris glabra,8.0,3.0,3.0,1.0,H,g,s,sr,SI,X,B`,in,OM
+Hypochaeris maculata,7.0,4.0,6.0,2.0,H,h,ssv,csr,I+,X,B`,in,OM
+Hypochaeris radicata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,ssv,csr,SI,X,B`,in,FM
+Hyssopus officinalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,SC,XF,H,in,OM
+Iberis amara,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,r,SI,X,AB,in,FM
+Ilex aquifolium,-4.0,5.0,4.0,5.0,M,r,sv,c,SC,X,A,in,OM
+Impatiens capensis,7.0,9.0,7.0,6.0,T,r,s,r,SC,XF,H,in,OM
+Impatiens glandulifera,5.0,8.0,7.0,7.0,T,r,s,cr,SC,XF,Hh,in,FM
+Impatiens noli-tangere,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,sr,SC,XF,Hh,kl,FM
+Impatiens parviflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,sr,SC,AF,H,se,FM
+Inula britannica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,in,OM
+Inula helenium,7.0,5.0,7.0,5.0,H,h,sv,c,not defined,not defined,B`,in,OM
+Inula hirta,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,B`,in,OM
+Inula salicina,7.0,5.0,8.0,3.0,H,r,sv,cs,not defined,not defined,B`,ge,OM
+Iris germanica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,vvs,c,SC,X,Hh,in,OM
+Iris pseudacorus,6.0,9.0,6.0,6.0,G,h,sv,cs,SC,X,HhDs,in,FM
+Iris pumila,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,X,Hh,in,OM
+Iris sibirica,8.0,8.0,6.0,2.0,G,h,sv,cs,SC,X,Hh,in,OM
+Iris versicolor,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,cs,SC,X,Hh,se,OM
+Isatis tinctoria,8.0,3.0,8.0,3.0,H,h,ssv,cs,SI,X,AB,in,FM
+Isoetes echinospora,7.0,12.0,5.0,1.0,A,g,sv,not defined,not defined,X,not defined,not defined,FM
+Isoetes lacustris,6.0,12.0,4.0,1.0,A,g,sv,not defined,not defined,X,not defined,not defined,FM
+Jasione montana,7.0,2.0,3.0,2.0,H,h,s,csr,SI,X,B`,in,FM
+Juglans regia,6.0,5.0,7.0,7.0,M,r,s,c,SC,AFXF,W,wi,FM
+Juncus acutiflorus,8.0,8.0,4.0,2.0,G,h,sv,cs,SC,AFXF,W,wi,FM
+Juncus alpinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,FM
+Juncus articulatus,8.0,9.0,5.0,2.0,H,r,sv,csr,SC,XF,W,wi,FM
+Juncus balticus,8.0,8.0,5.0,2.0,G,r,sv,cs,SC,AFXF,W,wi,FM
+Juncus bufonius,7.0,7.0,3.0,4.0,T,h,s,r,SC,AO,W,wi,FM
+Juncus bulbosus,6.0,10.0,4.0,2.0,A,h,sv,csr,SC,AFXF,W,wi,NM
+Juncus conglomeratus,7.0,7.0,4.0,3.0,H,r,sv,c,SC,AFXF,W,wi,NM
+Juncus dudleyi,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,SC,AFXF,W,wi,FM
+Juncus effusus,7.0,7.0,3.0,4.0,H,r,sv,c,SC,AFXF,W,wi,FM
+Juncus ensifolius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,NM
+Juncus filiformis,7.0,8.0,3.0,3.0,G,r,vvs,csr,SC,AFXF,W,wi,FM
+Juncus gerardii,8.0,8.0,7.0,5.0,G,h,sv,s,SC,AFXF,W,wi,FM
+Juncus inflexus,7.0,7.0,7.0,4.0,H,r,ssv,c,SC,AF,W,wi,FM
+Juncus maritimus,8.0,8.0,8.0,5.0,G,h,sv,cs,SC,XF,W,wi,NM
+Juncus squarrosus,7.0,7.0,1.0,1.0,H,h,sv,csr,SC,AFXF,W,wi,FM
+Juncus stygius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,W,wi,NM
+Juncus tenuis,6.0,6.0,5.0,4.0,H,h,ssv,csr,SC,AF,W,wi,FM
+Juncus trifidus,8.0,4.0,2.0,2.0,H,r,sv,csr,SC,XF,W,wi,FM
+Juncus triglumis,8.0,9.0,6.0,2.0,H,r,sv,csr,SC,AFXF,W,wi,FM
+Juniperus communis,7.0,4.0,5.0,3.0,M,r,s,c,not defined,X,W,wi,OM
+Juniperus sabina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,not defined,X,W,wi,OM
+Kalmia angustifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,vvs,c,SC,XF,Po,in,OM
+Kickxia spuria,7.0,4.0,7.0,3.0,T,r,s,r,SC,AF,H,se,OM
+Knautia arvensis,7.0,3.0,6.0,4.0,H,h,s,c,SC,XF,B`,se,OM
+Knautia kitaibelii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,XF,B`,in,OM
+Kobresia simpliciuscula,8.0,8.0,8.0,1.0,H,h,sv,csr,SC,AFXF,W,wi,NM
+Koeleria glauca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,FM
+Koeleria macrantha,7.0,3.0,7.0,2.0,H,h,s,cs,SI,X,W,wi,OM
+Koeleria pyramidata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,FM
+Koeleria vallesiana,8.0,1.0,8.0,1.0,H,h,sv,cs,SI,X,W,wi,OM
+Laburnum anagyroides,6.0,5.0,7.0,7.0,M,r,s,c,SI,X,H,in,OM
+Lactuca serriola,8.0,4.0,6.0,4.0,H,h,s,cr,SC,AF,B`,se,OM
+Lagarosiphon major,6.0,12.0,7.0,6.0,A,r,v,not defined,not defined,X,Hy,wa,OM
+Lamium album,6.0,5.0,6.0,8.0,H,r,sv,csr,SC,AFXF,H,se,FM
+Lamium amplexicaule,6.0,4.0,7.0,6.0,H,r,s,r,SC,AO,H,se,OM
+Lamium purpureum,6.0,5.0,7.0,7.0,H,r,s,r,SC,AFXF,H,se,FM
+Lappula squarrosa,8.0,3.0,7.0,6.0,H,h,s,csr,SC,AO,B,se,OM
+Lapsana communis,5.0,4.0,6.0,7.0,H,h,s,cr,SC,AF,B`,se,OM
+Larix decidua,-8.0,4.0,5.0,3.0,M,r,s,c,I+,X,W,wi,OM
+Larix kaempferi,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,XF,W,wi,OM
+Laser trilobum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,XF,A,ge,OM
+Laserpitium siler,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,XF,A,in,OM
+Lathraea squamaria,3.0,6.0,7.0,6.0,G,r,sv,not defined,not defined,not defined,Hh,wi,NM
+Lathyrus aphaca,7.0,3.0,8.0,3.0,T,r,s,r,SC,AF,H,se,OM
+Lathyrus japonicus,9.0,5.0,7.0,6.0,H,r,ssv,cs,SC,AFXF,H,in,OM
+Lathyrus linifolius,6.0,5.0,3.0,2.0,G,r,sv,csr,SC,XF,H,in,OM
+Lathyrus niger,5.0,3.0,7.0,3.0,G,r,sv,csr,SC,XF,H,in,FM
+Lathyrus odoratus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,H,se,OM
+Lathyrus pratensis,7.0,6.0,6.0,5.0,H,r,ssv,c,C+,XF,H,in,FM
+Lathyrus sativus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AF,H,se,OM
+Lathyrus sylvestris,7.0,4.0,7.0,2.0,H,r,ssv,c,SC,XF,H,kl,OM
+Lathyrus tuberosus,7.0,4.0,8.0,4.0,H,r,sv,c,SC,XF,H,in,OM
+Lathyrus vernus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AFXF,H,in,OM
+Lavandula angustifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,SC,AFXF,H,se,OM
+Ledum groenlandicum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,cs,SC,AFXF,AB,wi,OM
+Ledum palustre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,cs,SC,AFXF,AB,se,OM
+Leersia oryzoides,7.0,10.0,7.0,7.0,A,h,sv,c,SC,AO,W,kl,FM
+Lemna gibba,7.0,11.0,7.0,8.0,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Lemna minor,7.0,11.0,6.0,6.0,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Lemna trisulca,7.0,12.0,7.0,5.0,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Leontodon autumnalis,8.0,6.0,6.0,4.0,H,g,sv,csr,I+,X,B`,in,OM
+Leontodon hispidus,7.0,4.0,6.0,3.0,H,g,sv,csr,I+,X,B`,in,OM
+Leontopodium alpinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,in,OM
+Lepidium campestre,7.0,4.0,7.0,5.0,H,h,s,sr,SC,AO,AB,se,NM
+Lepidium densiflorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,AF,AB,se,NM
+Lepidium latifolium,8.0,5.0,7.0,5.0,H,r,sv,c,SC,AF,AB,se,NM
+Lepidium perfoliatum,8.0,5.0,6.0,5.0,H,h,s,r,SC,AO,AB,se,NM
+Lepidium ruderale,9.0,4.0,7.0,6.0,H,h,s,r,SC,AO,AB,se,NM
+Lepidium sativum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,r,SC,AFXF,AB,se,NM
+Lepidium virginicum,8.0,4.0,6.0,5.0,H,h,s,r,SC,AF,AB,se,FM
+Leucanthemopsis alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,not defined,not defined,not defined,B`,ge,FM
+Leucanthemum vulgare,7.0,4.0,6.0,3.0,H,h,sv,c,SC,AFXF,B`,se,OM
+Leucojum aestivum,6.0,8.0,7.0,7.0,G,g,sv,csr,not defined,not defined,B,in,OM
+Leucojum vernum,6.0,6.0,7.0,6.0,G,g,sv,csr,not defined,not defined,B,in,FM
+Levisticum officinale,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SC,AFXF,A,in,OM
+Leymus arenarius,8.0,4.0,7.0,4.0,G,h,vvs,c,not defined,not defined,W,wi,OM
+Ligustrum vulgare,6.0,4.0,7.0,3.0,N,r,s,c,not defined,not defined,B,se,OM
+Lilium bulbiferum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SI,X,Ft,in,OM
+Lilium martagon,3.0,4.0,7.0,5.0,G,r,s,csr,SC,X,Fn,se,OM
+Limodorum abortivum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AF,B,se,OM
+Limonium vulgare,9.0,8.0,8.0,6.0,H,g,vvs,s,SI,X,B,in,FM
+Linaria alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,XF,Hh,in,OM
+Linaria dalmatica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SI,X,H,in,OM
+Linaria repens,8.0,5.0,7.0,5.0,G,r,sv,cs,C+,XF,H,in,FM
+Linaria vulgaris,7.0,4.0,7.0,5.0,G,r,sv,csr,SC,X,H,in,FM
+Lindernia dubia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,sr,SC,AO,B,se,OM
+Linnaea borealis,4.0,5.0,2.0,2.0,C,r,vvs,csr,SC,X,B,se,OM
+Linum austriacum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,SI,X,B,in,OM
+Linum catharticum,7.0,5.0,7.0,2.0,H,h,s,sr,SC,AF,B,se,FM
+Linum flavum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,SI,X,B,in,OM
+Linum perenne,7.0,3.0,8.0,2.0,H,r,sv,cs,SI,X,B,in,OM
+Linum usitatissimum,8.0,5.0,6.0,6.0,H,r,s,r,SC,AFXF,B,se,FM
+Liparis loeselii,8.0,8.0,7.0,2.0,G,g,sv,csr,SC,AO,B,se,OM
+Listera cordata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AFXF,Hi,se,OM
+Listera ovata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AFXF,Hi,se,OM
+Lithospermum officinale,6.0,4.0,8.0,5.0,H,r,s,c,not defined,not defined,H,se,FM
+Littorella uniflora,7.0,10.0,5.0,2.0,A,g,sv,csr,SC,XF,Wb,wi,OM
+Lloydia serotina,7.0,5.0,5.0,1.0,G,h,vvs,s,SC,AF,ADe,se,OM
+Lobelia dortmanna,8.0,12.0,5.0,1.0,A,h,s,not defined,SC,AF,B,se,OM
+Loiseleuria procumbens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,SC,AFXF,A,se,OM
+Lolium multiflorum,7.0,4.0,7.0,7.0,H,h,s,c,SI,X,W,wi,OM
+Lolium perenne,8.0,5.0,6.0,6.0,H,h,s,c,I+,X,W,wi,OM
+Lolium temulentum,7.0,4.0,7.0,6.0,T,h,s,cr,SC,AO,W,se,FM
+Lonicera alpigena,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,AFXF,B,se,OM
+Lonicera caerulea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,AFXF,BH,se,OM
+Lonicera periclymenum,5.0,5.0,3.0,4.0,N,r,s,c,SC,AFXF,Fn,se,OM
+Lonicera tatarica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,AFXF,B,se,OM
+Lonicera xylosteum,4.0,5.0,7.0,6.0,N,r,s,c,SC,AFXF,Hh,se,FM
+Lotus corniculatus,7.0,4.0,6.0,2.0,H,r,ssv,csr,SC,X,Hb,in,FM
+Lotus pedunculatus,7.0,8.0,4.0,4.0,H,r,sv,csr,SI,X,Hb,in,OM
+Lotus tenuis,7.0,7.0,7.0,4.0,H,r,s,cs,SI,X,Hb,in,OM
+Ludwigia palustris,8.0,9.0,4.0,4.0,H,r,sv,csr,SC,AO,A,se,OM
+Lupinus albus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,not defined,SC,AF,H,se,NM
+Lupinus angustifolius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,AO,H,se,FM
+Lupinus luteus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,X,H,se,FM
+Lupinus polyphyllus,7.0,5.0,4.0,5.0,H,h,s,c,SC,XF,H,se,FM
+Luzula campestris,7.0,4.0,3.0,2.0,H,h,sv,csr,SC,XF,W,wi,FM
+Luzula luzuloides,4.0,5.0,3.0,4.0,H,h,sv,cs,SC,AFXF,W,wi,NM
+Luzula multiflora,7.0,4.0,3.0,3.0,H,h,sv,cs,SC,XF,W,wi,NM
+Luzula nivea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,AFXF,W,wi,NM
+Luzula pilosa,2.0,5.0,4.0,3.0,H,h,sv,csr,SC,XF,W,wi,FM
+Luzula spicata,8.0,4.0,3.0,1.0,H,h,sv,csr,SC,XF,W,wi,FM
+Luzula sudetica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AF,W,wi,NM
+Luzula sylvatica,4.0,5.0,3.0,4.0,H,h,sv,c,SC,XF,W,wi,FM
+Lychnis flos-cuculi,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,HFt,se,FM
+Lychnis viscaria,7.0,3.0,4.0,2.0,H,h,s,csr,SC,XF,Ft,se,NM
+Lycium barbarum,8.0,5.0,7.0,4.0,N,r,sv,c,not defined,not defined,B,se,OM
+Lycopersicon esculentum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AO,Po,se,OM
+Lycopodiella inundata,8.0,9.0,2.0,1.0,C,r,sv,cs,not defined,not defined,not defined,not defined,FM
+Lycopodium annotinum,3.0,6.0,2.0,3.0,C,r,sv,cs,not defined,X,not defined,not defined,FM
+Lycopodium clavatum,7.0,4.0,1.0,2.0,C,r,sv,cs,not defined,X,not defined,not defined,FM
+Lycopus europaeus,6.0,8.0,7.0,6.0,H,r,sv,cs,SC,XF,BD,in,FM
+Lysimachia nemorum,2.0,7.0,4.0,5.0,C,r,sv,cs,SI,X,Po,se,FM
+Lysimachia nummularia,4.0,6.0,5.0,5.0,H,r,vvs,csr,I+,X,Po,in,FM
+Lysimachia thyrsiflora,6.0,10.0,4.0,3.0,G,r,sv,cs,SI,X,Po,ge,FM
+Lysimachia vulgaris,6.0,8.0,5.0,5.0,G,r,sv,cs,SI,X,Po,se,FM
+Lythrum hyssopifolia,8.0,7.0,3.0,4.0,T,r,ssv,sr,SC,AF,B,se,NM
+Lythrum salicaria,7.0,8.0,6.0,5.0,H,r,ssv,cs,SI,X,B,se,FM
+Macleaya cordata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,c,not defined,not defined,Po,wi,OM
+Mahonia aquifolium,5.0,4.0,6.0,5.0,N,r,sv,c,SC,X,AB,se,OM
+Maianthemum bifolium,3.0,5.0,3.0,3.0,G,r,sv,s,SI,X,PoA,se,FM
+Malaxis monophyllos,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,AFXF,AB,in,OM
+Malus domestica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,ssv,c,I+,X,AB,in,OM
+Malus sylvestris,-7.0,5.0,7.0,5.0,M,r,ssv,c,I+,X,AB,in,OM
+Malva neglecta,7.0,4.0,7.0,7.0,H,h,s,cr,SC,AFXF,B,se,OM
+Malva sylvestris,8.0,4.0,7.0,7.0,H,h,s,c,SC,XF,B,in,OM
+Marrubium vulgare,9.0,4.0,7.0,8.0,C,r,s,csr,SC,AFXF,H,se,OM
+Marsilea quadrifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,I+,X,not defined,not defined,FM
+Matricaria discoidea,7.0,5.0,6.0,7.0,T,h,s,r,SC,AF,B`,se,OM
+Matricaria recutita,7.0,5.0,7.0,7.0,H,h,s,r,not defined,not defined,B`,in,FM
+Matteuccia struthiopteris,4.0,7.0,7.0,7.0,C,g,sv,cs,not defined,not defined,not defined,not defined,FM
+Matthiola incana,9.0,3.0,8.0,2.0,T,h,s,cr,SC,AFXF,B,se,FM
+Medicago falcata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,H,in,OM
+Medicago lupulina,7.0,4.0,7.0,4.0,H,h,sv,csr,SC,AF,H,se,OM
+Medicago minima,9.0,3.0,7.0,2.0,H,h,s,sr,SC,AO,H,se,OM
+Medicago polymorpha,9.0,4.0,5.0,5.0,T,r,s,r,SC,AF,H,se,OM
+Melampyrum arvense,7.0,3.0,8.0,3.0,T,r,s,cr,SC,XF,Hh,in,NM
+Melampyrum cristatum,6.0,3.0,7.0,2.0,T,r,s,cr,SC,AFXF,Hh,se,NM
+Melampyrum nemorosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AFXF,Hh,se,FM
+Melampyrum pratense,5.0,5.0,2.0,2.0,T,r,s,cr,SC,AF,Hh,se,FM
+Melampyrum sylvaticum,4.0,5.0,2.0,2.0,T,r,s,cr,SC,AFXF,Hh,se,NM
+Melica altissima,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,not defined,not defined,W,wi,OM
+Melica ciliata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Melica nutans,4.0,4.0,6.0,3.0,G,h,sv,cs,not defined,not defined,W,wi,FM
+Melica transsilvanica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Melica uniflora,3.0,5.0,6.0,5.0,G,h,sv,c,not defined,not defined,W,wi,FM
+Melilotus albus,9.0,3.0,7.0,4.0,H,r,s,cr,SC,AF,H,se,OM
+Melilotus indicus,9.0,4.0,7.0,6.0,T,r,s,r,SC,AF,H,se,OM
+Melilotus officinalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cr,SC,X,H,se,OM
+Melissa officinalis,6.0,4.0,7.0,5.0,H,r,sv,c,SC,AFXF,H,se,OM
+Melittis melissophyllum,5.0,4.0,6.0,3.0,H,r,sv,c,SC,XF,HhFn,in,FM
+Mentha aquatica,7.0,8.0,7.0,5.0,H,r,sv,cs,SC,XF,BD,in,FM
+Mentha arvensis,6.0,7.0,5.0,6.0,H,r,sv,c,SC,XF,BD,in,FM
+Mentha longifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,SC,XF,BD,in,OM
+Mentha pulegium,8.0,7.0,5.0,6.0,H,r,sv,csr,SC,XF,BD,in,OM
+Mentha spicata,7.0,8.0,7.0,7.0,H,r,sv,c,SC,XF,BD,in,OM
+Menyanthes trifoliata,7.0,10.0,4.0,3.0,A,r,vvs,cs,SI,X,B,se,FM
+Mercurialis annua,7.0,4.0,7.0,7.0,T,r,s,r,SC,X,W,wi,OM
+Mercurialis perennis,2.0,5.0,7.0,7.0,G,r,sv,cs,not defined,X,W,wi,FM
+Milium effusum,4.0,5.0,5.0,5.0,H,r,sv,cs,SC,AFXF,W,wi,FM
+Mimulus guttatus,7.0,9.0,6.0,6.0,H,r,sv,cs,SC,XF,H,se,FM
+Minuartia hybrida,9.0,3.0,8.0,3.0,T,r,s,sr,SC,AFXF,AB,se,OM
+Minuartia verna,8.0,4.0,7.0,1.0,C,r,s,s,SC,AFXF,AB,se,NM
+Moehringia trinervia,4.0,5.0,6.0,6.0,H,r,s,csr,SC,AF,AB,se,NM
+Molinia arundinacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,ssv,cs,I+,X,W,wi,FM
+Molinia caerulea,6.0,7.0,3.0,2.0,H,g,ssv,cs,I+,X,W,wi,OM
+Moneses uniflora,4.0,5.0,4.0,1.0,C,g,sv,s,SC,AFXF,BD,se,OM
+Monotropa hypopitys,3.0,5.0,4.0,2.0,G,r,sv,not defined,SC,AO,BHh,se,OM
+Montia fontana,7.0,9.0,4.0,3.0,H,r,sv,sr,SC,AO,A,pk,FM
+Muscari botryoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,I+,X,Hb,se,OM
+Muscari comosum,7.0,3.0,7.0,4.0,G,g,sv,csr,not defined,not defined,Hb,in,OM
+Muscari neglectum,7.0,3.0,7.0,4.0,G,g,sv,csr,not defined,not defined,Hb,in,OM
+Muscari tenuiflorum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,s,csr,not defined,not defined,Hb,se,OM
+Mycelis muralis,4.0,5.0,6.0,5.0,H,h,s,csr,SC,AF,B`,se,FM
+Myosotis alpestris,8.0,4.0,8.0,2.0,H,h,s,csr,SC,AF,B,se,FM
+Myosotis arvensis,6.0,5.0,5.0,6.0,H,h,s,r,SC,AF,B,se,FM
+Myosotis decumbens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B,se,FM
+Myosotis discolor,7.0,4.0,4.0,2.0,H,h,s,sr,not defined,not defined,B,se,OM
+Myosotis laxa,7.0,9.0,6.0,5.0,H,h,s,csr,not defined,not defined,B,se,OM
+Myosotis ramosissima,8.0,2.0,6.0,1.0,H,h,s,sr,not defined,not defined,B,se,FM
+Myosotis scorpioides,6.0,8.0,5.0,5.0,H,h,sv,csr,I+,X,B,se,FM
+Myosotis sparsiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,AF,B,se,OM
+Myosotis sylvatica,6.0,5.0,6.0,5.0,H,h,sv,csr,SC,AF,B,se,FM
+Myosoton aquaticum,6.0,8.0,7.0,8.0,G,r,sv,cs,SC,AFXF,AB,se,FM
+Myosurus minimus,8.0,6.0,6.0,5.0,T,g,s,r,SC,AF,A,se,OM
+Myrica gale,8.0,9.0,3.0,2.0,N,r,vvs,cs,not defined,X,W,wi,FM
+Myriophyllum alterniflorum,7.0,12.0,5.0,3.0,A,r,vvs,not defined,not defined,not defined,W,wi,FM
+Myriophyllum spicatum,5.0,12.0,7.0,7.0,A,r,vvs,not defined,not defined,not defined,W,wi,NM
+Myrrhis odorata,7.0,5.0,7.0,7.0,H,h,s,c,SC,XF,A,in,OM
+Najas minor,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,SC,AFXF,Hy,wa,NM
+Narcissus poeticus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,not defined,not defined,F,se,OM
+Narcissus pseudonarcissus,7.0,5.0,6.0,5.0,G,g,vvs,csr,SI,X,Hh,in,OM
+Narcissus radiiflorus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,csr,not defined,not defined,F,se,OM
+Nardus stricta,7.0,6.0,2.0,2.0,H,g,vvs,cs,not defined,not defined,W,wi,OM
+Narthecium ossifragum,8.0,9.0,2.0,1.0,H,h,vvs,csr,SC,AF,Po,wi,FM
+Nasturtium officinale,7.0,10.0,7.0,7.0,C,r,sv,cs,SC,AO,AB,se,NM
+Neottia nidus-avis,2.0,4.0,7.0,5.0,G,r,sv,not defined,SC,AFXF,AB,se,OM
+Nepeta cataria,7.0,4.0,7.0,6.0,C,r,s,c,SC,X,H,in,OM
+Neslia paniculata,6.0,4.0,7.0,4.0,T,h,s,r,SC,AO,AB,se,NM
+Nicotiana rustica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,AO,B,se,OM
+Nicotiana tabacum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,cr,SC,AF,F,se,OM
+Nigritella nigra,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,not defined,F,in,OM
+Nuphar lutea,7.0,11.0,7.0,6.0,A,g,sv,not defined,SC,XF,AB,in,NM
+Nuphar pumila,7.0,11.0,4.0,2.0,A,g,sv,not defined,SC,XF,AB,in,NM
+Nymphaea alba,7.0,11.0,6.0,4.0,A,g,sv,not defined,SC,AF,AB,se,NM
+Nymphoides peltata,8.0,11.0,7.0,6.0,A,g,sv,not defined,C+,AFXF,B,in,NM
+Odontites luteus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,not defined,not defined,H,se,OM
+Odontites vernus,6.0,5.0,6.0,5.0,T,r,s,r,SC,AFXF,H,se,NM
+Odontites vulgaris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,AFXF,H,se,FM
+Oenanthe aquatica,7.0,10.0,7.0,6.0,A,h,sv,cs,SC,AFXF,A,se,NM
+Oenanthe fistulosa,7.0,9.0,7.0,5.0,A,h,sv,cs,SC,AFXF,A,in,OM
+Oenanthe lachenalii,8.0,8.0,8.0,5.0,H,h,s,cs,SC,AFXF,A,se,OM
+Oenothera biennis,9.0,4.0,6.0,4.0,H,h,s,cr,SC,AO,FnH,se,OM
+Oenothera glazioviana,9.0,3.0,6.0,4.0,H,h,s,cr,SC,XF,FnH,se,OM
+Onobrychis arenaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,not defined,not defined,H,in,OM
+Onobrychis viciifolia,7.0,3.0,8.0,3.0,H,r,s,c,I+,X,H,se,OM
+Ononis arvensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,SC,AFXF,Hb,in,OM
+Ononis natrix,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,SC,AFXF,Hb,in,OM
+Ononis repens,8.0,4.0,6.0,2.0,H,r,s,cs,SC,AFXF,Hb,in,OM
+Ononis spinosa,8.0,4.0,7.0,3.0,H,r,s,cs,SC,AFXF,Hb,in,OM
+Onopordum acanthium,8.0,4.0,6.0,7.0,H,h,s,cr,not defined,not defined,B`,in,FM
+Ophioglossum vulgatum,6.0,7.0,7.0,2.0,G,r,sv,csr,SC,I,not defined,not defined,OM
+Ophrys apifera,7.0,4.0,8.0,2.0,G,h,s,csr,SC,AO,Hb,se,OM
+Ophrys insectifera,7.0,4.0,8.0,2.0,G,h,s,csr,SC,XF,Hb,in,OM
+Ophrys sphegodes,8.0,4.0,9.0,3.0,G,h,s,csr,SC,XF,Hb,in,OM
+Orchis coriophora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,Hb,in,OM
+Orchis mascula,6.0,4.0,7.0,3.0,G,h,s,csr,SC,XF,BHh,in,OM
+Orchis militaris,7.0,3.0,8.0,2.0,G,h,sv,csr,SC,XF,B,in,OM
+Orchis morio,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,BHh,in,OM
+Orchis palustris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,B,in,OM
+Orchis purpurea,5.0,4.0,8.0,3.0,G,h,ssv,csr,SC,XF,BHh,in,OM
+Orchis simia,8.0,3.0,8.0,2.0,G,h,s,csr,SC,X,B,in,OM
+Orchis tridentata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,BHb,in,OM
+Orchis ustulata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,s,csr,SC,XF,F,in,OM
+Oreochloa disticha,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,not defined,not defined,W,wi,FM
+Origanum vulgare,6.0,3.0,7.0,3.0,H,r,sv,csr,SC,XF,B,in,OM
+Ornithogalum angustifolium,6.0,3.0,6.0,4.0,G,g,vvs,csr,SI,X,AB,in,OM
+Ornithogalum nutans,6.0,4.0,7.0,7.0,G,g,sv,csr,not defined,not defined,AB,se,OM
+Ornithogalum pyrenaicum,4.0,5.0,6.0,5.0,G,g,ssv,not defined,not defined,not defined,AB,se,OM
+Ornithogalum umbellatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,vvs,csr,I+,X,AB,se,FM
+Orobanche ramosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,not defined,SC,AFXF,H,se,FM
+Orthilia secunda,4.0,5.0,5.0,2.0,C,r,sv,s,SC,AFXF,B,se,FM
+Osmunda regalis,5.0,8.0,4.0,4.0,G,g,s,c,I+,X,not defined,not defined,FM
+Oxalis acetosella,1.0,5.0,4.0,4.0,G,r,sv,csr,SC,AF,BD,se,FM
+Oxalis corniculata,7.0,4.0,6.0,5.0,H,r,sv,r,SC,AF,B,se,OM
+Oxyria digyna,7.0,6.0,5.0,3.0,H,h,sv,csr,not defined,not defined,W,wi,FM
+Panicum capillare,8.0,4.0,6.0,6.0,T,h,s,cr,SC,not defined,W,wi,FM
+Panicum miliaceum,8.0,4.0,6.0,6.0,T,h,s,cr,SC,AFXF,W,wi,OM
+Papaver rhoeas,6.0,4.0,7.0,6.0,H,h,s,cr,SI,X,Po,in,FM
+Papaver somniferum,7.0,4.0,7.0,6.0,T,h,s,cr,I+,X,Po,se,NM
+Parietaria judaica,6.0,3.0,7.0,5.0,H,r,s,csr,not defined,not defined,W,wi,FM
+Paris quadrifolia,3.0,6.0,7.0,6.0,G,r,vvs,csr,SC,AFXF,Dt,wi,FM
+Parnassia palustris,8.0,8.0,7.0,2.0,H,h,sv,csr,not defined,X,Dt,in,FM
+Parthenocissus inserta,6.0,5.0,7.0,7.0,N,r,s,c,SC,AFXF,A,in,OM
+Pastinaca sativa,7.0,4.0,7.0,5.0,H,h,s,c,SC,AFXF,A,in,OM
+Paulownia tomentosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,not defined,Hh,in,OM
+Pedicularis oederi,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,Hh,se,NM
+Pedicularis palustris,7.0,8.0,5.0,2.0,H,h,s,cs,SC,XF,Hh,se,NM
+Pedicularis sceptrum-carolinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cs,not defined,not defined,Hh,se,NM
+Pedicularis sylvatica,7.0,7.0,1.0,2.0,H,h,s,csr,SC,X,Hh,se,NM
+Pedicularis verticillata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,Hh,in,FM
+Persicaria amphibia,7.0,10.0,6.0,4.0,H,r,vvs,cs,SI,X,B,in,FM
+Persicaria hydropiper,7.0,7.0,5.0,6.0,T,r,s,cr,SC,AO,B,se,FM
+Persicaria lapathifolia,6.0,6.0,6.0,7.0,T,r,s,cr,SC,AO,B,se,FM
+Persicaria maculosa,6.0,5.0,6.0,7.0,T,r,s,cr,SC,AO,B,se,FM
+Petasites albus,4.0,5.0,5.0,5.0,H,g,sv,cs,not defined,X,B`,in,FM
+Petasites hybridus,6.0,7.0,7.0,7.0,H,g,sv,cs,not defined,X,B`,in,FM
+Petasites spurius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,cs,not defined,X,B`,in,OM
+Petroselinum crispum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,XF,A,in,FM
+Peucedanum alsaticum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,XF,A,in,OM
+Peucedanum officinale,7.0,4.0,8.0,2.0,H,h,sv,c,SC,XF,A,in,OM
+Peucedanum ostruthium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SC,XF,A,in,OM
+Peucedanum palustre,7.0,9.0,5.0,4.0,H,h,ssv,cs,SC,XF,A,in,OM
+Phacelia tanacetifolia,8.0,5.0,7.0,7.0,T,r,s,r,SC,AFXF,H,se,OM
+Phalaris arundinacea,7.0,8.0,7.0,7.0,G,r,sv,c,SI,X,W,wi,FM
+Phaseolus coccineus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,not defined,C+,AF,H,se,OM
+Phaseolus vulgaris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,not defined,SC,AO,H,se,OM
+Phegopteris connectilis,2.0,6.0,3.0,5.0,G,r,sv,cs,not defined,not defined,not defined,not defined,FM
+Philadelphus coronarius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,ssv,c,SI,X,HF,in,FM
+Phleum alpinum,7.0,5.0,4.0,4.0,H,h,sv,csr,SI,X,W,wi,OM
+Phleum arenarium,9.0,3.0,5.0,3.0,H,h,s,sr,not defined,not defined,W,wi,NM
+Phleum hirsutum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,W,wi,OM
+Phleum phleoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,csr,SI,X,W,wi,FM
+Phleum pratense,7.0,5.0,6.0,6.0,H,h,ssv,c,C+,X,W,wi,OM
+Phlomis tuberosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,SC,XF,H,in,OM
+Phlox paniculata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,SC,AFXF,F,in,OM
+Phragmites australis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,vvs,cs,I+,X,W,wi,FM
+Phyllitis scolopendrium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,cs,not defined,not defined,not defined,not defined,OM
+Physalis alkekengi,5.0,6.0,8.0,7.0,G,r,sv,c,SC,AFXF,B,se,OM
+Phyteuma hemisphaericum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,not defined,se,FM
+Phyteuma orbiculare,7.0,4.0,7.0,3.0,H,h,s,csr,SI,X,not defined,se,OM
+Phyteuma spicatum,5.0,5.0,6.0,5.0,H,h,s,csr,SI,X,not defined,se,FM
+Picea abies,-5.0,6.0,4.0,4.0,M,r,s,c,SI,X,W,wi,OM
+Picea pungens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,SI,X,W,wi,OM
+Picris echioides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,csr,SC,X,B`,se,OM
+Picris hieracioides,8.0,4.0,7.0,3.0,H,h,s,csr,SI,X,B`,se,OM
+Pieris floribunda,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,not defined,SC,AFXF,B,in,OM
+Pilularia globulifera,8.0,9.0,4.0,2.0,A,r,sv,not defined,not defined,X,not defined,not defined,FM
+Pimpinella major,7.0,5.0,7.0,6.0,H,h,s,c,SC,XF,A,in,FM
+Pimpinella saxifraga,7.0,3.0,6.0,2.0,H,h,s,cs,SC,XF,A,in,FM
+Pinellia ternata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,not defined,not defined,not defined,Dke,in,OM
+Pinguicula alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,g,sv,s,SC,XF,Dkl,in,NM
+Pinguicula vulgaris,8.0,8.0,6.0,2.0,G,g,sv,s,SC,AF,Hb,se,FM
+Pinus cembra,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,XF,W,wi,OM
+Pinus mugo,8.0,6.0,4.0,3.0,M,r,s,c,SC,X,W,wi,OM
+Pinus nigra,-7.0,3.0,8.0,2.0,M,r,s,c,I+,X,W,wi,OM
+Pinus strobus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,XF,W,wi,OM
+Pinus sylvestris,-7.0,5.0,2.0,2.0,M,r,s,c,C+,X,W,wi,FM
+Pinus uncinata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,XF,W,wi,OM
+Pisum sativum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SC,AO,H,se,OM
+Plantago atrata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,not defined,not defined,Wb,wi,OM
+Plantago coronopus,8.0,6.0,6.0,4.0,H,g,s,s,not defined,not defined,Wb,wi,OM
+Plantago lanceolata,6.0,5.0,6.0,4.0,H,g,ssv,csr,I+,X,Wb,wi,OM
+Plantago major,7.0,5.0,6.0,6.0,H,g,ssv,csr,SC,XF,Wb,wi,OM
+Plantago maritima,8.0,7.0,6.0,4.0,H,g,s,s,SI,X,Wb,wi,OM
+Plantago media,7.0,4.0,7.0,3.0,H,g,sv,csr,I+,X,Wb,wi,OM
+Platanthera bifolia,6.0,5.0,6.0,2.0,G,h,s,csr,SC,XF,Fn,in,OM
+Platanthera chlorantha,5.0,5.0,7.0,4.0,G,h,s,csr,SC,XF,Fn,in,OM
+Poa alpina,7.0,5.0,6.0,3.0,H,h,sv,cs,SC,AFXF,W,wi,FM
+Poa angustifolia,7.0,4.0,6.0,3.0,H,h,sv,cs,SC,AFXF,W,wi,OM
+Poa annua,7.0,5.0,6.0,7.0,H,h,ssv,r,SC,AF,W,wi,FM
+Poa badensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AFXF,W,wi,FM
+Poa bulbosa,8.0,3.0,5.0,2.0,H,h,v,sr,SC,AFXF,W,wi,OM
+Poa compressa,9.0,3.0,7.0,3.0,H,r,sv,csr,SC,AFXF,W,wi,FM
+Poa glauca,7.0,5.0,6.0,3.0,H,h,sv,not defined,SC,AFXF,W,wi,OM
+Poa nemoralis,4.0,5.0,5.0,4.0,H,r,sv,csr,SC,AFXF,W,wi,FM
+Poa palustris,6.0,8.0,6.0,6.0,H,h,sv,cs,SC,AFXF,W,wi,FM
+Poa pratensis,6.0,5.0,6.0,6.0,H,h,sv,c,SC,AFXF,W,wi,FM
+Poa trivialis,6.0,6.0,6.0,6.0,H,h,sv,csr,SC,AFXF,W,wi,FM
+Polemonium caeruleum,5.0,5.0,7.0,6.0,H,h,ssv,csr,SC,XF,BHb,in,OM
+Polygala amara,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,csr,SC,AFXF,B,se,NM
+Polygala amarella,8.0,6.0,8.0,1.0,C,h,s,csr,SC,AFXF,B,se,FM
+Polygala calcarea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,csr,SC,AF,B,se,OM
+Polygala chamaebuxus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,cs,SC,AFXF,B,in,FM
+Polygala comosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,SC,AFXF,BHb,se,OM
+Polygala serpyllifolia,8.0,6.0,2.0,2.0,C,r,s,csr,SC,AF,B,se,OM
+Polygala vulgaris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,s,csr,SC,AF,B,se,OM
+Polygonatum multiflorum,2.0,5.0,6.0,5.0,G,r,sv,csr,not defined,not defined,Hh,se,FM
+Polygonatum odoratum,5.0,3.0,7.0,3.0,G,r,sv,csr,not defined,not defined,Hh,se,FM
+Polygonatum verticillatum,4.0,5.0,4.0,5.0,G,r,sv,csr,SC,AF,H,se,FM
+Polygonum aviculare,7.0,5.0,6.0,7.0,T,r,s,r,SC,AO,B,se,FM
+Polypodium vulgare,5.0,4.0,2.0,2.0,C,r,sv,cs,SC,AO,not defined,se,FM
+Polypogon monspeliensis,8.0,8.0,7.0,6.0,T,h,s,not defined,not defined,not defined,W,wi,FM
+Polystichum aculeatum,3.0,5.0,6.0,5.0,C,g,s,cs,not defined,not defined,not defined,not defined,FM
+Polystichum braunii,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,g,s,cs,not defined,not defined,not defined,not defined,FM
+Polystichum lonchitis,6.0,5.0,7.0,3.0,H,g,s,cs,not defined,not defined,not defined,not defined,FM
+Polystichum setiferum,3.0,5.0,5.0,5.0,C,g,s,cs,not defined,not defined,not defined,not defined,OM
+Populus alba,-5.0,6.0,7.0,6.0,M,r,ssv,c,not defined,X,W,wi,FM
+Populus nigra,-5.0,8.0,7.0,7.0,M,r,ssv,c,not defined,X,W,wi,OM
+Populus tremula,-6.0,5.0,5.0,5.0,M,r,sv,c,not defined,X,W,wi,OM
+Populus trichocarpa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,ssv,c,not defined,X,W,wi,OM
+Portulaca oleracea,7.0,4.0,7.0,7.0,T,r,s,r,SC,AO,AB,wi,FM
+Potamogeton crispus,6.0,12.0,7.0,5.0,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Potamogeton gramineus,7.0,12.0,5.0,3.0,A,r,sv,not defined,SC,XF,W,wi,NM
+Potamogeton lucens,6.0,12.0,6.0,6.0,A,r,sv,not defined,SC,XF,W,wi,NM
+Potamogeton natans,6.0,11.0,6.0,4.0,A,r,vvs,not defined,SC,XF,W,wi,FM
+Potamogeton pectinatus,6.0,12.0,7.0,7.0,A,r,vvs,not defined,SC,AFXF,W,wi,NM
+Potamogeton perfoliatus,6.0,12.0,6.0,5.0,A,r,vvs,not defined,SC,XF,W,wi,NM
+Potamogeton polygonifolius,7.0,10.0,3.0,2.0,A,r,sv,not defined,SC,XF,W,wi,NM
+Potamogeton praelongus,7.0,12.0,7.0,4.0,A,r,sv,not defined,SC,XF,W,wi,NM
+Potentilla anglica,7.0,5.0,5.0,4.0,H,g,sv,cs,not defined,not defined,AB,in,OM
+Potentilla anserina,7.0,6.0,7.0,6.0,H,g,sv,csr,SI,X,AB,in,OM
+Potentilla argentea,8.0,2.0,3.0,1.0,H,h,s,cs,SC,AF,AB,se,OM
+Potentilla aurea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AB,se,OM
+Potentilla crantzii,7.0,4.0,7.0,2.0,H,h,sv,csr,not defined,not defined,AB,se,OM
+Potentilla erecta,6.0,7.0,3.0,2.0,H,r,sv,csr,SI,X,AB,in,FM
+Potentilla fruticosa,8.0,6.0,8.0,2.0,N,r,ssv,c,not defined,not defined,AB,se,OM
+Potentilla palustris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,C+,AFXF,AB,se,FM
+Potentilla recta,8.0,3.0,5.0,2.0,H,h,ssv,cs,SC,XF,AB,se,OM
+Potentilla reptans,6.0,5.0,7.0,5.0,H,g,sv,csr,not defined,not defined,AB,in,OM
+Potentilla rupestris,7.0,4.0,6.0,2.0,H,h,ssv,cs,SC,AFXF,AB,se,OM
+Potentilla sterilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AB,se,OM
+Potentilla supina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,not defined,not defined,AB,in,OM
+Potentilla tabernaemontani,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,AB,se,OM
+Primula auricula,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,I+,X,Ft,in,OM
+Primula elatior,4.0,5.0,7.0,6.0,H,g,sv,csr,I+,X,HhFt,in,OM
+Primula farinosa,8.0,8.0,8.0,2.0,H,g,sv,csr,I+,X,Ft,in,OM
+Primula minima,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,SI,X,Ft,se,FM
+Primula veris,7.0,4.0,7.0,3.0,H,g,sv,csr,I+,X,HhFt,in,FM
+Primula vulgaris,5.0,5.0,6.0,4.0,H,g,sv,csr,SC,X,HhFt,in,OM
+Prunella grandiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,sv,csr,SC,XF,Hh,se,OM
+Prunella vulgaris,7.0,5.0,6.0,4.0,C,r,sv,csr,SC,X,H,se,FM
+Prunus armeniaca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,SC,AFXF,AB,in,OM
+Prunus avium,-4.0,5.0,6.0,5.0,M,r,s,c,SI,X,AB,se,OM
+Prunus cerasifera,6.0,5.0,7.0,6.0,M,r,s,c,I+,X,AB,in,OM
+Prunus cerasus,6.0,5.0,7.0,5.0,M,r,ssv,c,SC,XF,AB,se,OM
+Prunus domestica,6.0,5.0,7.0,5.0,M,r,ssv,c,SC,X,AB,se,FM
+Prunus fruticosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,ssv,cs,not defined,not defined,AB,in,OM
+Prunus mahaleb,7.0,3.0,8.0,2.0,M,r,s,c,not defined,not defined,AB,in,OM
+Prunus padus,-5.0,6.0,6.0,6.0,M,r,ssv,c,not defined,not defined,AB,se,OM
+Prunus persica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,SC,XF,AB,se,OM
+Prunus serotina,-6.0,5.0,4.0,4.0,M,r,ssv,c,SI,X,AB,wi,OM
+Prunus spinosa,6.0,4.0,7.0,5.0,N,r,sv,c,not defined,not defined,AB,se,FM
+Prunus virginiana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,ssv,c,not defined,not defined,AB,in,OM
+Pseudognaphalium luteoalbum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,not defined,not defined,B`,in,OM
+Pseudolysimachion spicatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,vvs,csr,SC,AFXF,B,se,OM
+Pseudorchis albida,8.0,5.0,2.0,2.0,G,h,s,csr,SC,AFXF,B,se,OM
+Pseudotsuga menziesii,4.0,5.0,5.0,5.0,M,r,s,c,C+,AFXF,W,wi,OM
+Pteridium aquilinum,6.0,5.0,3.0,3.0,G,r,sv,c,SC,XF,not defined,not defined,FM
+Puccinellia distans,8.0,6.0,7.0,4.0,H,h,sv,s,SI,X,W,wi,FM
+Puccinellia limosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,s,not defined,not defined,W,wi,OM
+Puccinellia maritima,9.0,8.0,7.0,6.0,H,h,sv,s,I+,X,W,wi,FM
+Pulicaria dysenterica,7.0,7.0,7.0,4.0,H,r,sv,cs,not defined,not defined,B`,in,OM
+Pulmonaria mollis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,H,in,OM
+Pulmonaria obscura,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,H,in,OM
+Pulmonaria officinalis,4.0,5.0,7.0,6.0,H,h,sv,csr,SI,X,B,in,FM
+Pulsatilla alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B,se,OM
+Pulsatilla patens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,SC,XF,B,se,OM
+Pulsatilla pratensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,csr,C+,X,B,in,OM
+Pulsatilla vulgaris,7.0,2.0,7.0,2.0,H,g,sv,csr,C+,XF,BHb,se,FM
+Pyrola chlorantha,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,SC,AFXF,B,se,OM
+Pyrola media,4.0,4.0,4.0,2.0,H,g,sv,s,SC,AO,B,se,OM
+Pyrola minor,5.0,5.0,3.0,2.0,H,g,sv,s,SC,AO,B,se,FM
+Pyrola rotundifolia,4.0,5.0,5.0,3.0,H,g,sv,s,SC,AF,BD,se,OM
+Pyrus communis,6.0,5.0,7.0,5.0,M,r,ssv,c,SI,X,ABDe,in,OM
+Pyrus pyraster,6.0,4.0,7.0,5.0,M,r,ssv,c,SI,X,ABDe,in,OM
+Quercus cerris,-6.0,4.0,6.0,4.0,M,r,s,c,SI,X,W,wi,OM
+Quercus petraea,-6.0,5.0,3.0,4.0,M,r,s,c,SI,X,W,wi,OM
+Quercus pubescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,SI,X,W,wi,OM
+Quercus robur,-7.0,5.0,5.0,4.0,M,r,s,c,I+,X,W,wi,OM
+Quercus rubra,5.0,5.0,6.0,5.0,M,r,s,c,SI,X,W,wi,OM
+Ranunculus acris,7.0,6.0,6.0,4.0,H,h,s,c,SI,X,AB,in,OM
+Ranunculus alpestris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,s,not defined,not defined,AB,se,OM
+Ranunculus aquatilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,SC,AFXF,AB,se,OM
+Ranunculus arvensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,r,SC,XF,AB,se,OM
+Ranunculus bulbosus,7.0,3.0,7.0,3.0,G,h,s,csr,SI,X,AB,in,OM
+Ranunculus cassubicus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,not defined,SC,AF,AB,se,OM
+Ranunculus ficaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,vvs,csr,not defined,not defined,AB,in,FM
+Ranunculus flammula,7.0,9.0,3.0,2.0,H,h,sv,csr,I+,X,AB,se,FM
+Ranunculus fluitans,7.0,12.0,7.0,6.0,A,r,sv,not defined,SC,AO,AB,se,NM
+Ranunculus glacialis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,s,not defined,not defined,AB,se,FM
+Ranunculus lingua,7.0,10.0,6.0,6.0,H,r,sv,cs,SI,X,AB,se,FM
+Ranunculus montanus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SI,X,AB,se,OM
+Ranunculus nemorosus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,AB,in,OM
+Ranunculus polyanthemos,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SI,X,AB,in,OM
+Ranunculus repens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,I+,X,AB,se,FM
+Ranunculus reptans,8.0,9.0,6.0,2.0,H,h,sv,s,C+,X,AB,in,OM
+Ranunculus sardous,8.0,7.0,6.0,7.0,H,h,s,sr,SI,X,AB,se,OM
+Ranunculus sceleratus,8.0,8.0,7.0,8.0,T,h,s,sr,SI,X,AB,in,FM
+Raphanus raphanistrum,6.0,5.0,4.0,6.0,T,h,s,cr,SI,X,AB,se,NM
+Raphanus sativus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,C+,X,AB,se,FM
+Reseda alba,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,not defined,not defined,AB,in,NM
+Reseda lutea,7.0,3.0,7.0,5.0,H,h,s,csr,I+,X,AB,in,FM
+Reseda luteola,7.0,4.0,8.0,6.0,H,h,s,cs,SC,XF,AB,se,FM
+Rhamnus cathartica,7.0,4.0,8.0,4.0,N,r,s,c,not defined,X,ADe,in,FM
+Rhinanthus angustifolius,7.0,6.0,7.0,2.0,T,r,s,csr,SC,XF,Hh,se,FM
+Rhinanthus minor,7.0,4.0,5.0,3.0,T,r,s,csr,SC,AFXF,Hh,se,FM
+Rhodiola rosea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,SC,X,AB,se,FM
+Rhododendron ferrugineum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,cs,SC,XF,Hh,se,OM
+Rhododendron hirsutum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,cs,SC,AFXF,Hh,se,OM
+Rhododendron luteum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,not defined,SC,XF,F,in,FM
+Rhodothamnus chamaecistus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,SC,AFXF,A,se,OM
+Rhus coriaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,not defined,not defined,X,A,in,NM
+Rhynchospora alba,8.0,9.0,2.0,1.0,G,h,sv,s,SC,XF,W,wi,NM
+Ribes alpinum,5.0,5.0,7.0,6.0,N,r,s,c,not defined,X,B,in,FM
+Ribes aureum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SI,X,B,in,OM
+Ribes nigrum,4.0,7.0,6.0,5.0,N,r,s,c,I+,X,B,se,OM
+Ribes rubrum,4.0,7.0,6.0,6.0,N,r,s,c,not defined,not defined,AB,se,OM
+Ribes spicatum,4.0,6.0,7.0,6.0,N,r,s,c,not defined,not defined,B,se,OM
+Ribes uva-crispa,4.0,5.0,6.0,6.0,N,r,sv,c,not defined,not defined,B,se,OM
+Robinia pseudoacacia,-5.0,4.0,6.0,6.0,M,r,sv,c,not defined,not defined,H,in,OM
+Roegneria canina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,SC,AF,W,wi,OM
+Rorippa amphibia,7.0,10.0,7.0,8.0,H,h,sv,cs,SI,X,AB,se,NM
+Rorippa palustris,7.0,8.0,6.0,7.0,H,h,sv,cr,SC,AO,AB,se,NM
+Rosa arvensis,5.0,4.0,6.0,5.0,N,r,sv,c,SI,X,Po,se,OM
+Rosa canina,7.0,4.0,7.0,4.0,N,r,s,c,SC,AF,Po,se,OM
+Rosa glauca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,AFXF,Po,se,OM
+Rosa majalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,I+,X,Po,in,OM
+Rosa mollis,5.0,3.0,7.0,2.0,N,r,sv,c,SC,AFXF,Po,se,OM
+Rosa multiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SI,X,Po,in,FM
+Rosa pendulina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,c,C+,XF,Po,in,OM
+Rosa rubiginosa,7.0,3.0,8.0,3.0,N,r,s,c,SC,AFXF,Po,se,OM
+Rosa rugosa,8.0,5.0,7.0,6.0,N,r,sv,c,SC,X,Po,in,OM
+Rubus allegheniensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rubus caesius,6.0,6.0,7.0,6.0,P,r,sv,c,SC,XF,B,se,OM
+Rubus chamaemorus,9.0,7.0,1.0,1.0,P,r,vvs,cs,not defined,X,B,in,FM
+Rubus hirtus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rubus idaeus,6.0,5.0,5.0,5.0,P,r,sv,c,SI,X,BH,se,FM
+Rubus nessensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rubus odoratus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SI,X,B,in,OM
+Rubus phoenicolasius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,not defined,not defined,B,in,OM
+Rubus plicatus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rubus saxatilis,6.0,5.0,7.0,4.0,P,r,sv,csr,SI,X,BH,in,OM
+Rubus ulmifolius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rubus vestitus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,P,r,sv,c,SC,XF,B,se,OM
+Rudbeckia hirta,7.0,4.0,7.0,5.0,H,r,s,cr,SI,X,B`,in,OM
+Rudbeckia laciniata,7.0,8.0,7.0,7.0,H,r,sv,c,not defined,not defined,B`,in,OM
+Rumex acetosa,7.0,5.0,5.0,4.0,H,h,sv,c,not defined,X,Wb,wi,FM
+Rumex acetosella,7.0,3.0,2.0,2.0,G,h,sv,csr,not defined,X,Wb,wi,FM
+Rumex alpinus,7.0,6.0,6.0,8.0,H,h,sv,c,not defined,not defined,Wb,wi,FM
+Rumex conglomeratus,7.0,7.0,7.0,7.0,H,h,s,c,SC,AF,Wb,wi,NM
+Rumex crispus,7.0,6.0,6.0,6.0,H,h,sv,c,C+,AFXF,Wb,wi,FM
+Rumex hydrolapathum,7.0,10.0,7.0,6.0,H,h,ssv,cs,not defined,not defined,Wb,wi,NM
+Rumex longifolius,7.0,5.0,7.0,7.0,H,h,s,c,not defined,not defined,Wb,wi,FM
+Rumex obtusifolius,7.0,5.0,6.0,8.0,H,h,ssv,c,C+,XF,Wb,wi,FM
+Rumex palustris,7.0,8.0,7.0,8.0,H,h,s,sr,not defined,not defined,Wb,wi,NM
+Rumex scutatus,8.0,4.0,7.0,3.0,C,h,sv,csr,not defined,not defined,Wb,wi,FM
+Rumex thyrsiflorus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,not defined,X,Wb,wi,NM
+Ruta graveolens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,s,cs,not defined,not defined,A,se,OM
+Sagina apetala,9.0,4.0,6.0,3.0,T,r,s,r,SC,AO,AB,se,NM
+Sagina maritima,9.0,7.0,7.0,4.0,T,r,s,sr,SC,AO,AB,se,OM
+Sagina procumbens,7.0,5.0,5.0,5.0,C,h,s,csr,SC,AO,AB,se,NM
+Sagina subulata,8.0,6.0,6.0,4.0,C,h,s,s,SC,AF,AB,se,NM
+Sagittaria latifolia,7.0,10.0,7.0,7.0,A,g,sv,cs,SC,XF,Po,in,OM
+Sagittaria sagittifolia,7.0,10.0,7.0,6.0,A,g,sv,cs,SC,AFXF,Po,in,FM
+Salicornia europaea,9.0,8.0,8.0,6.0,T,r,s,s,SC,AF,Wb,wi,FM
+Salix acutifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,X,AB,wi,OM
+Salix alba,-5.0,7.0,7.0,7.0,M,r,s,c,not defined,X,AB,in,FM
+Salix aurita,6.0,8.0,4.0,3.0,N,r,s,c,not defined,X,AB,in,FM
+Salix caprea,7.0,6.0,6.0,6.0,M,r,s,c,not defined,X,AB,in,OM
+Salix cinerea,6.0,8.0,5.0,4.0,N,r,sv,c,not defined,X,AB,in,OM
+Salix daphnoides,-6.0,7.0,7.0,4.0,M,r,sv,c,not defined,X,AB,in,OM
+Salix dasyclados,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,not defined,X,AB,in,OM
+Salix fragilis,6.0,8.0,7.0,7.0,M,r,sv,c,not defined,X,AB,in,OM
+Salix hastata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,cs,not defined,X,AB,in,OM
+Salix herbacea,7.0,5.0,3.0,2.0,S,r,vvs,s,not defined,X,AB,wi,OM
+Salix myrsinifolia,6.0,7.0,5.0,4.0,M,r,s,c,not defined,X,AB,in,OM
+Salix myrtilloides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,cs,not defined,X,AB,in,FM
+Salix purpurea,8.0,8.0,7.0,5.0,M,r,s,c,not defined,X,AB,in,OM
+Salix repens,8.0,7.0,5.0,2.0,N,r,sv,c,not defined,X,AB,in,OM
+Salix reticulata,7.0,6.0,8.0,3.0,S,r,sv,cs,not defined,X,AB,in,OM
+Salix retusa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,sv,cs,not defined,X,AB,in,OM
+Salix rosmarinifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,sv,cs,not defined,X,AB,in,OM
+Salix triandra,7.0,8.0,7.0,5.0,M,r,s,c,not defined,X,AB,in,OM
+Salix viminalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,sv,cs,not defined,X,AB,in,OM
+Salsola kali,9.0,6.0,7.0,8.0,T,r,s,sr,SC,AFXF,Wb,wi,FM
+Salvia glutinosa,4.0,6.0,7.0,7.0,H,r,s,cs,SC,XF,Hh,in,OM
+Salvia nemorosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cs,SC,XF,H,in,OM
+Salvia officinalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,cs,SC,XF,H,in,OM
+Salvia pratensis,7.0,3.0,8.0,4.0,H,h,ssv,csr,SC,XF,Hh,se,OM
+Salvia verticillata,7.0,4.0,7.0,5.0,H,r,ssv,csr,SC,XF,H,in,OM
+Salvinia natans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,not defined,not defined,X,not defined,not defined,FM
+Sambucus nigra,6.0,5.0,6.0,7.0,M,r,s,c,SC,AF,Po,se,FM
+Sambucus racemosa,6.0,5.0,5.0,7.0,N,r,s,c,SC,AF,PoDe,se,FM
+Samolus valerandi,7.0,8.0,7.0,5.0,H,h,sv,s,SC,AF,Po,se,OM
+Sanguisorba minor,7.0,3.0,7.0,3.0,H,h,ssv,csr,not defined,X,W,wi,OM
+Sanguisorba officinalis,7.0,6.0,6.0,5.0,H,h,sv,cs,not defined,not defined,AB,se,OM
+Sanicula europaea,3.0,5.0,7.0,5.0,H,g,sv,csr,SC,AFXF,A,ge,OM
+Saponaria officinalis,7.0,5.0,6.0,5.0,H,r,sv,c,SC,AF,Fn,se,NM
+Satureja hortensis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,B,in,OM
+Saussurea alpina,8.0,6.0,6.0,3.0,H,h,sv,csr,not defined,not defined,B`,in,OM
+Saussurea pygmaea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,in,OM
+Saxifraga aizoides,8.0,9.0,6.0,2.0,C,r,sv,s,SC,AFXF,ADe,se,FM
+Saxifraga bryoides,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,sv,s,SC,XF,ADe,in,NM
+Saxifraga cymbalaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,SC,AFXF,A,se,FM
+Saxifraga granulata,7.0,4.0,5.0,3.0,H,h,vvs,csr,SC,XF,AB,in,FM
+Saxifraga hirculus,8.0,9.0,6.0,2.0,H,r,sv,s,SC,XF,A,in,NM
+Saxifraga moschata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,sv,s,SC,XF,ADe,se,NM
+Saxifraga oppositifolia,8.0,5.0,8.0,2.0,C,r,ssv,s,SC,XF,FHb,se,FM
+Saxifraga paniculata,7.0,3.0,8.0,2.0,C,h,sv,csr,SC,XF,ADe,in,FM
+Saxifraga stellaris,8.0,8.0,5.0,3.0,C,h,sv,s,SC,XF,ADe,se,FM
+Scabiosa columbaria,8.0,3.0,8.0,2.0,H,h,ssv,csr,SC,XF,B`,in,OM
+Scabiosa lucida,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,csr,SC,XF,B`,in,OM
+Scabiosa ochroleuca,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,XF,B`,se,OM
+Scandix pecten-veneris,7.0,3.0,7.0,4.0,H,h,s,r,SC,AF,A,se,OM
+Scheuchzeria palustris,9.0,9.0,1.0,1.0,G,h,sv,s,SC,XF,W,wi,NM
+Schoenoplectus supinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,h,s,sr,SC,AFXF,W,wi,OM
+Schoenoplectus tabernaemontani,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,cs,SC,XF,W,wi,NM
+Schoenus ferrugineus,8.0,8.0,7.0,2.0,H,r,sv,csr,SC,XF,W,wi,FM
+Schoenus nigricans,8.0,8.0,7.0,2.0,H,r,sv,csr,SC,XF,W,wi,FM
+Scilla siberica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,csr,SC,XF,AB,in,OM
+Scirpoides holoschoenus,8.0,7.0,7.0,4.0,G,h,sv,cs,SC,AFXF,W,wi,NM
+Scirpus cyperinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,s,SC,AFXF,W,wi,OM
+Scirpus sylvaticus,6.0,8.0,4.0,4.0,G,h,sv,cs,SC,XF,W,wi,NM
+Scleranthus annuus,6.0,4.0,2.0,4.0,T,r,s,r,SC,AO,AB,se,FM
+Scolochloa festucacea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,r,sv,cs,not defined,not defined,W,wi,OM
+Scorzonera humilis,7.0,7.0,5.0,2.0,H,h,s,csr,not defined,not defined,B`,ge,OM
+Scorzonera purpurea,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,B`,ge,OM
+Scrophularia auriculata,7.0,8.0,7.0,7.0,H,r,sv,cs,not defined,not defined,BHw,se,OM
+Scrophularia nodosa,4.0,6.0,6.0,6.0,H,r,sv,cs,SC,XF,Hw,in,FM
+Scrophularia umbrosa,6.0,9.0,7.0,7.0,H,r,sv,cs,not defined,not defined,BHw,se,NM
+Scrophularia vernalis,5.0,5.0,7.0,6.0,H,r,s,csr,not defined,not defined,BHw,se,NM
+Scutellaria galericulata,6.0,8.0,6.0,5.0,H,r,sv,csr,SC,AF,HhF,se,FM
+Securigera varia,7.0,4.0,7.0,3.0,H,r,ssv,c,I+,X,H,in,FM
+Sedum acre,8.0,2.0,6.0,1.0,C,r,sv,s,SC,AFXF,AB,se,FM
+Sedum album,8.0,2.0,6.0,1.0,C,r,sv,s,SC,XF,AB,se,FM
+Sedum alpestre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,s,SC,AFXF,AB,se,NM
+Sedum dasyphyllum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,s,SC,AFXF,AB,se,NM
+Sedum forsterianum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,s,SC,AFXF,AB,se,NM
+Sedum hispanicum,9.0,3.0,5.0,4.0,H,r,s,s,SC,AFXF,AB,se,NM
+Sedum rubens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,sr,SC,AFXF,AB,se,NM
+Sedum sarmentosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,not defined,SC,AFXF,AB,se,OM
+Sedum spurium,8.0,3.0,5.0,3.0,C,h,sv,s,SC,AFXF,AB,se,NM
+Sedum telephium,7.0,5.0,7.0,5.0,G,r,s,cs,SC,AFXF,AB,se,NM
+Selaginella selaginoides,8.0,7.0,6.0,2.0,C,r,s,s,not defined,X,not defined,not defined,OM
+Sempervivum arachnoideum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,vvs,s,SC,XF,B,se,NM
+Sempervivum tectorum,8.0,2.0,4.0,4.0,C,h,vvs,s,SC,X,B,in,FM
+Senecio erucifolius,7.0,3.0,7.0,4.0,H,h,sv,csr,SI,X,B`,in,OM
+Senecio inaequidens,8.0,3.0,6.0,3.0,S,r,s,cs,not defined,not defined,B`,se,FM
+Senecio incanus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,not defined,not defined,B`,in,OM
+Senecio jacobaea,7.0,4.0,6.0,4.0,H,h,ssv,c,SI,X,B`,in,FM
+Senecio subalpinus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,B`,se,OM
+Senecio sylvaticus,7.0,5.0,5.0,6.0,H,h,s,cr,SC,AF,B`,se,FM
+Senecio vernalis,7.0,4.0,6.0,6.0,H,h,s,r,not defined,not defined,B`,in,OM
+Senecio viscosus,8.0,3.0,6.0,4.0,H,h,s,sr,SC,AF,B`,se,OM
+Senecio vulgaris,7.0,5.0,6.0,7.0,H,r,s,r,SC,AF,B`,se,FM
+Serratula tinctoria,6.0,6.0,6.0,2.0,H,h,sv,c,not defined,not defined,B`,in,OM
+Seseli libanotis,7.0,4.0,8.0,3.0,H,h,s,c,SC,XF,A,in,OM
+Sesleria albicans,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,s,cs,I+,XF,W,wi,FM
+Setaria italica,8.0,4.0,7.0,7.0,T,h,s,cr,SC,AF,W,wi,OM
+Setaria pumila,7.0,4.0,5.0,6.0,T,h,ssv,r,SC,AO,W,se,OM
+Setaria verticillata,7.0,4.0,6.0,7.0,T,h,ssv,cr,SC,AO,W,se,OM
+Setaria viridis,7.0,4.0,6.0,6.0,T,h,s,r,SC,AFXF,W,wi,FM
+Sherardia arvensis,6.0,4.0,6.0,4.0,H,r,s,r,SC,X,F,se,OM
+Sibbaldia procumbens,8.0,5.0,4.0,3.0,H,h,sv,s,SC,XF,AD,se,FM
+Sigesbeckia serrata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,not defined,not defined,B`,se,OM
+Silaum silaus,7.0,5.0,7.0,3.0,H,h,s,c,SC,XF,A,in,OM
+Silene acaulis,8.0,5.0,6.0,1.0,C,r,s,s,SC,XF,FHh,se,FM
+Silene chlorantha,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AFXF,Fn,in,NM
+Silene dioica,5.0,6.0,6.0,7.0,H,h,ssv,c,SC,X,Ft,in,FM
+Silene latifolia,7.0,4.0,7.0,6.0,H,h,ssv,c,SC,X,Fn,in,NM
+Silene noctiflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,AF,Fn,se,NM
+Silene nutans,6.0,3.0,6.0,3.0,H,h,ssv,csr,SC,XF,Fn,se,FM
+Silene otites,8.0,2.0,7.0,2.0,H,h,s,s,SC,X,FD,in,OM
+Silene rupestris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,XF,Fn,se,NM
+Silene vulgaris,6.0,4.0,6.0,4.0,C,r,s,csr,SC,XF,FHh,se,NM
+Sinapis alba,7.0,4.0,7.0,6.0,T,r,s,cr,SI,X,A,in,NM
+Sinapis arvensis,7.0,5.0,7.0,6.0,T,r,s,cr,SI,X,A,se,FM
+Sisymbrium altissimum,8.0,4.0,6.0,4.0,H,h,s,cr,SC,AO,AB,se,NM
+Sisymbrium irio,8.0,3.0,7.0,5.0,H,h,s,r,SC,XF,AB,se,OM
+Sisymbrium loeselii,7.0,4.0,7.0,5.0,H,h,s,cr,SC,AFXF,AB,se,FM
+Sisymbrium officinale,7.0,4.0,7.0,7.0,H,h,s,cr,SC,AO,AB,se,FM
+Sisymbrium orientale,7.0,4.0,7.0,5.0,H,h,s,cr,SC,AF,AB,se,FM
+Sium latifolium,7.0,10.0,7.0,7.0,H,h,sv,cs,SC,XF,A,ge,FM
+Solanum dulcamara,6.0,8.0,6.0,7.0,S,r,sv,c,SC,AFXF,Po,in,FM
+Solanum nigrum,7.0,5.0,7.0,8.0,T,r,s,r,SC,AF,Po,se,FM
+Solanum tuberosum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,sv,cr,SC,X,Po,se,OM
+Soldanella alpina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,SI,XF,Hb,se,FM
+Solidago canadensis,7.0,5.0,6.0,6.0,H,r,sv,c,I+,X,B`,in,FM
+Solidago gigantea,7.0,5.0,5.0,6.0,H,r,sv,c,not defined,not defined,B`,in,OM
+Solidago graminifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,I+,X,B`,in,OM
+Solidago virgaurea,5.0,5.0,4.0,3.0,H,r,sv,c,SI,X,B`,se,OM
+Sonchus arvensis,7.0,5.0,7.0,6.0,H,h,sv,cr,SI,X,B`,se,FM
+Sonchus asper,7.0,5.0,7.0,6.0,H,h,s,cr,SC,AF,B`,se,FM
+Sonchus oleraceus,7.0,4.0,7.0,7.0,H,h,s,cr,SC,AO,B`,se,OM
+Sorbaria sorbifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,XF,AB,se,OM
+Sorbus aria,6.0,4.0,7.0,3.0,M,r,s,c,not defined,not defined,AB,in,OM
+Sorbus aucuparia,-6.0,5.0,3.0,4.0,M,r,s,c,I+,X,ABDe,in,FM
+Sorbus domestica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,sv,c,SC,XF,AB,se,OM
+Sorbus intermedia,6.0,6.0,8.0,7.0,M,r,s,c,not defined,not defined,AB,in,OM
+Sorbus torminalis,-4.0,4.0,6.0,4.0,M,r,ssv,c,not defined,not defined,AB,in,OM
+Sorghum halepense,8.0,6.0,7.0,7.0,G,h,sv,c,SC,X,W,se,FM
+Sparganium angustifolium,7.0,11.0,3.0,1.0,A,h,sv,cs,SC,XF,W,wi,NM
+Sparganium emersum,7.0,10.0,6.0,6.0,A,h,sv,cs,SC,XF,W,wi,NM
+Sparganium erectum,7.0,10.0,7.0,7.0,A,h,vvs,cs,SC,XF,Wb,wi,FM
+Spartina anglica,9.0,9.0,8.0,6.0,G,r,vvs,not defined,C+,XF,W,wi,NM
+Spartina pectinata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,not defined,not defined,not defined,W,wi,OM
+Spergula arvensis,6.0,4.0,3.0,5.0,T,r,s,sr,SC,AO,AB,se,FM
+Spergularia media,7.0,7.0,7.0,5.0,H,r,s,s,SC,AF,AB,se,FM
+Spergularia rubra,7.0,3.0,3.0,2.0,H,r,s,r,SC,AO,AB,se,NM
+Spergularia salina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,s,SC,AO,AB,se,FM
+Spiraea japonica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,not defined,AB,in,FM
+Spiraea media,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,not defined,AB,in,OM
+Spiraea salicifolia,7.0,8.0,5.0,5.0,N,r,sv,c,SC,not defined,AB,se,NM
+Spiraea tomentosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,N,r,s,c,SC,not defined,AB,in,OM
+Spiranthes aestivalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,h,sv,csr,SC,AFXF,BHh,in,OM
+Spiranthes spiralis,7.0,4.0,5.0,2.0,G,h,sv,csr,SC,XF,BHh,in,OM
+Spirodela polyrhiza,7.0,11.0,6.0,6.0,A,r,v,not defined,SC,AF,W,wi,OM
+Sporobolus cryptandrus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,SC,AO,W,se,OM
+Stachys germanica,7.0,3.0,7.0,5.0,H,r,s,cs,SC,XF,H,in,OM
+Stachys palustris,7.0,7.0,7.0,6.0,G,r,sv,c,SC,AFXF,H,se,OM
+Stachys recta,7.0,3.0,8.0,2.0,H,r,s,csr,SC,XF,H,in,NM
+Stachys sylvatica,4.0,6.0,7.0,7.0,H,r,sv,cs,SC,AFXF,H,se,FM
+Staphylea pinnata,5.0,5.0,8.0,4.0,N,r,s,c,not defined,not defined,AB,se,NM
+Stellaria alsine,5.0,8.0,4.0,4.0,H,r,sv,csr,SC,AO,AB,se,NM
+Stellaria graminea,6.0,5.0,4.0,3.0,H,r,sv,cs,SC,AFXF,AB,se,FM
+Stellaria holostea,5.0,5.0,6.0,5.0,C,r,sv,csr,SC,AF,AB,se,FM
+Stellaria media,6.0,5.0,6.0,7.0,H,r,s,cr,SC,AF,AB,se,FM
+Stellaria nemorum,4.0,6.0,5.0,7.0,H,r,sv,csr,SC,XF,AB,se,FM
+Stellaria pallida,7.0,4.0,4.0,4.0,H,r,s,r,SC,AO,AB,se,FM
+Stellaria palustris,5.0,8.0,4.0,2.0,H,r,sv,csr,SC,AF,AB,se,NM
+Stipa capillata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SC,AF,W,wi,OM
+Stipa pennata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SC,AF,W,wi,OM
+Stipa pulcherrima,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SC,AFXF,W,wi,OM
+Stipa splendens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,not defined,not defined,W,wi,OM
+Stipa tirsa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,ssv,cs,SC,AF,W,wi,OM
+Suaeda maritima,9.0,8.0,8.0,6.0,T,r,s,s,SC,AF,Wb,wi,FM
+Succisa pratensis,7.0,7.0,5.0,2.0,H,h,ssv,cs,SC,XF,B`,se,OM
+Swertia perennis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,XF,B,se,OM
+Symphoricarpos albus,5.0,5.0,6.0,7.0,N,r,sv,c,SC,AFXF,B,se,OM
+Symphytum officinale,7.0,7.0,7.0,8.0,H,h,ssv,c,not defined,not defined,Hh,se,FM
+Symphytum tuberosum,4.0,5.0,6.0,6.0,H,r,sv,csr,not defined,not defined,Hh,se,FM
+Syringa vulgaris,7.0,4.0,7.0,6.0,M,r,sv,c,not defined,X,B,se,OM
+Tamus communis,6.0,5.0,7.0,6.0,G,r,s,c,not defined,X,B,in,OM
+Tanacetum balsamita,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,c,not defined,not defined,B`,in,OM
+Tanacetum parthenium,7.0,4.0,7.0,6.0,C,h,s,csr,not defined,not defined,B`,in,FM
+Tanacetum vulgare,7.0,5.0,7.0,5.0,H,h,ssv,c,not defined,not defined,B`,in,FM
+Taxus baccata,-4.0,4.0,7.0,5.0,M,r,s,c,not defined,X,W,wi,OM
+Telekia speciosa,5.0,7.0,7.0,7.0,H,h,sv,cs,not defined,not defined,B`,in,FM
+Teucrium botrys,9.0,2.0,8.0,2.0,H,r,s,sr,SC,AFXF,H,se,OM
+Teucrium chamaedrys,7.0,2.0,8.0,1.0,S,r,sv,csr,SC,XF,Hh,se,OM
+Teucrium montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,csr,SC,XF,H,in,OM
+Teucrium scordium,7.0,8.0,7.0,4.0,H,r,sv,csr,SC,XF,H,se,OM
+Teucrium scorodonia,6.0,4.0,2.0,3.0,C,r,sv,csr,SC,XF,H,se,OM
+Thalictrum aquilegiifolium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,c,not defined,not defined,Po,wi,OM
+Thalictrum lucidum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,not defined,not defined,PoWb,wi,OM
+Thalictrum minus,6.0,3.0,6.0,3.0,H,h,sv,cs,not defined,not defined,Wb,wi,OM
+Thalictrum simplex,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,not defined,not defined,Wb,wi,OM
+Thelypteris palustris,5.0,8.0,5.0,5.0,G,r,sv,cs,SI,X,not defined,not defined,FM
+Thesium alpinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,SC,AFXF,B,se,NM
+Thlaspi arvense,6.0,4.0,7.0,6.0,H,h,s,r,SC,AO,AB,se,FM
+Thlaspi caerulescens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,csr,SC,AFXF,AB,se,OM
+Thlaspi montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,h,s,cs,SC,AF,AB,se,OM
+Thlaspi perfoliatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,sr,SC,AF,AB,se,NM
+Thuja orientalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,M,r,s,c,not defined,not defined,W,wi,OM
+Thymus pulegioides,7.0,4.0,6.0,1.0,S,r,ssv,csr,SC,XF,B,in,OM
+Thymus serpyllum,7.0,2.0,4.0,1.0,S,r,sv,csr,SC,XF,B,se,OM
+Thymus vulgaris,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,S,r,s,csr,SC,XF,B,se,OM
+Tilia cordata,-5.0,5.0,6.0,5.0,M,r,ssv,c,I+,XF,A,wi,FM
+Tilia platyphyllos,-4.0,5.0,7.0,6.0,M,r,s,c,SI,X,A,wi,FM
+Tofieldia calyculata,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,cs,SC,XF,AB,se,OM
+Tofieldia pusilla,8.0,9.0,7.0,2.0,H,h,sv,s,SC,AFXF,AB,se,FM
+Torilis arvensis,7.0,4.0,7.0,4.0,H,h,s,cr,SC,AF,A,se,OM
+Torilis japonica,6.0,5.0,7.0,7.0,H,h,s,c,SC,XF,A,in,OM
+Tragopogon dubius,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AFXF,B`,se,OM
+Tragopogon orientalis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,SC,AFXF,B`,se,OM
+Tragopogon pratensis,7.0,4.0,7.0,5.0,H,h,s,csr,SC,AFXF,B`,se,OM
+Tragus racemosus,8.0,3.0,6.0,6.0,T,h,s,r,not defined,not defined,W,wi,OM
+Trichomanes speciosum,1.0,7.0,2.0,2.0,H,r,v,not defined,not defined,not defined,not defined,not defined,NM
+Trichophorum alpinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,SC,XF,W,wi,NM
+Trichophorum cespitosum,8.0,8.0,1.0,1.0,H,r,sv,cs,SC,XF,W,wi,FM
+Trientalis europaea,4.0,6.0,3.0,2.0,G,r,vvs,s,C+,X,Po,se,FM
+Trifolium alexandrinum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,SI,X,H,in,OM
+Trifolium alpestre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,SI,X,H,in,OM
+Trifolium arvense,8.0,3.0,2.0,1.0,H,r,s,sr,SC,AF,H,se,OM
+Trifolium aureum,7.0,4.0,4.0,2.0,H,h,s,csr,SC,AFXF,H,se,OM
+Trifolium badium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,s,SC,AFXF,H,se,OM
+Trifolium campestre,8.0,4.0,6.0,3.0,H,r,s,r,SC,AF,H,se,OM
+Trifolium dubium,6.0,4.0,6.0,4.0,H,r,s,r,SC,AFXF,H,se,OM
+Trifolium fragiferum,8.0,7.0,7.0,6.0,H,h,ssv,csr,C+,XF,H,se,FM
+Trifolium hybridum,7.0,5.0,7.0,5.0,H,h,s,c,SI,X,H,in,FM
+Trifolium incarnatum,8.0,2.0,5.0,2.0,H,r,s,cr,SC,XF,H,se,OM
+Trifolium medium,7.0,4.0,6.0,3.0,H,r,sv,c,SI,X,H,in,OM
+Trifolium montanum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,csr,not defined,not defined,H,in,OM
+Trifolium pratense,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SI,X,Hh,in,FM
+Trifolium repens,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,I+,X,Hb,in,OM
+Trifolium resupinatum,8.0,6.0,7.0,5.0,T,r,s,cr,SC,AFXF,H,se,FM
+Trifolium spadiceum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,csr,not defined,not defined,H,in,OM
+Triglochin maritimum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,SI,X,W,wi,FM
+Triglochin palustre,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,s,not defined,not defined,W,wi,NM
+Trigonella foenum-graecum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,cr,not defined,not defined,H,in,OM
+Tripleurospermum maritimum,8.0,5.0,6.0,6.0,H,h,s,cr,SI,X,B`,in,OM
+Tripleurospermum perforatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,X,B`,in,OM
+Trisetum flavescens,7.0,4.0,6.0,4.0,H,h,ssv,csr,I+,X,W,wi,OM
+Trisetum spicatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AF,W,wi,FM
+Triticum aestivum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AO,W,se,FM
+Trollius europaeus,7.0,7.0,6.0,4.0,H,h,sv,c,I+,X,B,in,OM
+Tropaeolum majus,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,T,r,s,r,SC,XF,H,in,OM
+Tuberaria guttata,9.0,2.0,5.0,1.0,T,h,s,sr,SC,AO,Po,se,OM
+Tulipa gesneriana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,G,r,vvs,csr,SI,X,Po,in,OM
+Tussilago farfara,7.0,6.0,6.0,6.0,H,g,sv,csr,not defined,not defined,B`,ge,FM
+Typha angustifolia,8.0,10.0,7.0,7.0,A,h,sv,cs,SC,AF,W,wi,FM
+Typha latifolia,8.0,10.0,7.0,7.0,A,h,sv,cs,SC,AF,W,wi,FM
+Ulex europaeus,7.0,5.0,3.0,2.0,N,r,s,c,not defined,X,H,in,OM
+Ulmus glabra,-4.0,5.0,7.0,6.0,M,r,s,c,SC,AFXF,W,wi,FM
+Ulmus laevis,-4.0,7.0,7.0,7.0,M,r,ssv,c,SI,X,W,wi,FM
+Urtica dioica,5.0,6.0,7.0,8.0,C,r,sv,c,SC,X,W,wi,FM
+Urtica urens,7.0,5.0,6.0,8.0,T,r,s,r,not defined,not defined,W,wi,NM
+Utricularia minor,8.0,12.0,4.0,2.0,A,r,vvs,not defined,SC,AFXF,DsB,in,NM
+Vaccaria hispanica,7.0,2.0,8.0,3.0,T,h,s,sr,SC,XF,Ft,se,NM
+Vaccinium macrocarpon,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,vvs,cs,SC,AFXF,B,se,OM
+Vaccinium myrtillus,5.0,5.0,2.0,2.0,S,r,vvs,cs,SC,AF,BHb,se,OM
+Vaccinium oxycoccos,7.0,9.0,2.0,1.0,H,r,vvs,cs,SC,AFXF,B,wi,OM
+Vaccinium uliginosum,6.0,6.0,1.0,2.0,S,r,sv,cs,SC,AF,BHb,se,OM
+Vaccinium vitis-idaea,5.0,4.0,2.0,1.0,S,r,vvs,cs,SC,AFXF,BHb,se,OM
+Valeriana dioica,7.0,8.0,5.0,2.0,H,h,sv,csr,SC,X,B`,in,NM
+Valeriana officinalis,6.0,7.0,6.0,5.0,H,h,sv,c,SC,X,B`,in,FM
+Valerianella locusta,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,r,SC,AF,B,se,OM
+Vallisneria spiralis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,A,g,v,not defined,not defined,X,Hy,wa,OM
+Verbascum lychnitis,7.0,3.0,7.0,3.0,H,h,s,cs,not defined,not defined,Po,se,FM
+Verbascum nigrum,7.0,4.0,6.0,6.0,H,h,s,c,SI,X,Po,in,OM
+Verbascum phlomoides,8.0,4.0,7.0,6.0,H,h,s,c,SI,X,Po,in,OM
+Verbascum phoeniceum,7.0,3.0,7.0,2.0,H,h,s,csr,I+,X,Po,in,OM
+Verbascum sinuatum,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,not defined,not defined,not defined,Po,se,OM
+Verbascum thapsus,7.0,4.0,7.0,5.0,H,h,s,c,SC,AFXF,Po,se,OM
+Verbena officinalis,8.0,5.0,7.0,6.0,H,h,s,cr,SC,AFXF,H,se,OM
+Veronica agrestis,6.0,5.0,6.0,7.0,T,r,s,r,SC,AF,B,se,FM
+Veronica alpina,8.0,6.0,5.0,2.0,G,r,sv,csr,SC,AF,B,se,FM
+Veronica anagallis-aquatica,7.0,10.0,7.0,6.0,H,r,sv,csr,SC,AF,B,se,FM
+Veronica arvensis,7.0,4.0,6.0,5.0,H,r,s,r,SC,AO,B,se,OM
+Veronica beccabunga,6.0,10.0,6.0,6.0,A,r,sv,cs,not defined,not defined,B,se,FM
+Veronica catenata,8.0,10.0,7.0,7.0,H,r,sv,cs,not defined,not defined,B,se,NM
+Veronica chamaedrys,6.0,5.0,6.0,5.0,C,r,sv,csr,not defined,not defined,Ds,pk,FM
+Veronica filiformis,7.0,5.0,5.0,7.0,H,r,vvs,csr,SI,X,B,in,OM
+Veronica fruticans,8.0,5.0,7.0,2.0,S,r,sv,s,SC,AF,B,se,OM
+Veronica hederifolia,6.0,5.0,7.0,6.0,H,r,s,r,SC,AF,B,se,OM
+Veronica officinalis,5.0,4.0,3.0,4.0,C,r,sv,c,SI,X,B,se,FM
+Veronica peregrina,8.0,7.0,7.0,6.0,H,r,s,r,SC,AO,B,se,FM
+Veronica persica,6.0,5.0,7.0,7.0,H,r,s,r,SC,AF,B,se,OM
+Veronica serpyllifolia,6.0,5.0,5.0,5.0,H,r,sv,csr,SC,AFXF,B,in,OM
+Veronica teucrium,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,c,not defined,not defined,B,se,OM
+Veronica urticifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,C,r,sv,cs,not defined,not defined,Ds,in,OM
+Veronica verna,8.0,2.0,4.0,1.0,H,r,s,sr,not defined,not defined,B,se,FM
+Viburnum lantana,7.0,4.0,7.0,4.0,N,r,s,cs,SC,AF,ADe,se,OM
+Viburnum opulus,6.0,6.0,6.0,6.0,N,r,s,c,SC,AFXF,ADe,se,OM
+Vicia angustifolia,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,s,cr,SC,XF,H,se,OM
+Vicia cassubica,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,ssv,cs,SC,AFXF,H,in,FM
+Vicia cracca,7.0,5.0,6.0,5.0,H,r,ssv,c,SC,XF,H,in,OM
+Vicia hirsuta,7.0,4.0,5.0,4.0,H,r,s,r,SC,AF,H,se,OM
+Vicia sativa,7.0,4.0,7.0,4.0,H,r,s,cr,SC,XF,H,se,OM
+Vicia sepium,6.0,5.0,6.0,5.0,H,r,ssv,c,SC,AFXF,H,se,OM
+Vicia sylvatica,6.0,4.0,7.0,5.0,H,r,sv,c,SC,XF,H,in,OM
+Vicia tenuifolia,7.0,3.0,8.0,2.0,H,r,ssv,c,SC,XF,H,in,OM
+Vicia tetrasperma,6.0,4.0,5.0,5.0,H,r,s,r,SC,AF,H,se,OM
+Vicia villosa,7.0,3.0,6.0,5.0,H,r,s,cr,C+,XF,H,in,OM
+Vinca minor,4.0,5.0,7.0,6.0,C,r,sv,cs,I+,X,B,in,OM
+Vincetoxicum hirundinaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,cs,SI,X,Dkl,in,OM
+Viola arvensis,6.0,4.0,6.0,6.0,H,h,s,r,SC,AO,Hb,se,FM
+Viola biflora,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,Hb,se,OM
+Viola calaminaria,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,s,SC,AFXF,Hb,se,OM
+Viola canina,7.0,4.0,3.0,2.0,H,r,ssv,csr,SC,XF,Hb,kl,FM
+Viola collina,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,g,sv,csr,SC,AFXF,Hb,kl,OM
+Viola elatior,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,ssv,cs,SC,AFXF,Hb,kl,OM
+Viola epipsila,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,sv,csr,SC,AFXF,Hb,se,OM
+Viola hirta,6.0,3.0,8.0,2.0,H,g,sv,csr,SC,AFXF,Hb,se,OM
+Viola kitaibeliana,9.0,2.0,5.0,2.0,H,h,s,sr,SC,AO,Hb,se,FM
+Viola mirabilis,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,vvs,csr,SC,AFXF,Hb,kl,OM
+Viola montana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,r,sv,csr,SC,AFXF,Hb,kl,OM
+Viola odorata,5.0,5.0,7.0,7.0,H,h,sv,csr,SC,AFXF,Hb,kl,OM
+Viola palustris,5.0,9.0,2.0,2.0,H,h,vvs,s,SC,AFXF,D,kl,FM
+Viola reichenbachiana,3.0,5.0,7.0,5.0,H,h,sv,csr,SC,AF,Hb,se,FM
+Viola riviniana,4.0,4.0,4.0,4.0,H,h,sv,csr,SC,AF,Hb,se,OM
+Viola rupestris,6.0,3.0,8.0,2.0,H,h,s,csr,SC,AFXF,Hb,kl,OM
+Viola tricolor,7.0,4.0,4.0,4.0,H,h,s,r,SC,AFXF,Hb,se,FM
+Viola uliginosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,vvs,csr,SC,AFXF,Hb,in,FM
+Viola wittrockiana,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,cr,SC,AFXF,Hb,se,OM
+Virga strigosa,6.232720909886265,5.555555555555555,5.862642169728784,4.336832895888014,H,h,s,c,SC,AFXF,B`,in,OM
+Viscum album,7.0,3.0,6.0,5.0,N,r,s,not defined,not defined,X,AD,in,NM
+Vitis vinifera,6.0,5.0,7.0,6.0,N,r,s,c,SC,X,A,wi,OM
+Vulpia bromoides,8.0,4.0,5.0,3.0,H,h,s,sr,SC,AO,W,wi,OM
+Vulpia ciliata,9.0,2.0,7.0,2.0,H,h,s,not defined,SC,AO,W,wi,OM
+Vulpia myuros,8.0,2.0,4.0,1.0,H,h,s,sr,SC,AO,W,wi,OM
+Woodsia alpina,7.0,4.0,4.0,2.0,H,g,sv,s,not defined,not defined,not defined,not defined,FM
+Woodsia ilvensis,7.0,3.0,3.0,2.0,H,g,sv,s,not defined,not defined,not defined,not defined,FM
+Xanthium spinosum,8.0,4.0,6.0,5.0,T,r,s,cr,SC,AFXF,W,wi,OM
+Xanthium strumarium,8.0,5.0,7.0,6.0,T,r,s,cr,SC,AF,W,wi,OM
+Zannichellia palustris,6.0,12.0,8.0,7.0,A,r,sv,not defined,SC,AF,Hy,wa,OM
+Zostera marina,6.0,12.0,8.0,6.0,A,h,vvs,not defined,SC,XF,Hy,wa,NM
