@@ -4,7 +4,7 @@ This Javascript / Python project is the authors' implementation of the article *
 ![DimLift](/paper/garrison_dimlift.jpg)
 
 ## Authors
-***Laura Garrison<sup>1</sup>, Juliane Müller<sup>2</sup>, Stefanie Schreiber<sup>2,3</sup>, Stefan Bruckner<sup>1</sup>, Helwig Hauser<sup>1</sup>, Steffen Oeltze-Jafra<sup>2,3</sup>***
+***Laura Garrison<sup>1</sup>, Juliane Müller<sup>2</sup>, Stefanie Schreiber<sup>2,3</sup>, Helwig Hauser<sup>1</sup>, Steffen Oeltze-Jafra<sup>2,3</sup>, and Stefan Bruckner<sup>1</sup>***
 
 <sup>1</sup>Dept. of Informatics \& Mohn Medical Imaging and Visualization Centre, Dept. of Radiology, Haukeland Univ. Hospital, University of Bergen, Norway \
 <sup>2</sup>Dept. of Neurology, Otto von Guericke University Magdeburg, Germany\
