@@ -35,14 +35,22 @@ The identification of interesting patterns and relationships is essential to exp
    Rscript -e "install.packages(\"factoextra\",repos = \"http://cran.us.r-project.org\")"
    ```
  
-3. Start the application backend
+3. Start the application backend. Note that our application is built using Python v3.8. Use the absolute directory path, e.g.,
    ```
    python3 /Users/path/to/DimLift/app.py
    ```
-4. Navigate to */templates/index.html* and open in web browser, i.e., Chrome. _Depending on the size screen you are working with, you may want to zoom out on your browser (_ **ctl -** _or_ **cmd -** _)_
+   
+4. Open `index.html` in your browser (we suggest Chrome).  
+   _Depending on your screen size, you may need to zoom out on your browser (_ **ctl -** _or_ **cmd -** _). On our 13" screen we zoom out to 75%._
+   ```
+   cd templates
+   open index.html
+   ```
 
 ## Sample Exploration
-To understand how DimLift works, we will explore the dataset `biolflor_matched.csv`. This is already set up in **app.py**. NB: Depending on the processing power of your machine, loading in the dataset may take a little while. We demonstrate this short exploration [here](https://youtu.be/NRe9lbH4wKU) if you prefer to follow along with video.
+To understand how DimLift works, we will explore the dataset `biolflor_matched.csv`. In line 30 of `app.py` change `Soils.csv` to `biolflor_matched.csv`, and start the application. If you already have `index.html` open, just refresh your browser and the dataset will update in the view. 
+
+_*Note*: Depending on the processing power of your machine, loading in the dataset may take a little while._ We demonstrate this short exploration [here](https://youtu.be/NRe9lbH4wKU) if you prefer to follow along with video.
 1. Once data are loaded into the main application, you will see a set of dimensional bundles in the parallel coordinates plot.
 2. Change the sorting method to **round in grouping** to better understand which dimensions are extracted and bundled first - this order of extraction tells us which dimensions are contributing MOST strongly to the overall variance of the dataset in a stepwise fashion
 3. **Investigate** the third bundle from the left, the **Mycoflor** bundle. Use the navigation icons below the axis to (1) swap the axes to visualize the variance in principal component 1 (PC1) and principal component 2 (PC2), respectively. Click the middle icon to drill down to a plot of PC1 vs PC2 to observe possible grouping patterns. Finally, (3) expand the bundle to observe contributing dimensions

@@ -1,5 +1,5 @@
 numpy==1.18.2
-Flask==1.1.1
+flask==1.1.1
 matplotlib==3.2.2
 pandas==1.0.3
 jsonpickle==1.3

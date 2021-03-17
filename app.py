@@ -25,11 +25,12 @@ start_time = time.time()
 
 app = Flask(__name__)
 
-# merged_all = get_data_from_server.get_dataframe_from_server()
 
-merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "biolflor_matched.csv",
+# TO CHANGE THE DATA INPUT, EDIT THE LINE BELOW, e.g. "Soils.csv" --> "biolflor_matched.csv"
+merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "Soils.csv",
                          keep_default_na=False,
                          na_values=[""])
+#merged_all = pd.read_csv('resources/synthetic-body-num.csv')
 merged_all = merged_all.loc[:, ~merged_all.columns.duplicated()]  # remove duplicate rows
 
 gv.initial_length_of_data_rows = len(merged_all)
