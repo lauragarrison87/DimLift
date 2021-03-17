@@ -18,11 +18,28 @@ The identification of interesting patterns and relationships is essential to exp
 
 
 ## Getting started with DimLift
-1. Download repository from github
-2. Open project in development environment, e.g., IntelliJ Idea
-3. Install package dependencies listed in **requirements.txt**. Depending on your IDE, this may be managed/prompted for you. 
-4. Run **app.py** (right click and choose 'run')
-5. Navigate to */templates/index.html* and open in web browser, i.e., Chrome. _Depending on the size screen you are working with, you may want to zoom out on your browser (_ **ctl -** _or_ **cmd -** _)_
+1. Clone repository from github
+2. Install dependencies. If using an IDE, this may be managed/prompted for you. Instructions for command line installation follow below.
+   ```
+   # dependencies listed in requirements.txt:
+   pip install numpy flask matplotlib pandas jsonpickle scikit_learn simplejson
+   ```
+   
+   Our system requires R and two R-packages, FactoMineR and factoextra. These can take a while to install (~30min). 
+   ```
+   # installing r with homebrew
+   brew install r
+   
+   # R package dependencies
+   Rscript -e "install.packages(\"FactoMineR\",repos = \"http://cran.us.r-project.org\")"
+   Rscript -e "install.packages(\"factoextra\",repos = \"http://cran.us.r-project.org\")"
+   ```
+ 
+3. Start the application backend
+   ```
+   python3 /Users/path/to/DimLift/app.py
+   ```
+4. Navigate to */templates/index.html* and open in web browser, i.e., Chrome. _Depending on the size screen you are working with, you may want to zoom out on your browser (_ **ctl -** _or_ **cmd -** _)_
 
 ## Sample Exploration
 To understand how DimLift works, we will explore the dataset `biolflor_matched.csv`. This is already set up in **app.py**. NB: Depending on the processing power of your machine, loading in the dataset may take a little while. We demonstrate this short exploration [here](https://youtu.be/NRe9lbH4wKU) if you prefer to follow along with video.
