@@ -40,7 +40,7 @@ The identification of interesting patterns and relationships is essential to exp
    python3 /Users/path/to/DimLift/app.py
    ```
    
-4. Open `index.html` in your browser (we suggest Chrome).  
+4. Open `templates/index.html` in your browser (we suggest Chrome).  
    _Depending on your screen size, you may need to zoom out on your browser (_ **ctl -** _or_ **cmd -** _). On our 13" screen we zoom out to 75%._
    ```
    cd templates

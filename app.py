@@ -22,15 +22,15 @@ except ImportError:
     pass;
 
 start_time = time.time()
+print('Computing, please wait...') # first statement
 
 app = Flask(__name__)
 
 
 # TO CHANGE THE DATA INPUT, EDIT THE LINE BELOW, e.g. "Soils.csv" --> "biolflor_matched.csv"
-merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "Soils.csv",
-                         keep_default_na=False,
-                         na_values=[""])
+merged_all = pd.read_csv(os.path.dirname(sys.argv[0]) + os.path.sep + "resources" + os.path.sep + "Soils.csv", keep_default_na=False, na_values=[""])
 #merged_all = pd.read_csv('resources/synthetic-body-num.csv')
+
 merged_all = merged_all.loc[:, ~merged_all.columns.duplicated()]  # remove duplicate rows
 
 gv.initial_length_of_data_rows = len(merged_all)
@@ -64,7 +64,7 @@ class ColumnElementsClass(object):
 
     def __str__(self):
         return 'ColumnElementsClass %s %s %s (%d items, %d ni)' % (
-        str(self.id), self.header, self.data_type, len(self.column_values), len(self.column_values_not_imputed));
+            str(self.id), self.header, self.data_type, len(self.column_values), len(self.column_values_not_imputed))
 
 
 class GroupElementsClass(object):
@@ -98,7 +98,6 @@ class GroupElementsClass(object):
 # extra chars are not valid for json strings
 def get_column_label(value):
     value = value.replace("ä", "ae").replace("ü", "ue").replace("ö", "oe").replace("ß", "ss")
-
     return value
 
 
@@ -249,7 +248,8 @@ df.to_csv(csv_file_name, index=False)
 cmd = [command, path2script] + [csv_file_name]
 
 # check_output will run the command and store to result
-x = subprocess.check_output(cmd, universal_newlines=True)
+print('Computing...this next step may take a few minutes.')
+x = subprocess.check_output(cmd, universal_newlines=True) #LG this is the step that takes a long time
 
 x_json = json.loads(x)
 
@@ -259,7 +259,7 @@ gv.columns_not_contributing = x_json[0]
 
 
 def save_famd_r_values(current_group):
-    dbg = False;
+    dbg = False
 
     list_PC_elements = []
 
@@ -342,7 +342,7 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 @app.route('/load_csv/', methods=["POST"])
 def main_interface():
-    dbg = False;
+    dbg = False
 
     gv.data_initially_formatted = copy.deepcopy(gv.original_data)
     gv.columns_not_contributing = copy.deepcopy(gv.original_columns_not_contributing)
@@ -350,10 +350,10 @@ def main_interface():
     gv.request_data_list = []
 
     if dbg:
-        print(gv.original_data);
+        print(gv.original_data)
         for x in gv.original_data:
-            print(x);
-        print(gv.original_columns_not_contributing);
+            print(x)
+        print(gv.original_columns_not_contributing)
 
     return transform([gv.original_data, gv.original_columns_not_contributing])
 
@@ -457,7 +457,7 @@ def run_famd_user_driven():
     cmd = [command, path2script_] + [csv_file_name_]
 
     # check_output will run the command and store to result
-    x = subprocess.check_output(cmd, universal_newlines=True)
+    x = subprocess.check_output(cmd, universal_newlines=True, text='TEST')
 
     x_json = json.loads(x)
 
@@ -472,7 +472,7 @@ def run_famd_user_driven():
 
 @app.route('/compute_deviations_and_get_current_values/', methods=["POST"])
 def compute_deviations_and_get_current_values():
-    dbg = False;
+    dbg = False
     start_time_deviations = time.time()
 
     gv.request_data_list = request.get_json()
@@ -482,17 +482,17 @@ def compute_deviations_and_get_current_values():
     gv.data_after_brushing = data_initially_formatted_new
 
     if dbg:
-        print(data_initially_formatted_new);
-        print(gv.columns_not_contributing);
+        print(data_initially_formatted_new)
+        print(gv.columns_not_contributing)
 
     print("--- %s seconds ---" % (time.time() - start_time_deviations))
 
     return jsonify(transform([data_initially_formatted_new, gv.columns_not_contributing]))
 
 
-@app.route('/')
-def hello():
-    return "Hello World!"
+#@app.route('/')
+#def hello():
+#    return "Hello World!"
 
 
 @app.after_request
@@ -505,4 +505,5 @@ def add_headers(response):
 if __name__ == '__main__':
     # app.run(debug=True)
     port = 5000  # the custom port you want
+    print("--- To launch the interface, please open templates/index.html (preferably in Chrome) ---")
     app.run(host='127.0.0.1', port=port)
